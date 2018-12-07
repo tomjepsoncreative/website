@@ -1,0 +1,76 @@
+h1 {
+    font-family: geomanistbook;
+    font-weight: normal;
+
+    @include font-size(21px);
+    @include line-height(30px);
+
+    @media screen and (min-width: $med) {
+        @include font-size(21px);
+        @include line-height(30px);
+    }
+
+    @media screen and (min-width: $lg) {
+        @include font-size(21px);
+        @include line-height(30px);
+    }
+}
+
+p {
+    font-family: geomanistbook;
+    font-weight: normal;
+
+    @include font-size(17px);
+    @include line-height(27px);
+
+    @media screen and (min-width: $lg) {
+        @include font-size(17px);
+        @include line-height(27px);
+    }
+
+    margin-bottom: 0.8125rem;
+    &:last-of-type {
+        margin-bottom: 0;
+    }
+}
+
+a {
+    @extend p;
+    color: $dark;
+
+    &:focus {
+        color: $primary;
+    }
+    &:hover {
+        color: $primary;
+    }
+    &:active {
+        color: $primaryDark;
+    }  
+}
+
+.hero-link {
+    @extend a;
+    text-decoration: none;
+
+    &:focus {
+        text-decoration: underline;
+    }
+    &:hover {
+        text-decoration: underline;
+    }
+    &:active {
+        text-decoration: underline;
+    }      
+}
+
+.book-heading {
+    margin-bottom: 10px;
+
+    &::before {
+        content: "\f518";
+        font-family: 'Font Awesome 5 Free';
+        font-weight: 900;
+        margin-right: 10px;
+    }
+}

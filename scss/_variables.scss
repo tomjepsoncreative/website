@@ -1,0 +1,17 @@
+//Typography
+$font-stack: 'Geomanist', sans-serif;
+
+//Typography Helpers
+$regular: 400;
+$bold: 700;
+
+// Colour
+$primary: #F50907;
+$primaryDark: darken($primary, 10%);
+$dark: #514E4D;
+$white: #ffffff;
+
+// Breakpoints
+$sm: 320px;
+$med: 48em; /* 768px; */
+$lg: 75em; /* 1200px */
