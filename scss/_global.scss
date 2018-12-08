@@ -25,13 +25,14 @@ img {
     padding: 0 20px 20px 20px;
 
     @media screen and (min-width: $med) {
-        max-width: 80vw;
+        width: 80vw;
+        max-width: 768px;
         padding: 0 10px;
     }
 
     @media screen and (min-width: $lg) {
         width: 60vw;
-        max-width: 1100px;
+        max-width: 960px;
     }
 }
 

@@ -30,7 +30,7 @@ p {
 
     @media screen and (min-width: $lg) {
         @include font-size(19px);
-        @include line-height(31px);
+        @include line-height(33px);
     }
 
     margin-bottom: 0.8125rem;
