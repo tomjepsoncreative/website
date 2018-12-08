@@ -17,7 +17,7 @@ h1 {
 }
 
 p {
-    font-family: geomanistbook;
+    font-family: geomanistlight;
     font-weight: normal;
 
     @include font-size(17px);
@@ -37,6 +37,9 @@ p {
 a {
     @extend p;
     color: $dark;
+    font-family: geomanistbook;
+    transition: color ease-in-out 0.1s;
+
 
     &:focus {
         color: $primary;
@@ -51,7 +54,9 @@ a {
 
 .hero-link {
     @extend a;
+    font-size: 95%;
     text-decoration: none;
+    transition: text-decoration ease-in-out 0.5s;
 
     &:focus {
         text-decoration: underline;

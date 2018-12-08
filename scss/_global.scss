@@ -7,6 +7,8 @@ html, body {
     font-size: 100%;
     line-height: 100%;
     color: $dark;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;   
 }
 
 img {
@@ -41,11 +43,17 @@ img {
     }    
 
     &__links {
+        display: flex;
         flex: 1 1 auto;
+        justify-content: space-around;
+        @media screen and (min-width: $med) {
+            justify-content: flex-start;
+        } 
     }
 
     &__link-item {
-        margin-right: 20px;
+        color: rgba($dark, 0.75);
+        margin: 0;
 
         @media screen and (min-width: $med) {
             margin-right: 10px;
@@ -53,11 +61,13 @@ img {
     }
 
     &__email {
+        align-self: center;
         flex: 1 1 auto;
         margin-top: 10px;
         text-align: left;
 
         @media screen and (min-width: $med) {
+            align-self: flex-end;
             margin-top: 0;
             text-align: right;
         }          
