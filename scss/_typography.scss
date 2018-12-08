@@ -21,11 +21,16 @@ p {
     font-weight: normal;
 
     @include font-size(17px);
-    @include line-height(27px);
+    @include line-height(29px);
+
+    @media screen and (min-width: $med) {
+        @include font-size(18px);
+        @include line-height(29px);
+    }    
 
     @media screen and (min-width: $lg) {
-        @include font-size(17px);
-        @include line-height(27px);
+        @include font-size(19px);
+        @include line-height(31px);
     }
 
     margin-bottom: 0.8125rem;
