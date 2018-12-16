@@ -23,6 +23,8 @@ router-outlet { display: none; }
 
 .cf { *zoom: 1; }
 
+@font-face { font-family: 'geomanistbold'; src: url("../font/geomanist-bold-webfont.eot"); }
+@font-face { font-family: 'geomanistbold'; src: url("../font/geomanist-bold-webfont.ttf") format("truetype"); font-weight: normal; font-style: normal; }
 @font-face { font-family: 'geomanistbook'; src: url("../font/geomanist-book-webfont.eot"); }
 @font-face { font-family: 'geomanistbook'; src: url("../font/geomanist-book-webfont.ttf") format("truetype"); font-weight: normal; font-style: normal; }
 @font-face { font-family: 'geomanistlight'; src: url("../font/geomanist-light-webfont.eot"); }
@@ -35,21 +37,33 @@ html, body { -webkit-font-smoothing: antialiased; background-color: #ffffff; -we
 
 img { width: 100%; height: 100%; }
 
-.wrapper { margin: 0 auto; margin-left: 10px; margin-right: 10px; }
+.wrapper { -webkit-box-align: stretch; -ms-flex-align: stretch; align-items: stretch; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-orient: horizontal; -webkit-box-direction: normal; -ms-flex-direction: row; flex-direction: row; margin: 0 auto; margin-left: 10px; margin-right: 10px; min-height: 100vh; }
 @media screen and (min-width: 48em) { .wrapper { margin-left: 20px; margin-right: 20px; } }
-@media screen and (min-width: 64em) { .wrapper { margin: 0; max-width: 980px; } }
+@media screen and (min-width: 64em) { .wrapper { margin: 0; max-width: 1000px; } }
+@media screen and (min-width: 80em) { .wrapper { max-width: 1070px; } }
 
-.header { background-color: rgba(255, 0, 0, 0.5); }
+.mobile-menu { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-flex: 0; -ms-flex: 0 1 auto; flex: 0 1 auto; -webkit-box-pack: end; -ms-flex-pack: end; justify-content: flex-end; padding: 30px 0; }
+.mobile-menu__button { -webkit-box-flex: 0; -ms-flex: 0 1 89px; flex: 0 1 89px; }
+@media screen and (min-width: 48em) { .mobile-menu { padding: 40px 0; } }
+@media screen and (min-width: 64em) { .mobile-menu { display: none; } }
 
-.content { border-top: 5px solid rgba(245, 75, 7, 0.75); background-color: rgba(158, 152, 150, 0.05); }
-@media screen and (min-width: 64em) { .content { max-width: 800px; } }
+.header { display: none; }
+@media screen and (min-width: 64em) { .header { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-flex: 1; -ms-flex: 1 1 auto; flex: 1 1 auto; padding: 30px 30px 0 30px; } }
+@media screen and (min-width: 64em) { .header__link-item { height: 120px; width: 120px; } }
 
-hr { background-color: rgba(81, 78, 77, 0.25); border: none; content: ""; height: 1px; margin: 20px 0; }
-hr.slimline { margin: 0 auto; margin-top: 50px; margin-bottom: 50px; position: relative; width: 50%; }
+.content { border-top: 5px solid rgba(245, 75, 7, 0.75); background-color: rgba(158, 152, 150, 0.05); display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-orient: vertical; -webkit-box-direction: normal; -ms-flex-direction: column; flex-direction: column; -webkit-box-flex: 2; -ms-flex: 2 1 auto; flex: 2 1 auto; padding: 0 20px; }
+@media screen and (min-width: 64em) { .content { max-width: 800px; padding: 0 60px; } }
+.content__title { -webkit-box-flex: 0; -ms-flex: 0 1 auto; flex: 0 1 auto; max-width: 366px; margin-bottom: 34px; }
+@media screen and (min-width: 48em) { .content__title { max-width: 450px; margin-bottom: 38px; } }
+@media screen and (min-width: 64em) { .content__title { max-width: 500px; margin-top: 55px; } }
+@media screen and (min-width: 64em) and (min-height: 801px) { .content__title { margin-top: 100px; } }
+.content__description { -webkit-box-flex: 1; -ms-flex: 1 1 auto; flex: 1 1 auto; }
+.content__footer { -webkit-box-align: end; -ms-flex-align: end; align-items: flex-end; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-flex: 1; -ms-flex: 1 1 auto; flex: 1 1 auto; -webkit-box-orient: horizontal; -webkit-box-direction: normal; -ms-flex-direction: row; flex-direction: row; margin-bottom: 20px; margin-top: 60px; }
+@media screen and (min-width: 64em) and (min-height: 801px) { .content__footer { margin-top: 100px; } }
 
-h1 { font-family: geomanistbook; font-weight: normal; font-size: 21px; font-size: 1.3125rem; line-height: 30px; line-height: 1.875rem; }
-@media screen and (min-width: 48em) { h1 { font-size: 21px; font-size: 1.3125rem; line-height: 30px; line-height: 1.875rem; } }
-@media screen and (min-width: 64em) { h1 { font-size: 21px; font-size: 1.3125rem; line-height: 30px; line-height: 1.875rem; } }
+h1 { font-family: geomanistbold; font-weight: normal; font-size: 26px; font-size: 1.625rem; line-height: 41.6px; line-height: 2.6rem; }
+@media screen and (min-width: 48em) { h1 { font-size: 34px; font-size: 2.125rem; line-height: 61.2px; line-height: 3.825rem; } }
+@media screen and (min-width: 64em) { h1 { font-size: 38px; font-size: 2.375rem; line-height: 61px; line-height: 3.8125rem; } }
 
 p, a { font-size: 17px; font-size: 1.0625rem; line-height: 34px; line-height: 2.125rem; font-family: geomanistlight; font-weight: normal; margin-bottom: 1.18125rem; }
 p:last-of-type, a:last-of-type { margin-bottom: 0; }
@@ -60,3 +74,7 @@ a { color: #514e4d; font-family: geomanistbook; -webkit-transition: color ease-i
 a:focus { color: rgba(245, 75, 7, 0.75); }
 a:hover { color: rgba(245, 75, 7, 0.75); }
 a:active { color: #c33c06; }
+
+.footer-text { font-size: 15px; font-size: 0.9375rem; line-height: 27px; line-height: 1.6875rem; color: #9e9896; font-family: geomanistbook; font-weight: normal; }
+
+.highlight { color: rgba(245, 75, 7, 0.75); }

@@ -1,18 +1,18 @@
 h1 {
-    font-family: geomanistbook;
+    font-family: geomanistbold;
     font-weight: normal;
 
-    @include font-size(21px);
-    @include line-height(30px);
+    @include font-size(26px);
+    @include line-height(41.6px);
 
     @media screen and (min-width: $med) {
-        @include font-size(21px);
-        @include line-height(30px);
+        @include font-size(34px);
+        @include line-height(61.2px);
     }
 
     @media screen and (min-width: $lg) {
-        @include font-size(21px);
-        @include line-height(30px);
+        @include font-size(38px);
+        @include line-height(61px);
     }
 }
 
@@ -55,4 +55,16 @@ a {
     &:active {
         color: $primaryDark;
     }  
+}
+
+.footer-text {
+    @include font-size(15px);
+    @include line-height(27px);
+    color: $light;
+    font-family: geomanistbook;
+    font-weight: normal;
+}
+
+.highlight {
+    color: $accent;
 }
