@@ -140,8 +140,13 @@ img {
         flex-direction: row;
         margin-bottom: 20px;
         margin-top: 60px;
+        max-width: 160px;
 
-        @media screen and (min-width: $lg) and (min-height: 801px) {
+        @media screen and (min-width: $med) {
+            max-width: 100%;
+        }        
+
+        @media screen and (min-width: $lg) {
             margin-top: 100px;
         }        
     }
@@ -150,7 +155,6 @@ img {
 .decorations {
     flex: 1 0 auto;
     position: relative;
-    background-color: red;
 
     &__A {
         background-image: url(../images/bg-decoration-A.svg);
@@ -189,8 +193,17 @@ img {
         }
 
         @media screen and (min-width: $lg) {        
+            background-position-x: -100px;
+            background-position-y: -100px;
+            bottom: -100px;  
             left: -100px;            
         }
+
+        @media screen and (min-width: $lg) and (min-height: 801px) {        
+            background-position-x: 0px;
+            background-position-y: 0px;
+            bottom: 0px;            
+        }        
     }
 
     &__C {
