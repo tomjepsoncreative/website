@@ -19,14 +19,21 @@ img {
 
 // Layout
 
+.page {
+    display: flex;
+    overflow: hidden;
+}
+
 .wrapper {
     align-items: stretch;
     display: flex;
+    flex: 1 1 auto;
     flex-direction: row;
     margin: 0 auto;
     margin-left: 10px;
     margin-right: 10px;
     min-height: 100vh;
+    position: relative;
 
     @media screen and (min-width: $med) {
         margin-left: 20px;
@@ -38,7 +45,7 @@ img {
         max-width: 1000px;
     }
 
-    @media screen and (min-width: $xl) {        
+    @media screen and (min-width: $xl) {       
         max-width: 1070px;
     }   
 }
@@ -91,7 +98,7 @@ img {
 
 .content {    
     border-top: 5px solid $accent;
-    background-color: $light5;     
+    background-color: $light5; 
     display: flex;
     flex-direction: column;
     flex: 2 1 auto;
@@ -100,7 +107,7 @@ img {
     @media screen and (min-width: $lg) {
         max-width: 800px;
         padding: 0 60px;
-    }    
+    }     
 
     &__title {
         flex: 0 1 auto;
@@ -136,6 +143,66 @@ img {
 
         @media screen and (min-width: $lg) and (min-height: 801px) {
             margin-top: 100px;
+        }        
+    }
+}
+
+.decorations {
+    flex: 1 0 auto;
+    position: relative;
+    background-color: red;
+
+    &__A {
+        background-image: url(../images/bg-decoration-A.svg);
+        background-repeat: no-repeat;
+        background-position-y: 0;
+        left: -10px;
+        position: absolute;
+        top: 0;
+        height: 120px;
+        width: 120px;
+
+        @media screen and (min-width: $med) {
+            left: -20px;         
+        }        
+
+        @media screen and (min-width: $lg) {        
+            left: 0;            
+        }        
+    }
+
+    &__B {
+        background-image: url(../images/bg-decoration-B_sm.svg);
+        background-repeat: no-repeat;
+        background-position-y: 0;
+        bottom: 0;
+        position: absolute;
+        left: -120px;
+        height: 80px;
+        width: 120px;
+
+        @media screen and (min-width: $med) {
+            background-image: url(../images/bg-decoration-B.svg);
+            left: -220px;
+            height: 200px;
+            width: 300px;            
+        }
+
+        @media screen and (min-width: $lg) {        
+            left: -100px;            
+        }
+    }
+
+    &__C {
+        @media screen and (min-width: 1400px) {        
+            background-image: url(../images/bg-decoration-C.svg);
+            background-repeat: no-repeat;
+            background-position-y: 0;
+            top: 0;
+            position: absolute;
+            right: 0;
+            height: 300px;
+            width: 200px;
         }        
     }
 }
