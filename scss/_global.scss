@@ -329,7 +329,7 @@ img {
             width: 100px;
         }
 
-        @media screen and (min-width: $med) and (min-height: 900px) {
+        @media screen and (min-width: $med) and (min-height: 1024px) {
             background-image: url(../images/bg-decoration-B.svg);
             background-position-y: 0;
             background-position-x: 0;
