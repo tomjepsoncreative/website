@@ -57,13 +57,14 @@ img {
     z-index: 100000;
 
     &__button {
-        background-image: url(../images/mobile-menu.svg);
+        background-image: url(../images/mobile-menu.png);
         background-repeat: no-repeat;
         background-position: 0 0;
+        background-size: 100%;
         flex: 0 1 89px;
         height: 49px;
         &--close {
-            background-image: url(../images/mobile-menu-close.svg);
+            background-image: url(../images/mobile-menu-close.png);
         }
     }
 
@@ -102,10 +103,15 @@ img {
     &__links {        
         align-content: flex-end;
         align-items: center;
-        justify-content: center;
+        justify-content: flex-end;
         display: flex;
         flex-direction: column;
         flex: 1;
+        padding-bottom: 30px;
+
+        @media screen and (min-width: $med) {
+            justify-content: center;
+        }        
 
         @media screen and (min-width: $lg) {
             justify-content: flex-start;
@@ -120,14 +126,18 @@ img {
         flex: 0 1 auto;
         flex-direction: row;
         justify-content: center;
-        padding: 20px 0;
+        padding: 15px 0;
         &:last-of-type {
             border-bottom: none;
-            padding: 20px 0 0 0;
+            padding: 15px 0 0 0;
         }
         width: 85vw;
 
         @media screen and (min-width: $med) {
+            padding: 20px 0;
+            &:last-of-type {
+                padding: 20px 0 0 0;
+            }
             width: 65vw;
         }
 
@@ -360,4 +370,5 @@ img {
 // Class applied to <body> when menu is open
 .overflow {
     overflow: hidden;
+    position: relative;
 }
