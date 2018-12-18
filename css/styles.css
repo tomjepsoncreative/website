@@ -96,7 +96,7 @@ img { width: 100%; height: 100%; }
 @media screen and (min-width: 64em) and (min-height: 801px) { .decorations__B { background-position-x: 0px; background-position-y: 0px; bottom: 0px; } }
 @media screen and (min-width: 1400px) { .decorations__C { background-image: url(../images/bg-decoration-C.svg); background-repeat: no-repeat; background-position-y: 0; top: 0; position: absolute; right: 0; height: 300px; width: 200px; } }
 
-.overflow { overflow: hidden; }
+.overflow { overflow: hidden; position: relative; }
 
 h1 { font-family: geomanistbold; font-weight: normal; font-size: 26px; font-size: 1.625rem; line-height: 41.6px; line-height: 2.6rem; }
 @media screen and (min-width: 48em) { h1 { font-size: 34px; font-size: 2.125rem; line-height: 61.2px; line-height: 3.825rem; } }
