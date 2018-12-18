@@ -1,4 +1,16 @@
 @font-face {
+    font-family: 'geomanistbold';
+    src: url('../font/geomanist-bold-webfont.eot');
+}
+
+@font-face {
+    font-family: 'geomanistbold';
+    src: url('../font/geomanist-bold-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
     font-family: 'geomanistbook';
     src: url('../font/geomanist-book-webfont.eot');
 }

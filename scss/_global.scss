@@ -19,131 +19,345 @@ img {
 
 // Layout
 
-.wrapper {
-    margin: 0 auto;
-    max-width: 100vw;
-    padding: 0 20px 20px 20px;
-
-    @media screen and (min-width: $med) {
-        width: 80vw;
-        max-width: 768px;
-        padding: 0 10px;
-    }
-
-    @media screen and (min-width: $lg) {
-        width: 60vw;
-        max-width: 960px;
-    }
-}
-
-.header {
+.page {
     display: flex;
-    flex-direction: column;
-    padding-top: 20px;
+    overflow: hidden;
+}
+
+.wrapper {
+    align-items: stretch;
+    display: flex;
+    flex: 1 1 auto;
+    flex-direction: row;
+    margin: 0 auto;
+    margin-left: 10px;
+    margin-right: 10px;
+    min-height: 100vh;
 
     @media screen and (min-width: $med) {
-        flex-direction: row;
-    }    
-
-    &__links {
-        display: flex;
-        flex: 1 1 auto;
-        justify-content: space-around;
-        @media screen and (min-width: $med) {
-            justify-content: flex-start;
-        } 
+        margin-left: 20px;
+        margin-right: 20px;
     }
 
-    &__link-item {
-        color: rgba($dark, 0.75);
+    @media screen and (min-width: $lg) {        
         margin: 0;
-
-        @media screen and (min-width: $med) {
-            margin-right: 10px;
-        }      
-        
-        @media screen and (min-width: $lg) {
-            margin-right: 20px;
-        }        
+        max-width: 1000px;
     }
 
-    &__email {
-        align-self: center;
-        flex: 1 1 auto;
-        margin-top: 10px;
-        text-align: left;
-
-        @media screen and (min-width: $med) {
-            align-self: flex-end;
-            margin-top: 0;
-            text-align: right;
-        }          
-        
-        &::before {
-            content: "\f0e0";
-            font-family: 'Font Awesome 5 Free';
-            font-weight: 900;
-            margin-right: 2px;
-        }
-    }
-}
-
-.book-list {
-    margin-top: 10px;
-    > li {
-        margin-bottom: 10px;
-    }
-    > li a {
-        color: rgba($dark, 0.75);
-
-        &:focus {
-            color: $primary;
-        }
-        &:hover {
-            color: $primary;
-        }
-        &:active {
-            color: $primaryDark;
-        }         
-    }
-}
-
-.back-link {
-    color: rgba($dark, 0.5);
-    margin-bottom: 20px;
-
-    a {
-        color: rgba($dark, 0.5);
-        text-decoration: none;
-
-        &::before {
-            content: "\f053";
-            font-family: 'Font Awesome 5 Free';
-            font-size: 14px;
-            font-weight: 900;
-            margin-right: 4px;
-            position: relative;
-            top: -1px;
-            left: 0;
-        }
-
+    @media screen and (min-width: $xl) {       
+        max-width: 1070px;
     }   
 }
 
-// Styles
+.mobile-menu {
+    display: flex;
+    flex: 0 1 auto;
+    justify-content: flex-end;
+    padding: 30px 0;
+    z-index: 100000;
 
-hr {
-    background-color: rgba($dark, 0.25);
-    border: none;
-    content: "";
-    height: 1px;
-    margin: 20px 0;
-
-    &.slimline {
-        margin: 0 auto;
-        margin-top: 50px;
-        margin-bottom: 50px;
-        position: relative;
-        width: 50%;
+    &__button {
+        background-image: url(../images/mobile-menu.svg);
+        background-repeat: no-repeat;
+        background-position: 0 0;
+        flex: 0 1 89px;
+        height: 49px;
+        &--close {
+            background-image: url(../images/mobile-menu-close.svg);
+        }
     }
+
+    @media screen and (min-width: $med) {        
+        padding: 40px 0;
+    }     
+
+    @media screen and (min-width: $lg) {        
+        display: none;
+    }    
+}
+
+.menu {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: $dark;
+    width: 100%;
+    height: 100%;
+    z-index: 9999;
+    
+    &--show {
+        display: flex;
+    }
+
+    @media screen and (min-width: $lg) {
+        background-color: transparent;
+        display: flex;
+        height: auto;
+        padding: 30px 30px 0 30px;
+        position: relative;
+        width: auto;
+    }    
+
+    &__links {        
+        align-content: flex-end;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        flex-direction: column;
+        flex: 1;
+
+        @media screen and (min-width: $lg) {
+            justify-content: flex-start;
+        }        
+    }
+
+    &__link-item {
+        align-content: center;
+        align-items: center;
+        border-bottom: 1px solid rgba($white, 0.2);
+        display: flex;
+        flex: 0 1 auto;
+        flex-direction: row;
+        justify-content: center;
+        padding: 20px 0;
+        &:last-of-type {
+            border-bottom: none;
+            padding: 20px 0 0 0;
+        }
+        width: 85vw;
+
+        @media screen and (min-width: $med) {
+            width: 65vw;
+        }
+
+        &__text {
+            flex: 1 1 auto;
+        }
+
+        a {
+            color: $white;
+            display: flex;
+            flex: 1;
+            justify-content: center;
+            text-decoration: none;
+            position: relative;
+            padding: 21px 20px 19px 20px;
+        }
+
+        i {
+            font-size: 24px;
+            margin-top: -5px;           
+        }
+
+        .email-icon {
+            position: relative;
+            top: 12px;
+            left: 0;
+            display: flex;
+            flex: 0;
+
+            @media screen and (min-width: $lg) {
+                top: 0;
+            }
+        }         
+
+        p {
+            text-align: right;
+            font-size: 19px;
+            line-height: 19px;
+            margin-bottom: 0;
+
+            @media screen and (min-width: $lg) {
+                display: none;
+            }            
+
+            .menu-subtext {
+                font-size: 15px;
+                font-family: geomanistbold;
+                font-weight: normal;       
+                line-height: 15px;      
+                padding-top: 5px;   
+            }
+        }
+
+        @media screen and (min-width: $lg) {
+            border-bottom: 1px solid rgba($dark35, 0.2);
+                &:last-of-type {
+                    border-bottom: none;
+                }
+            box-sizing: border-box;
+            display: flex;
+            flex-direction: column;
+            height: 120px;            
+            justify-content: center;
+            padding: 10px;
+            width: 120px;
+    
+            a {
+                align-items: center;            
+                color: $light;
+                display: flex;
+                flex: 1 1 auto;
+                font-size: 28px;
+                justify-content: center;
+                text-align: center;
+                text-decoration: none;
+                transition: background-image ease-in-out 1s !important; 
+
+                &:hover {
+                    background-image: url(../images/bg-link.svg);
+                    color: $accent;
+                    text-decoration: none;
+                }
+                
+                &:focus {
+                    color: $accent;
+                    text-decoration: none;
+                }
+            }
+        }        
+    }
+}
+
+.content {    
+    border-top: 5px solid $accent;
+    background-color: $light5; 
+    display: flex;
+    flex-direction: column;
+    flex: 2 1 auto;
+    padding: 0 20px;
+    
+    @media screen and (min-width: $lg) {
+        max-width: 800px;
+        padding: 0 60px;
+    }     
+
+    &__title {
+        flex: 0 1 auto;
+        max-width: 366px;
+        margin-bottom: 34px;
+
+        @media screen and (min-width: $med) {
+            max-width: 450px;
+            margin-bottom: 38px;
+        }
+        
+        @media screen and (min-width: $lg) { 
+            max-width: 500px;
+            margin-top: 55px;
+        }        
+        
+        @media screen and (min-width: $lg) and (min-height: 801px) {
+            margin-top: 100px;
+        }
+    }
+
+    &__description {
+        flex: 1 1 auto;
+    }
+
+    &__footer {
+        align-items: flex-end; 
+        display: flex;
+        flex: 1 1 auto;
+        flex-direction: row;
+        margin-bottom: 20px;
+        margin-top: 60px;
+        max-width: 160px;
+
+        @media screen and (min-width: $med) {
+            max-width: 100%;
+        }        
+
+        @media screen and (min-width: $lg) {
+            margin-top: 100px;
+        }        
+    }
+}
+
+.decorations {
+    flex: 1 0 auto;
+    position: relative;
+
+    &__A {
+        background-image: url(../images/bg-decoration-A.svg);
+        background-repeat: no-repeat;
+        background-position-y: 0;
+        left: -10px;
+        position: absolute;
+        top: 0;
+        height: 120px;
+        width: 120px;
+
+        @media screen and (min-width: $med) {
+            left: -20px;         
+        }        
+
+        @media screen and (min-width: $lg) {        
+            left: 0;            
+        }        
+    }
+
+    &__B {
+        background-image: url(../images/bg-decoration-B_sm.svg);
+        background-repeat: no-repeat;
+        background-position-y: 0;
+        bottom: 0;
+        position: absolute;
+        left: -120px;
+        height: 80px;
+        width: 120px;
+
+        @media screen and (min-width: $med) {
+            background-image: url(../images/bg-decoration-B.svg);
+            background-position-y: -100px;
+            background-position-x: -200px;
+            bottom: -100px;
+            left: -120px;
+            height: 200px;
+            width: 100px;
+        }
+
+        @media screen and (min-width: $med) and (min-height: 900px) {
+            background-image: url(../images/bg-decoration-B.svg);
+            background-position-y: 0;
+            background-position-x: 0;
+            bottom: 0;
+            left: -220px;
+            height: 200px;
+            width: 300px;            
+        }        
+
+        @media screen and (min-width: $lg) {        
+            background-position-x: -100px;
+            background-position-y: -100px;
+            bottom: -100px;  
+            left: -100px;            
+        }
+
+        @media screen and (min-width: $lg) and (min-height: 801px) {        
+            background-position-x: 0px;
+            background-position-y: 0px;
+            bottom: 0px;            
+        }        
+    }
+
+    &__C {
+        @media screen and (min-width: 1400px) {        
+            background-image: url(../images/bg-decoration-C.svg);
+            background-repeat: no-repeat;
+            background-position-y: 0;
+            top: 0;
+            position: absolute;
+            right: 0;
+            height: 300px;
+            width: 200px;
+        }        
+    }
+}
+
+// Class applied to <body> when menu is open
+.overflow {
+    overflow: hidden;
 }

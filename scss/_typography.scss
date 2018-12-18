@@ -1,86 +1,71 @@
 h1 {
-    font-family: geomanistbook;
+    font-family: geomanistbold;
     font-weight: normal;
 
-    @include font-size(21px);
-    @include line-height(30px);
+    @include font-size(26px);
+    @include line-height(41.6px);
 
     @media screen and (min-width: $med) {
-        @include font-size(21px);
-        @include line-height(30px);
+        @include font-size(34px);
+        @include line-height(61.2px);
     }
 
     @media screen and (min-width: $lg) {
-        @include font-size(21px);
-        @include line-height(30px);
+        @include font-size(38px);
+        @include line-height(61px);
     }
 }
 
 p {
+    @include font-size(17px);
+    @include line-height(34px);
     font-family: geomanistlight;
     font-weight: normal;
+    margin-bottom: 1.18125rem;
 
-    @include font-size(17px);
-    @include line-height(29px);
-
-    @media screen and (min-width: $med) {
-        @include font-size(18px);
-        @include line-height(29px);
-    }    
-
-    @media screen and (min-width: $lg) {
-        @include font-size(19px);
-        @include line-height(33px);
-    }
-
-    margin-bottom: 0.8125rem;
     &:last-of-type {
         margin-bottom: 0;
     }
+
+    @media screen and (min-width: $med) {
+        @include font-size(19px);
+        @include line-height(38px);
+    }    
+
+    @media screen and (min-width: $lg) {
+        @include font-size(21px);
+        @include line-height(37.8px);
+    }
+    
+
 }
 
 a {
     @extend p;
-    color: $dark;
-    font-family: geomanistbook;
-    transition: color ease-in-out 0.1s;
-
+    color: $accent;
+    //font-family: geomanistbook;
+    text-decoration: none;
+    transition: text-decoration ease-in-out 0.1s;
 
     &:focus {
-        color: $primary;
+        text-decoration: underline;
     }
     &:hover {
-        color: $primary;
+        text-decoration: underline;
     }
     &:active {
         color: $primaryDark;
     }  
 }
 
-.hero-link {
-    @extend a;
-    font-size: 95%;
-    text-decoration: none;
-    transition: text-decoration ease-in-out 0.5s;
-
-    &:focus {
-        text-decoration: underline;
-    }
-    &:hover {
-        text-decoration: underline;
-    }
-    &:active {
-        text-decoration: underline;
-    }      
+.footer-text {
+    @include font-size(15px);
+    @include line-height(27px);
+    color: $light;
+    font-family: geomanistbook;
+    font-weight: normal;
 }
 
-.book-heading {
-    margin-bottom: 10px;
-
-    &::before {
-        content: "\f518";
-        font-family: 'Font Awesome 5 Free';
-        font-weight: 900;
-        margin-right: 10px;
-    }
+.highlight {
+    color: $accent;
 }
