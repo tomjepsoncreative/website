@@ -88,8 +88,8 @@ img { width: 100%; height: 100%; }
 @media screen and (min-width: 48em) { .decorations__A { left: -20px; } }
 @media screen and (min-width: 64em) { .decorations__A { left: 0; } }
 .decorations__B { background-image: url(../images/bg-decoration-B_sm.svg); background-repeat: no-repeat; background-position-y: 0; bottom: 0; position: absolute; left: -120px; height: 80px; width: 120px; }
-@media screen and (min-width: 48em) { .decorations__B { background-image: url(../images/bg-decoration-B.svg); bottom: -100px; left: -220px; height: 200px; width: 300px; } }
-@media screen and (min-width: 48em) and (min-height: 900px) { .decorations__B { background-image: url(../images/bg-decoration-B.svg); bottom: 0; left: -220px; height: 200px; width: 300px; } }
+@media screen and (min-width: 48em) { .decorations__B { background-image: url(../images/bg-decoration-B.svg); background-position-y: -100px; background-position-x: -200px; bottom: -100px; left: -120px; height: 200px; width: 100px; } }
+@media screen and (min-width: 48em) and (min-height: 900px) { .decorations__B { background-image: url(../images/bg-decoration-B.svg); background-position-y: 0; background-position-x: 0; bottom: 0; left: -220px; height: 200px; width: 300px; } }
 @media screen and (min-width: 64em) { .decorations__B { background-position-x: -100px; background-position-y: -100px; bottom: -100px; left: -100px; } }
 @media screen and (min-width: 64em) and (min-height: 801px) { .decorations__B { background-position-x: 0px; background-position-y: 0px; bottom: 0px; } }
 @media screen and (min-width: 1400px) { .decorations__C { background-image: url(../images/bg-decoration-C.svg); background-repeat: no-repeat; background-position-y: 0; top: 0; position: absolute; right: 0; height: 300px; width: 200px; } }
