@@ -311,10 +311,19 @@ img {
 
         @media screen and (min-width: $med) {
             background-image: url(../images/bg-decoration-B.svg);
+            bottom: -100px;
+            left: -220px;
+            height: 200px;
+            width: 300px;
+        }
+
+        @media screen and (min-width: $med) and (min-height: 900px) {
+            background-image: url(../images/bg-decoration-B.svg);
+            bottom: 0;
             left: -220px;
             height: 200px;
             width: 300px;            
-        }
+        }        
 
         @media screen and (min-width: $lg) {        
             background-position-x: -100px;
