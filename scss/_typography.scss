@@ -42,15 +42,16 @@ p {
 
 a {
     @extend p;
-    color: $dark;
-    font-family: geomanistbook;
-    transition: color ease-in-out 0.1s;
+    color: $accent;
+    //font-family: geomanistbook;
+    text-decoration: none;
+    transition: text-decoration ease-in-out 0.1s;
 
     &:focus {
-        color: $accent;
+        text-decoration: underline;
     }
     &:hover {
-        color: $accent;
+        text-decoration: underline;
     }
     &:active {
         color: $primaryDark;

@@ -17,21 +17,61 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU"
         crossorigin="anonymous">
 
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>        
+
 </head>
 
 <body>
 
 <div class="page">
+
     <div class="wrapper">
 
-        <section class="menu">
+        <section class="menu">           
 
             <ul class="menu__links">
-                <li class="menu__link-item"><a href="https://twitter.com/thepixelgrid" target="_blank"><i class="fab fa-twitter"></i></a></li>
-                <li class="menu__link-item"><a href="https://medium.com/@tomjepson" target="_blank"><i class="fab fa-medium-m"></i></a></li>
-                <li class="menu__link-item"><a href="https://dribbble.com/tom_jepson" target="_blank"><i class="fab fa-dribbble"></i></a></li>
-                <li class="menu__link-item"><a href="https://www.linkedin.com/in/tom-jepson-a4059b45/" target="_blank"><i class="fab fa-linkedin-in"></i></a></li>
-                <li class="menu__link-item"><a href="mailto:hello@tomjepsoncreative.work"><i class="fas fa-envelope"></i></a></li>
+                <li class="menu__link-item">
+                    <a href="https://twitter.com/thepixelgrid" target="_blank">
+                        <i class="fab fa-twitter"></i>
+                        <div class="menu__link-item__text">
+                            <p>Thoughts on Twitter</p>
+                        </div>                                                
+                    </a>
+
+                </li>
+                <li class="menu__link-item">
+                    <a href="https://medium.com/@tomjepson" target="_blank">
+                        <i class="fab fa-medium-m"></i>
+                        <div class="menu__link-item__text">
+                            <p>Writing on Medium</p>
+                        </div>                        
+                    </a>
+                </li>
+                <li class="menu__link-item">
+                    <a href="https://dribbble.com/tom_jepson" target="_blank">
+                        <i class="fab fa-dribbble"></i>
+                        <div class="menu__link-item__text">
+                            <p>Visual ideas on Dribbble</p>
+                        </div>                        
+                    </a>
+                </li>
+                <li class="menu__link-item">
+                    <a href="https://www.linkedin.com/in/tom-jepson-a4059b45/" target="_blank">
+                        <i class="fab fa-linkedin-in"></i>
+                        <div class="menu__link-item__text">
+                            <p>Profile on LinkedIn</p>
+                        </div>
+                    </a>                    
+                </li>
+                <li class="menu__link-item">
+                    <a href="mailto:hello@tomjepsoncreative.work">
+                        <i class="email-icon fas fa-envelope"></i>
+                        <div class="menu__link-item__text">
+                            <p>Get in touch!</p>
+                            <p class="menu-subtext">hello@tomjepsoncreative.work</p>                        
+                        </div>
+                    </a>
+                </li>
             </ul>
 
         </section>
@@ -39,9 +79,20 @@
         <section class="content">
 
             <section class="mobile-menu">
-                <div class="mobile-menu__button">
-                    <img src="images/mobile-menu.svg" />
+                
+                <div class="mobile-menu__button" id="menu">
+                    <!-- <img src="images/mobile-menu.svg" /> -->
                 </div>
+
+                <script>
+                        $("#menu").click(function (event) {
+                            $(".menu").toggleClass('menu--show');
+                            $("body").toggleClass('overflow');
+                            $(".mobile-menu__button").toggleClass('mobile-menu__button--close');
+                            // event.preventDefault();
+                        }); 
+                </script>
+
             </section>
 
             <div class="content__title">
