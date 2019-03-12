@@ -9,7 +9,8 @@ html, body {
     line-height: 100%;
     color: $dark;
     -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;   
+    -moz-osx-font-smoothing: grayscale;
+    word-break: break-word;
 }
 
 img {
@@ -17,358 +18,119 @@ img {
     height: 100%;
 }
 
-// Layout
+/********/
 
-.page {
-    display: flex;
-    overflow: hidden;
+.booking-info-container {
+    background: $dark;
+    padding: 12px 20px;
 }
 
-.wrapper {
-    align-items: stretch;
-    display: flex;
-    flex: 1 1 auto;
-    flex-direction: row;
-    margin: 0 auto;
-    margin-left: 10px;
-    margin-right: 10px;
-    min-height: 100vh;
+.hero-detail-container {
+    padding-top: 30px;
 
     @media screen and (min-width: $med) {
-        margin-left: 20px;
-        margin-right: 20px;
+        padding-top: 40px;
     }
 
-    @media screen and (min-width: $lg) {        
-        margin: 0;
-        max-width: 1000px;
+    @media screen and (min-width: $lg) {
+        padding-top: 60px;
     }
 
-    @media screen and (min-width: $xl) {       
-        max-width: 1070px;
+    @media screen and (min-width: $xl) {
+        padding-top: 80px;
+    }
+}
+
+.hero-text-container {
+    padding-top: 80px;
+    padding-bottom: 96px;
+
+    @media screen and (min-width: $med) {
+        padding-top: 152px;
+        padding-bottom: 176px;
+    }
+
+    @media screen and (min-width: $lg) {
+        padding-top: 184px;
+        padding-bottom: 216px;
+    }
+
+    @media screen and (min-width: $xl) {
+        padding-top: 216px;
+        padding-bottom: 312px;
+    }
+}
+
+.standard-text-container {
+    padding-top: 96px;
+    padding-bottom: 88px;
+
+    @media screen and (min-width: $med) {
+        padding-top: 168px;
+        padding-bottom: 132px;
+    }
+
+    @media screen and (min-width: $lg) {
+        padding-top: 200px;
+        padding-bottom: 184px;
+    }
+
+    @media screen and (min-width: $xl) {
+        padding-top: 232px;
+        padding-bottom: 216px;
+    }
+}
+
+.highlight-content-container {
+    padding-bottom: 80px;
+
+    @media screen and (min-width: $med) {
+        padding-bottom: 120px;
+    }
+
+    @media screen and (min-width: $lg) {
+        padding-bottom: 200px;
+    }
+
+    @media screen and (min-width: $xl) {
+        padding-bottom: 216px;
+    }
+}
+
+.quote {
+    border-top: 1px solid rgba(46,36,38,0.25);
+    border-bottom: 1px solid rgba(46,36,38,0.25);
+    padding: 32px 0 32px 0;
+
+    @media screen and (min-width: $med) {
+        padding: 64px 0 64px 0;
+    }
+
+    @media screen and (min-width: $lg) {
+        padding: 96px 0 96px 0;
     }   
 }
 
-.mobile-menu {
-    display: flex;
-    flex: 0 1 auto;
-    justify-content: flex-end;
-    padding: 30px 0;
-    z-index: 100000;
+footer {
+    padding: 80px 0;
 
-    &__button {
-        background-image: url(../images/mobile-menu.png);
-        background-repeat: no-repeat;
-        background-position: 0 0;
-        background-size: 100%;
-        flex: 0 1 89px;
-        height: 49px;
-        &--close {
-            background-image: url(../images/mobile-menu-close.png);
-        }
-    }
-
-    @media screen and (min-width: $med) {        
-        padding: 40px 0;
-    }     
-
-    @media screen and (min-width: $lg) {        
-        display: none;
-    }    
-}
-
-.menu {
-    display: none;
-    position: absolute;
-    top: 0;
-    left: 0;
-    background-color: $dark;
-    width: 100%;
-    height: 100%;
-    z-index: 9999;
-    
-    &--show {
-        display: flex;
+    @media screen and (min-width: $med) {
+        padding: 96px 0;
     }
 
     @media screen and (min-width: $lg) {
-        background-color: transparent;
-        display: flex;
-        height: auto;
-        padding: 30px 30px 0 30px;
-        position: relative;
-        width: auto;
+        padding: 200px 0;
+    }
+
+    @media screen and (min-width: $xl) {
+        padding: 216px 0;
     }    
-
-    &__links {        
-        align-content: flex-end;
-        align-items: center;
-        justify-content: flex-end;
-        display: flex;
-        flex-direction: column;
-        flex: 1;
-        padding-bottom: 30px;
-
-        @media screen and (min-width: $med) {
-            justify-content: center;
-        }        
-
-        @media screen and (min-width: $lg) {
-            justify-content: flex-start;
-        }        
-    }
-
-    &__link-item {
-        align-content: center;
-        align-items: center;
-        border-bottom: 1px solid rgba($white, 0.2);
-        display: flex;
-        flex: 0 1 auto;
-        flex-direction: row;
-        justify-content: center;
-        padding: 15px 0;
-        &:last-of-type {
-            border-bottom: none;
-            padding: 15px 0 0 0;
-        }
-        width: 85vw;
-
-        @media screen and (min-width: $med) {
-            padding: 20px 0;
-            &:last-of-type {
-                padding: 20px 0 0 0;
-            }
-            width: 65vw;
-        }
-
-        &__text {
-            flex: 1 1 auto;
-        }
-
-        a {
-            color: $white;
-            display: flex;
-            flex: 1;
-            justify-content: center;
-            text-decoration: none;
-            position: relative;
-            padding: 21px 20px 19px 20px;
-        }
-
-        i {
-            font-size: 24px;
-            margin-top: -5px;           
-        }
-
-        .email-icon {
-            position: relative;
-            top: 12px;
-            left: 0;
-            display: flex;
-            flex: 0;
-
-            @media screen and (min-width: $lg) {
-                top: 0;
-            }
-        }         
-
-        p {
-            text-align: right;
-            font-size: 19px;
-            line-height: 19px;
-            margin-bottom: 0;
-
-            @media screen and (min-width: $lg) {
-                display: none;
-            }            
-
-            .menu-subtext {
-                font-size: 15px;
-                font-family: geomanistbold;
-                font-weight: normal;       
-                line-height: 15px;      
-                padding-top: 5px;   
-            }
-        }
-
-        @media screen and (min-width: $lg) {
-            border-bottom: 1px solid rgba($dark35, 0.2);
-                &:last-of-type {
-                    border-bottom: none;
-                }
-            box-sizing: border-box;
-            display: flex;
-            flex-direction: column;
-            height: 120px;            
-            justify-content: center;
-            padding: 10px;
-            width: 120px;
-    
-            a {
-                align-items: center;            
-                color: $light;
-                display: flex;
-                flex: 1 1 auto;
-                font-size: 28px;
-                justify-content: center;
-                text-align: center;
-                text-decoration: none;
-                transition: background-image ease-in-out 1s !important; 
-
-                &:hover {
-                    background-image: url(../images/bg-link.svg);
-                    color: $accent;
-                    text-decoration: none;
-                }
-                
-                &:focus {
-                    color: $accent;
-                    text-decoration: none;
-                }
-            }
-        }        
-    }
 }
 
-.content {    
-    border-top: 5px solid $accent;
-    background-color: $light5; 
-    display: flex;
-    flex-direction: column;
-    flex: 2 1 auto;
-    padding: 0 20px;
-    
-    @media screen and (min-width: $lg) {
-        max-width: 800px;
-        padding: 0 60px;
-    }     
-
-    &__title {
-        flex: 0 1 auto;
-        max-width: 366px;
-        margin-bottom: 34px;
-
-        @media screen and (min-width: $med) {
-            max-width: 450px;
-            margin-bottom: 38px;
-        }
-        
-        @media screen and (min-width: $lg) { 
-            max-width: 500px;
-            margin-top: 55px;
-        }        
-        
-        @media screen and (min-width: $lg) and (min-height: 801px) {
-            margin-top: 100px;
-        }
-    }
-
-    &__description {
-        flex: 1 1 auto;
-    }
-
-    &__footer {
-        align-items: flex-end; 
-        display: flex;
-        flex: 1 1 auto;
-        flex-direction: row;
-        margin-bottom: 20px;
-        margin-top: 60px;
-        max-width: 160px;
-
-        @media screen and (min-width: $med) {
-            max-width: 100%;
-        }        
-
-        @media screen and (min-width: $lg) {
-            margin-top: 100px;
-        }        
-    }
-}
-
-.decorations {
-    flex: 1 0 auto;
-    position: relative;
-
-    &__A {
-        background-image: url(../images/bg-decoration-A.svg);
-        background-repeat: no-repeat;
-        background-position-y: 0;
-        left: -10px;
-        position: absolute;
-        top: 0;
-        height: 120px;
-        width: 120px;
-
-        @media screen and (min-width: $med) {
-            left: -20px;         
-        }        
-
-        @media screen and (min-width: $lg) {        
-            left: 0;            
-        }        
-    }
-
-    &__B {
-        background-image: url(../images/bg-decoration-B_sm.svg);
-        background-repeat: no-repeat;
-        background-position-y: 0;
-        bottom: 0;
-        position: absolute;
-        left: -120px;
-        height: 80px;
-        width: 120px;
-
-        @media screen and (min-width: $med) {
-            background-image: url(../images/bg-decoration-B.svg);
-            background-position-y: -100px;
-            background-position-x: -200px;
-            bottom: -100px;
-            left: -120px;
-            height: 200px;
-            width: 100px;
-        }
-
-        @media screen and (min-width: $med) and (min-height: 1024px) {
-            background-image: url(../images/bg-decoration-B.svg);
-            background-position-y: 0;
-            background-position-x: 0;
-            bottom: 0;
-            left: -220px;
-            height: 200px;
-            width: 300px;            
-        }        
-
-        @media screen and (min-width: $lg) {        
-            background-position-x: -100px;
-            background-position-y: -100px;
-            bottom: -100px;  
-            left: -100px;            
-        }
-
-        @media screen and (min-width: $lg) and (min-height: 801px) {        
-            background-position-x: 0px;
-            background-position-y: 0px;
-            bottom: 0px;            
-        }        
-    }
-
-    &__C {
-        @media screen and (min-width: 1400px) {        
-            background-image: url(../images/bg-decoration-C.svg);
-            background-repeat: no-repeat;
-            background-position-y: 0;
-            top: 0;
-            position: absolute;
-            right: 0;
-            height: 300px;
-            width: 200px;
-        }        
-    }
-}
-
-// Class applied to <body> when menu is open
-.overflow {
-    overflow: hidden;
-    position: relative;
+.hero-background {
+    background: #f54b07;
+    background: -moz-linear-gradient(45deg, #f54b07 0%, #6d3c9f 100%);
+    background: -webkit-linear-gradient(45deg, #f54b07 0%,#6d3c9f 100%);
+    background: linear-gradient(45deg, #f54b07 0%,#6d3c9f 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f54b07', endColorstr='#6d3c9f',GradientType=1 );
 }

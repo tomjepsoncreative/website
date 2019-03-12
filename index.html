@@ -13,133 +13,102 @@
         <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
 
+    <link rel="stylesheet" href="css/grid/simple-grid.css" type="text/css" media="screen">
     <link rel="stylesheet" href="css/styles.css" type="text/css" media="screen">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU"
-        crossorigin="anonymous">
-
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>        
 
 </head>
 
 <body>
 
-<div class="page">
+    <section class="booking-info-container">
+        <p class="booking-info center">I'm available for short/mid-term projects from May 2019</p>
+    </section>
 
-    <div class="wrapper">
+    <div class="hero-background">
 
-        <section class="menu">           
+        <div class="container">
 
-            <ul class="menu__links">
-                <li class="menu__link-item">
-                    <a href="https://twitter.com/thepixelgrid" target="_blank">
-                        <i class="fab fa-twitter"></i>
-                        <div class="menu__link-item__text">
-                            <p>Thoughts on Twitter</p>
-                        </div>                                                
-                    </a>
-
-                </li>
-                <li class="menu__link-item">
-                    <a href="https://medium.com/@tomjepson" target="_blank">
-                        <i class="fab fa-medium-m"></i>
-                        <div class="menu__link-item__text">
-                            <p>Writing on Medium</p>
-                        </div>                        
-                    </a>
-                </li>
-                <li class="menu__link-item">
-                    <a href="https://dribbble.com/tom_jepson" target="_blank">
-                        <i class="fab fa-dribbble"></i>
-                        <div class="menu__link-item__text">
-                            <p>Visual ideas on Dribbble</p>
-                        </div>                        
-                    </a>
-                </li>
-                <li class="menu__link-item">
-                    <a href="https://www.linkedin.com/in/tom-jepson-a4059b45/" target="_blank">
-                        <i class="fab fa-linkedin-in"></i>
-                        <div class="menu__link-item__text">
-                            <p>Profile on LinkedIn</p>
-                        </div>
-                    </a>                    
-                </li>
-                <li class="menu__link-item">
-                    <a href="mailto:hello@tomjepsoncreative.work">
-                        <i class="email-icon fas fa-envelope"></i>
-                        <div class="menu__link-item__text">
-                            <p>Get in touch!</p>
-                            <p class="menu-subtext">hello@tomjepsoncreative.work</p>                        
-                        </div>
-                    </a>
-                </li>
-            </ul>
-
-        </section>
-
-        <section class="content">
-
-            <section class="mobile-menu">
-                
-                <div class="mobile-menu__button" id="menu">
-                    <!-- <img src="images/mobile-menu.svg" /> -->
+            <div class="row hero-detail-container hidden-sm">
+                <div class="col-8">
+                    <h1 class="hero-details">Tom Jepson | Freelance Design</h1>
                 </div>
-
-                <script>
-                        $("#menu").click(function (event) {
-                            $(".menu").toggleClass('menu--show');
-                            $("body").toggleClass('overflow');
-                            $(".mobile-menu__button").toggleClass('mobile-menu__button--close');
-                            // event.preventDefault();
-                        }); 
-                </script>
-
-            </section>
-
-            <div class="content__title">
-                <h1>Hi, I'm <span class="highlight">Tom</span>, a designer based in Nottingham, UK.</h1>
+                <div class="col-4 right">
+                    <a class="hero-details" href="#">Get in touch</a>
+                </div>
             </div>
 
-            <div class="content__description">
-                <p>Right now, I'm solving strategy and user experience challenges as Head of Design for <a href="https://www.biotaware.com/"
-                        target="_blank">Biotaware</a>. I've also designed for <a href="http://www.hack24.co.uk/" target="_blank">Hack24</a>, <a href="http://www.technottingham.com/"
-                        target="_blank">TechNottingham</a>,
-                    <a href="https://www.esendex.com" target="_blank">Esendex</a>, and <a href="https://www.myunidays.com/"
-                        target="_blank">Unidays</a> amongst others.</p>
-                        <p>My goal as a designer is to create products that
-                    engage
-                    people and solutions that address real problems. As a leader I want to create collaborative,
-                    motivated
-                    environments for my teams where it’s possible for everyone to do their best work every day.</p>
-                <p>You can find me on <a href="https://twitter.com/thepixelgrid" target="_blank">Twitter</a> where I
-                    share my
-                    love of music and design strategy, <a href="https://medium.com/@tomjepson" target="_blank">Medium</a>
-                    where
-                    I write about teamwork, process, and leadership, and on <a href="https://dribbble.com/tom_jepson"
-                        target="_blank">Dribbble</a>
-                    where I post occasional visual thought experiments.</p>
-                <p>I'm always happy to grab a coffee - in person, or over Skype/FaceTime - and have a chat about
-                    design, teams,
-                    your next project... <a href="mailto:hello@tomjepsoncreative.work">Drop me a line</a> and let's get
-                    together.</p>
+            <div class="row hero-text-container">
+                <div class="col-11">
+                    <p class="hero-text">Hi, I’m Tom; a freelance digital designer based in Nottingham.</p>
+                </div>
+                <div class="col-11">
+                    <p class="hero-text">Specialising in user experience, web, and app design my focus is creating
+                        great products and solutions with real people at their heart.</p>
+                </div>
             </div>
 
-            <section class="content__footer">
-                <p class="footer-text">Tom Jepson 2018-2019 - All rights reserved</p>
-            </section>
+        </div> <!-- .container -->
 
-            <!-- <div class="content__decoration"></div> -->
+    </div> <!-- .hero-background -->
 
-        </section>
+    <div class="container">
+
+        <div class="row standard-text-container">
+            <div class="col-11">
+                <p class="standard-text">We could work together to run a discovery session with your users to dig into
+                    the details of the problem you’re solving, create a minimum viable product concept to get your
+                    latest idea off the ground, or design a new website for your business.</p>
+                <p class="standard-text">Let’s talk about your next project today.</p>
+            </div>
+        </div>
+
+        <div class="row highlight-content-container">
+            <div class="col-8">
+                <h2 class="small-content">I’ve recently worked with</h2>
+                <ul>
+                    <li class="highlight-content">Biotaware</li>
+                    <li class="highlight-content">Buying Butler</li>
+                    <li class="highlight-content">Tech Nottingham</li>
+                    <li class="highlight-content">Spotlight Data</li>
+                    <li class="highlight-content">DDD! East Midlands</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="row quote">
+            <div class="col-9">
+                <p class="standard-text">“We have always been incredibly happy with the work Tom has produced and are
+                    delighted to recommend him to anyone who needs design work.”</p>
+            </div>
+            <div class="col-3">
+                <ul>
+                    <li class="small-highlight-content">Emma Seward</li>
+                    <li class="small-content">Director</li>
+                    <li class="small-content">Tech Nottingham</li>
+                </ul>
+            </div>
+        </div>
 
     </div>
 
-    <div class="decorations">        
-        <div class="decorations__A"></div>
-        <div class="decorations__B"></div>
-        <div class="decorations__C"></div>
-    </div>
+    <footer class="container">
 
-</div>
+        <div class="row">
+            <div class="col-4">
+                <h3 class="small-content">Find me elsewhere</h3>
+                <ul>
+                    <li class="highlight-content"><a href="#">Twitter</a></li>
+                    <li class="highlight-content"><a href="#">Dribbble</a></li>
+                    <li class="highlight-content"><a href="#">Medium</a></li>
+                </ul>
+            </div>
+            <div class="col-8">
+                <h3 class="small-content">Get in touch</h3>
+                <a class="highlight-content" href="#">hello@tomjepsoncreative.work</a>
+            </div>
+        </div>
+
+    </footer>
 
 </body>
 

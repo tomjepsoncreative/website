@@ -8,11 +8,7 @@ $bold: 700;
 // Colour
 $primary: #f54b07;
 $primaryDark: darken($primary, 10%);
-$accent: rgba($primary, 0.75);
-$dark: #514e4d;
-$light: #9e9896;
-$dark35: rgba($dark, 0.35);
-$light5: rgba($light, 0.05);
+$dark: #2E2426;
 $white: #ffffff;
 
 // Breakpoints
@@ -20,3 +16,12 @@ $sm: 320px;
 $med: 48em; /* 768px; */
 $lg: 64em; /* 1024px */
 $xl: 80em; /* 1280px */
+
+
+// @media only screen and (min-width: 33.75em) {  /* 540px */
+// @media only screen and (min-width: 45em) {  /* 720px */
+// @media only screen and (min-width: 60em) { /* 960px */
+// @media only screen and (min-width: 64em) { /* 1024px */
+// @media only screen and (min-width: 80em) { /* 1280px */
+// @media only screen and (min-width: 90em) { /* 1440px */
+// @media only screen and (min-width: 100em) { /* 1600px */

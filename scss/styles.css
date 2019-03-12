@@ -1,0 +1,245 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, a, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+body {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+router-outlet {
+  display: none; }
+
+.cf:before,
+.cf:after {
+  content: " ";
+  /* 1 */
+  display: table;
+  /* 2 */ }
+
+.cf:after {
+  clear: both; }
+
+.cf {
+  *zoom: 1; }
+
+@font-face {
+  font-family: 'geomanistbold';
+  src: url("../font/geomanist-bold-webfont.eot"); }
+@font-face {
+  font-family: 'geomanistbold';
+  src: url("../font/geomanist-bold-webfont.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: 'geomanistbook';
+  src: url("../font/geomanist-book-webfont.eot"); }
+@font-face {
+  font-family: 'geomanistbook';
+  src: url("../font/geomanist-book-webfont.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: 'geomanistlight';
+  src: url("../font/geomanist-light-webfont.eot"); }
+@font-face {
+  font-family: 'geomanistlight';
+  src: url("../font/geomanist-light-webfont.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: "FontAwesome";
+  font-weight: normal;
+  font-display: auto;
+  font-style: normal;
+  src: url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/fonts/fontawesome-webfont.woff2") format("woff2"); }
+/* 768px; */
+/* 1024px */
+/* 1280px */
+html, body {
+  -webkit-font-smoothing: antialiased;
+  background-color: #ffffff;
+  box-sizing: border-box;
+  width: 100%;
+  height: 100%;
+  font-family: "Geomanist", sans-serif;
+  font-size: 100%;
+  line-height: 100%;
+  color: #2E2426;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; }
+
+img {
+  width: 100%;
+  height: 100%; }
+
+.hero-details {
+  font-family: geomanistlight;
+  font-weight: normal;
+  font-size: 40px;
+  font-size: 2.5rem;
+  line-height: 56px;
+  line-height: 3.5rem; }
+  @media screen and (min-width: 48em) {
+    .hero-details {
+      font-size: 40px;
+      font-size: 2.5rem;
+      line-height: 56px;
+      line-height: 3.5rem; } }
+  @media screen and (min-width: 64em) {
+    .hero-details {
+      font-size: 40px;
+      font-size: 2.5rem;
+      line-height: 56px;
+      line-height: 3.5rem; } }
+
+.hero-text {
+  font-family: geomanistbold;
+  font-weight: normal;
+  font-size: 72px;
+  font-size: 4.5rem;
+  line-height: 112px;
+  line-height: 7rem; }
+  @media screen and (min-width: 48em) {
+    .hero-text {
+      font-size: 72px;
+      font-size: 4.5rem;
+      line-height: 112px;
+      line-height: 7rem; } }
+  @media screen and (min-width: 64em) {
+    .hero-text {
+      font-size: 72px;
+      font-size: 4.5rem;
+      line-height: 112px;
+      line-height: 7rem; } }
+
+.standard-text {
+  font-family: geomanistlight;
+  font-weight: normal;
+  font-size: 64px;
+  font-size: 4rem;
+  line-height: 96px;
+  line-height: 6rem; }
+  @media screen and (min-width: 48em) {
+    .standard-text {
+      font-size: 64px;
+      font-size: 4rem;
+      line-height: 96px;
+      line-height: 6rem; } }
+  @media screen and (min-width: 64em) {
+    .standard-text {
+      font-size: 64px;
+      font-size: 4rem;
+      line-height: 96px;
+      line-height: 6rem; } }
+
+.small-content {
+  font-family: geomanistlight;
+  font-weight: normal;
+  font-size: 40px;
+  font-size: 2.5rem;
+  line-height: 56px;
+  line-height: 3.5rem; }
+  @media screen and (min-width: 48em) {
+    .small-content {
+      font-size: 40px;
+      font-size: 2.5rem;
+      line-height: 56px;
+      line-height: 3.5rem; } }
+  @media screen and (min-width: 64em) {
+    .small-content {
+      font-size: 40px;
+      font-size: 2.5rem;
+      line-height: 56px;
+      line-height: 3.5rem; } }
+
+.small-highlight-content {
+  font-family: geomanistbold;
+  font-weight: normal;
+  font-size: 40px;
+  font-size: 2.5rem;
+  line-height: 56px;
+  line-height: 3.5rem; }
+  @media screen and (min-width: 48em) {
+    .small-highlight-content {
+      font-size: 40px;
+      font-size: 2.5rem;
+      line-height: 56px;
+      line-height: 3.5rem; } }
+  @media screen and (min-width: 64em) {
+    .small-highlight-content {
+      font-size: 40px;
+      font-size: 2.5rem;
+      line-height: 56px;
+      line-height: 3.5rem; } }
+
+.highlight-content {
+  font-family: geomanistbold;
+  font-weight: normal;
+  font-size: 56px;
+  font-size: 3.5rem;
+  line-height: 80px;
+  line-height: 5rem; }
+  @media screen and (min-width: 48em) {
+    .highlight-content {
+      font-size: 56px;
+      font-size: 3.5rem;
+      line-height: 80px;
+      line-height: 5rem; } }
+  @media screen and (min-width: 64em) {
+    .highlight-content {
+      font-size: 56px;
+      font-size: 3.5rem;
+      line-height: 80px;
+      line-height: 5rem; } }
+
+a {
+  color: #f54b07;
+  text-decoration: none;
+  transition: text-decoration ease-in-out 0.1s; }
+  a:focus {
+    text-decoration: underline; }
+  a:hover {
+    text-decoration: underline; }
+  a:active {
+    color: #c33c06; }
+
+/*# sourceMappingURL=styles.css.map */
