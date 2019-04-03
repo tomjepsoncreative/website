@@ -261,11 +261,13 @@ footer {
 .hero-background {
   background: #f54b07;
   background: linear-gradient(45deg, #f54b07 0%, #6d3c9f 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f54b07', endColorstr='#6d3c9f',GradientType=1 );
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='$accent', endColorstr='$accent2',GradientType=1 );
 }
 
 .callout-background {
   background: #AE4356;
+  background: linear-gradient(45deg, #A13F61 0%, #AE4356 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='$primary2', endColorstr='$primary',GradientType=1 );
 }
 
 .heading, .small-heading, .body-copy, .accent-copy {

@@ -128,13 +128,17 @@ footer {
 }
 
 .hero-background {
-    background: #f54b07;
-    background: -moz-linear-gradient(45deg, #f54b07 0%, #6d3c9f 100%);
-    background: -webkit-linear-gradient(45deg, #f54b07 0%,#6d3c9f 100%);
-    background: linear-gradient(45deg, #f54b07 0%,#6d3c9f 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f54b07', endColorstr='#6d3c9f',GradientType=1 );
+    background: $accent;
+    background: -moz-linear-gradient(45deg, $accent 0%, $accent2 100%);
+    background: -webkit-linear-gradient(45deg, $accent 0%,$accent2 100%);
+    background: linear-gradient(45deg, $accent 0%,$accent2 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='$accent', endColorstr='$accent2',GradientType=1 );
 }
 
 .callout-background {
     background: $primary;
+    background: -moz-linear-gradient(45deg, $primary2 0%, $primary 100%);
+    background: -webkit-linear-gradient(45deg, $primary2 0%,$primary 100%);
+    background: linear-gradient(45deg, $primary2 0%,$primary 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='$primary2', endColorstr='$primary',GradientType=1 );    
 }
