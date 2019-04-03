@@ -33,32 +33,50 @@ router-outlet { display: none; }
 /* 768px; */
 /* 1024px */
 /* 1280px */
-html, body { -webkit-font-smoothing: antialiased; background-color: #ffffff; -webkit-box-sizing: border-box; box-sizing: border-box; width: 100%; height: 100%; font-family: "Geomanist", sans-serif; font-size: 100%; line-height: 100%; color: RGBA(#2E2426, 0.85); -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; word-break: break-word; }
+html, body { -webkit-font-smoothing: antialiased; background-color: #ffffff; -webkit-box-sizing: border-box; box-sizing: border-box; width: 100%; height: 100%; font-family: "Geomanist", sans-serif; font-size: 100%; line-height: 100%; color: rgba(46, 36, 38, 0.85); -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; word-break: break-word; }
 
 img { width: 100%; height: 100%; }
 
 /********/
-.booking-info-container { background: RGBA(#2E2426, 0.85); padding: 12px 20px; }
+.pad8 { padding-bottom: 8px; }
 
-.hero-detail-container { padding-top: 30px; }
-@media screen and (min-width: 48em) { .hero-detail-container { padding-top: 40px; } }
-@media screen and (min-width: 64em) { .hero-detail-container { padding-top: 60px; } }
-@media screen and (min-width: 80em) { .hero-detail-container { padding-top: 80px; } }
+.pad12 { padding-bottom: 12px; }
 
-.hero-text-container { padding-top: 80px; padding-bottom: 96px; }
-@media screen and (min-width: 48em) { .hero-text-container { padding-top: 152px; padding-bottom: 176px; } }
-@media screen and (min-width: 64em) { .hero-text-container { padding-top: 184px; padding-bottom: 216px; } }
-@media screen and (min-width: 80em) { .hero-text-container { padding-top: 216px; padding-bottom: 312px; } }
+.pad16 { padding-bottom: 16px; }
 
-.standard-text-container { padding-top: 96px; padding-bottom: 88px; }
-@media screen and (min-width: 48em) { .standard-text-container { padding-top: 168px; padding-bottom: 132px; } }
-@media screen and (min-width: 64em) { .standard-text-container { padding-top: 200px; padding-bottom: 184px; } }
-@media screen and (min-width: 80em) { .standard-text-container { padding-top: 232px; padding-bottom: 216px; } }
+.pad32 { padding-bottom: 32px; }
 
-.highlight-content-container { padding-bottom: 80px; }
-@media screen and (min-width: 48em) { .highlight-content-container { padding-bottom: 120px; } }
-@media screen and (min-width: 64em) { .highlight-content-container { padding-bottom: 200px; } }
-@media screen and (min-width: 80em) { .highlight-content-container { padding-bottom: 216px; } }
+.pad48 { padding-bottom: 48px; }
+
+.pad64 { padding-bottom: 64px; }
+
+.pad80 { padding-bottom: 80px; }
+
+.pad96 { padding-bottom: 96px; }
+
+.pad64 { padding-bottom: 64px; }
+
+.pad160__t { padding-top: 160px; }
+
+.pad160 { padding-bottom: 160px; }
+
+.pad240__t { padding-top: 240px; }
+
+.pad240 { padding-bottom: 240px; }
+
+/********/
+.nav-links { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-orient: horizontal; -webkit-box-direction: normal; -ms-flex-direction: row; flex-direction: row; -webkit-box-pack: start; -ms-flex-pack: start; justify-content: flex-start; }
+@media screen and (min-width: 1200px) { .nav-links { -webkit-box-pack: end; -ms-flex-pack: end; justify-content: flex-end; } }
+
+.nav-link { -webkit-box-flex: 0; -ms-flex: 0 1 auto; flex: 0 1 auto; padding: 0; margin-right: 40px; }
+.nav-link:last-of-type { margin-right: 0; }
+
+/********/
+.booking-info-container { background-color: #2E2426; padding: 12px 20px; }
+
+.hero-detail-container { padding-top: 80px; }
+
+.hero-text-container { padding-top: 160px; padding-bottom: 240px; }
 
 .quote { border-top: 1px solid rgba(46, 36, 38, 0.25); border-bottom: 1px solid rgba(46, 36, 38, 0.25); padding: 32px 0 32px 0; }
 @media screen and (min-width: 48em) { .quote { padding: 64px 0 64px 0; } }
@@ -73,7 +91,7 @@ footer { padding: 80px 0; }
 
 .callout-background { background: #AE4356; background: linear-gradient(45deg, #A13F61 0%, #AE4356 100%); filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='$primary2', endColorstr='$primary',GradientType=1 ); }
 
-.heading, .large-copy, .highlight-copy, .body-copy, .accent-copy { color: RGBA(#2E2426, 0.85); font-weight: normal; }
+.heading, .large-copy, .highlight-copy, .body-copy, .accent-copy { color: rgba(46, 36, 38, 0.85); font-weight: normal; }
 
 .heading { font-size: 56px; font-size: 3.5rem; line-height: 96px; line-height: 6rem; }
 

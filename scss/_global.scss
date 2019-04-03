@@ -20,86 +20,162 @@ img {
 
 /********/
 
+// Standard Spacing Units
+
+.pad8 {
+    padding-bottom: 8px;
+}
+
+.pad12 {
+    padding-bottom: 12px;
+}
+
+.pad16 {
+    padding-bottom: 16px;
+}
+
+.pad32 {
+    padding-bottom: 32px;
+}
+
+.pad48 {
+    padding-bottom: 48px;
+}
+
+.pad64 {
+    padding-bottom: 64px;
+}
+
+.pad80 {
+    padding-bottom: 80px;
+}
+
+.pad96 {
+    padding-bottom: 96px;
+}
+
+.pad64 {
+    padding-bottom: 64px;
+}
+
+.pad160__t {
+    padding-top: 160px;
+}
+
+.pad160 {
+    padding-bottom: 160px;
+}
+
+.pad240__t {
+    padding-top: 240px;
+}
+
+.pad240 {
+    padding-bottom: 240px;
+}
+
+/********/
+
+.nav-links {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    @media screen and (min-width: 1200px) {
+        justify-content: flex-end;
+    }     
+}
+
+.nav-link {
+    flex: 0 1 auto;
+    padding: 0;
+    margin-right: 40px;
+    &:last-of-type {
+        margin-right: 0;
+    }
+}
+
+/********/
+
 .booking-info-container {
-    background: $dark;
+    background-color: $reallyDark;
     padding: 12px 20px;
 }
 
 .hero-detail-container {
-    padding-top: 30px;
+    padding-top: 80px;
 
-    @media screen and (min-width: $med) {
-        padding-top: 40px;
-    }
+    // @media screen and (min-width: $med) {
+    //     padding-top: 40px;
+    // }
 
-    @media screen and (min-width: $lg) {
-        padding-top: 60px;
-    }
+    // @media screen and (min-width: $lg) {
+    //     padding-top: 60px;
+    // }
 
-    @media screen and (min-width: $xl) {
-        padding-top: 80px;
-    }
+    // @media screen and (min-width: $xl) {
+    //     padding-top: 80px;
+    // }
 }
 
 .hero-text-container {
-    padding-top: 80px;
-    padding-bottom: 96px;
+    padding-top: 160px;
+    padding-bottom: 240px;
 
-    @media screen and (min-width: $med) {
-        padding-top: 152px;
-        padding-bottom: 176px;
-    }
+    // @media screen and (min-width: $med) {
+    //     padding-top: 152px;
+    //     padding-bottom: 176px;
+    // }
 
-    @media screen and (min-width: $lg) {
-        padding-top: 184px;
-        padding-bottom: 216px;
-    }
+    // @media screen and (min-width: $lg) {
+    //     padding-top: 184px;
+    //     padding-bottom: 216px;
+    // }
 
-    @media screen and (min-width: $xl) {
-        padding-top: 216px;
-        padding-bottom: 312px;
-    }
+    // @media screen and (min-width: $xl) {
+    //     padding-top: 160px;
+    //     padding-bottom: 240px;
+    // }
 }
 
-.standard-text-container {
-    padding-top: 96px;
-    padding-bottom: 88px;
+// .standard-text-container {
+//     padding-top: 96px;
+//     padding-bottom: 88px;
 
-    @media screen and (min-width: $med) {
-        padding-top: 168px;
-        padding-bottom: 132px;
-    }
+//     @media screen and (min-width: $med) {
+//         padding-top: 168px;
+//         padding-bottom: 132px;
+//     }
 
-    @media screen and (min-width: $lg) {
-        padding-top: 200px;
-        padding-bottom: 184px;
-    }
+//     @media screen and (min-width: $lg) {
+//         padding-top: 200px;
+//         padding-bottom: 184px;
+//     }
 
-    @media screen and (min-width: $xl) {
-        padding-top: 232px;
-        padding-bottom: 216px;
-    }
-}
+//     @media screen and (min-width: $xl) {
+//         padding-top: 232px;
+//         padding-bottom: 216px;
+//     }
+// }
 
-.highlight-content-container {
-    padding-bottom: 80px;
+// .highlight-content-container {
+//     padding-bottom: 80px;
 
-    @media screen and (min-width: $med) {
-        padding-bottom: 120px;
-    }
+//     @media screen and (min-width: $med) {
+//         padding-bottom: 120px;
+//     }
 
-    @media screen and (min-width: $lg) {
-        padding-bottom: 200px;
-    }
+//     @media screen and (min-width: $lg) {
+//         padding-bottom: 200px;
+//     }
 
-    @media screen and (min-width: $xl) {
-        padding-bottom: 216px;
-    }
-}
+//     @media screen and (min-width: $xl) {
+//         padding-bottom: 216px;
+//     }
+// }
 
 .quote {
-    border-top: 1px solid rgba(46,36,38,0.25);
-    border-bottom: 1px solid rgba(46,36,38,0.25);
+    border-top: 1px solid $light;
+    border-bottom: 1px solid $light;
     padding: 32px 0 32px 0;
 
     @media screen and (min-width: $med) {
