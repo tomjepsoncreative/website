@@ -1,6 +1,6 @@
 /* http://meyerweb.com/eric/tools/css/reset/  v2.0 | 20110126 License: none (public domain)
 */
-html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, a, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video { margin: 0; padding: 0; border: 0; font-size: 100%; font: inherit; vertical-align: baseline; }
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video { margin: 0; padding: 0; border: 0; font-size: 100%; font: inherit; vertical-align: baseline; }
 
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section { display: block; }
@@ -73,17 +73,19 @@ footer { padding: 80px 0; }
 
 .callout-background { background: #AE4356; background: linear-gradient(45deg, #A13F61 0%, #AE4356 100%); filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='$primary2', endColorstr='$primary',GradientType=1 ); }
 
-.heading, .small-heading, .body-copy, .accent-copy { color: RGBA(#2E2426, 0.85); font-weight: normal; }
+.heading, .large-copy, .highlight-copy, .body-copy, .accent-copy { color: RGBA(#2E2426, 0.85); font-weight: normal; }
 
 .heading { font-size: 56px; font-size: 3.5rem; line-height: 96px; line-height: 6rem; }
 
-.small-heading { font-size: 40px; font-size: 2.5rem; line-height: 72px; line-height: 4.5rem; }
+.large-copy, .highlight-copy { font-size: 40px; font-size: 2.5rem; line-height: 72px; line-height: 4.5rem; }
 
 .body-copy, .accent-copy { font-size: 32px; font-size: 2rem; line-height: 64px; line-height: 4rem; }
 
 .heading { font-family: geomanistbold; }
 
-.small-heading { font-family: geomanistbold; }
+.large-copy { font-family: geomanistbold; }
+
+.highlight-copy { font-family: geomanistlight; }
 
 .body-copy { font-family: geomanistlight; }
 
@@ -93,36 +95,7 @@ footer { padding: 80px 0; }
 
 .primary { color: #AE4356; }
 
-a { color: RGBA(#2E2426, 0.85); text-decoration: none; -webkit-transition: -webkit-text-decoration ease-in-out 0.1s; transition: -webkit-text-decoration ease-in-out 0.1s; transition: text-decoration ease-in-out 0.1s; transition: text-decoration ease-in-out 0.1s, -webkit-text-decoration ease-in-out 0.1s; }
-a:focus { color: #AE4356; }
-a:hover { color: #AE4356; }
-a:active { color: #893544; }
-
-.booking-info { color: #ffffff; font-family: geomanistlight; font-weight: normal; font-size: 20px; font-size: 1.25rem; line-height: 32px; line-height: 2rem; }
-@media screen and (min-width: 48em) { .booking-info { font-size: 24px; font-size: 1.5rem; line-height: 40px; line-height: 2.5rem; } }
-@media screen and (min-width: 64em) { .booking-info { font-size: 24px; font-size: 1.5rem; line-height: 40px; line-height: 2.5rem; } }
-
-.hero-details { color: #ffffff; font-family: geomanistlight; font-weight: normal; font-size: 24px; font-size: 1.5rem; line-height: 32px; line-height: 2rem; }
-@media screen and (min-width: 48em) { .hero-details { font-size: 32px; font-size: 2rem; line-height: 40px; line-height: 2.5rem; } }
-@media screen and (min-width: 64em) { .hero-details { font-size: 40px; font-size: 2.5rem; line-height: 56px; line-height: 3.5rem; } }
-
-.hero-text { color: #ffffff; font-family: geomanistbold; font-weight: normal; font-size: 38px; font-size: 2.375rem; line-height: 56px; line-height: 3.5rem; }
-@media screen and (min-width: 48em) { .hero-text { font-size: 52px; font-size: 3.25rem; line-height: 76px; line-height: 4.75rem; } }
-@media screen and (min-width: 64em) { .hero-text { font-size: 62px; font-size: 3.875rem; line-height: 92px; line-height: 5.75rem; } }
-
-.standard-text { font-family: geomanistlight; font-weight: normal; padding-bottom: 32px; font-size: 30px; font-size: 1.875rem; line-height: 46px; line-height: 2.875rem; }
-.standard-text:last-of-type { padding-bottom: 0; }
-@media screen and (min-width: 48em) { .standard-text { font-size: 44px; font-size: 2.75rem; line-height: 62px; line-height: 3.875rem; } }
-@media screen and (min-width: 64em) { .standard-text { font-size: 54px; font-size: 3.375rem; line-height: 76px; line-height: 4.75rem; } }
-
-.small-content { font-family: geomanistlight; font-weight: normal; font-size: 24px; font-size: 1.5rem; line-height: 32px; line-height: 2rem; }
-@media screen and (min-width: 48em) { .small-content { font-size: 32px; font-size: 2rem; line-height: 40px; line-height: 2.5rem; } }
-@media screen and (min-width: 64em) { .small-content { font-size: 40px; font-size: 2.5rem; line-height: 56px; line-height: 3.5rem; } }
-
-.small-highlight-content { font-family: geomanistbold; font-weight: normal; font-size: 24px; font-size: 1.5rem; line-height: 32px; line-height: 2rem; }
-@media screen and (min-width: 48em) { .small-highlight-content { font-size: 32px; font-size: 2rem; line-height: 40px; line-height: 2.5rem; } }
-@media screen and (min-width: 64em) { .small-highlight-content { font-size: 40px; font-size: 2.5rem; line-height: 56px; line-height: 3.5rem; } }
-
-.highlight-content { font-family: geomanistbold; font-weight: normal; font-size: 36px; font-size: 2.25rem; line-height: 50px; line-height: 3.125rem; }
-@media screen and (min-width: 48em) { .highlight-content { font-size: 46px; font-size: 2.875rem; line-height: 60px; line-height: 3.75rem; } }
-@media screen and (min-width: 64em) { .highlight-content { font-size: 52px; font-size: 3.25rem; line-height: 76px; line-height: 4.75rem; } }
+a { color: inherit; text-decoration: none; -webkit-transition: -webkit-text-decoration ease-in-out 0.1s; transition: -webkit-text-decoration ease-in-out 0.1s; transition: text-decoration ease-in-out 0.1s; transition: text-decoration ease-in-out 0.1s, -webkit-text-decoration ease-in-out 0.1s; }
+a:focus { color: #AE4356; text-decoration: underline; }
+a:hover { color: #AE4356; text-decoration: underline; }
+a:active { color: #AE4356; text-decoration: underline; }
