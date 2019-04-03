@@ -6,9 +6,10 @@ $regular: 400;
 $bold: 700;
 
 // Colour
-$primary: #f54b07;
+$primary: #AE4356;
 $primaryDark: darken($primary, 10%);
-$dark: #2E2426;
+$dark: RGBA(#2E2426,0.85);
+$light: RGBA(#2E2426,0.25);
 $white: #ffffff;
 
 // Breakpoints

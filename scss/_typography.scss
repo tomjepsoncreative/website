@@ -1,4 +1,81 @@
 // Set up baseline type classes and extend with @extend %class-name
+%type-defaults {
+    color: $dark;
+    font-weight: normal;
+}
+
+%display-heading {
+    @extend %type-defaults;
+    @include font-size(72px);
+    @include line-height(104px);
+}
+
+%large-type {
+    @extend %type-defaults;    
+    @include font-size(56px);
+    @include line-height(96px); 
+}
+
+%medium-type {
+    @extend %type-defaults;    
+    @include font-size(40px);
+    @include line-height(72px);    
+}
+
+%small-type {
+    @extend %type-defaults;    
+    @include font-size(32px);
+    @include line-height(64px);  
+}
+
+//***********************
+
+.heading {
+    @extend %large-type;
+    font-family: geomanistbold;
+}
+
+.small-heading {
+    @extend %medium-type;
+    font-family: geomanistbold;    
+}
+
+.body-copy {
+    @extend %small-type;
+    font-family: geomanistlight;   
+}
+
+.accent-copy {
+    @extend %small-type;
+    font-family: geomanistbold; 
+}
+
+.white {
+    color: $white;
+}
+
+.primary {
+    color: $primary;
+}
+
+a {
+    @extend p;
+    color: $dark;
+    text-decoration: none;
+    transition: text-decoration ease-in-out 0.1s;
+
+    &:focus {
+        color: $primary;
+    }
+    &:hover {
+        color: $primary;
+    }
+    &:active {
+        color: $primaryDark;
+    }  
+}
+
+//***********************
 
 .booking-info {
     color: $white;
@@ -199,21 +276,4 @@
         @include font-size(52px);
         @include line-height(76px);
     }
-}
-
-a {
-    @extend p;
-    color: $dark;
-    text-decoration: none;
-    transition: text-decoration ease-in-out 0.1s;
-
-    &:focus {
-        color: $primary;
-    }
-    &:hover {
-        color: $primary;
-    }
-    &:active {
-        color: $primaryDark;
-    }  
 }
