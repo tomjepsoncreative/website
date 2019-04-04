@@ -6,9 +6,14 @@ $regular: 400;
 $bold: 700;
 
 // Colour
-$primary: #f54b07;
+$primary: #AE4356;
+$primary2: #A13F61;
+$accent: #f54b07;
+$accent2: #6d3c9f;
 $primaryDark: darken($primary, 10%);
-$dark: #2E2426;
+$reallyDark: #2E2426;
+$dark: rgba(#2E2426,0.85);
+$light: rgba(#2E2426,0.25);
 $white: #ffffff;
 
 // Breakpoints
