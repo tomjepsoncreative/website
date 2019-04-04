@@ -78,16 +78,12 @@ a {
     transition: text-decoration ease-in-out 0.1s;
 
     &:focus {
-        color: $primary;
         text-decoration: underline;
-        //color: $primary;
     }
     &:hover {
-        color: $primary;
         text-decoration: underline;
     }
     &:active {
-        color: $primary;
         text-decoration: underline; 
     }  
 }
