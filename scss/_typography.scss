@@ -12,20 +12,61 @@
 
 %large-type {
     @extend %type-defaults;    
-    @include font-size(56px);
-    @include line-height(96px); 
+    @include font-size(28px);
+    @include line-height(44px);
+
+    @media screen and (min-width: $med) {
+        @include font-size(40px);
+        @include line-height(72px);        
+    }
+
+    @media screen and (min-width: $lg) {
+        @include font-size(56px);
+        @include line-height(96px);      
+    }     
 }
 
 %medium-type {
     @extend %type-defaults;    
-    @include font-size(40px);
-    @include line-height(72px);    
+    @include font-size(24px);
+    @include line-height(40px);
+
+    @media screen and (min-width: $med) {
+        @include font-size(32px);
+        @include line-height(64px);        
+    }
+
+    @media screen and (min-width: $lg) {
+        @include font-size(40px);
+        @include line-height(72px);       
+    }       
 }
 
 %small-type {
     @extend %type-defaults;    
-    @include font-size(32px);
-    @include line-height(64px);  
+    @include font-size(24px);
+    @include line-height(40px);
+
+    @media screen and (min-width: $med) {
+        @include font-size(28px);
+        @include line-height(60px);        
+    }
+
+    @media screen and (min-width: $lg) {
+        @include font-size(32px);
+        @include line-height(64px);        
+    } 
+}
+
+%x-small-type {
+    @extend %type-defaults;    
+    @include font-size(20px);
+    @include line-height(28px);
+    
+    @media screen and (min-width: $med) {
+        @include font-size(26px);
+        @include line-height(40px);      
+    }        
 }
 
 //***********************
@@ -56,12 +97,21 @@
 
 .body-copy {
     @extend %small-type;
-    font-family: geomanistlight;   
+    font-family: geomanistlight;
+    padding-bottom: 1rem;
+    &:last-of-type {
+        padding-bottom: 0;
+    }  
 }
 
 .accent-copy {
     @extend %small-type;
     font-family: geomanistbold; 
+}
+
+.info-copy {
+    @extend %x-small-type;
+    font-family: geomanistlight;
 }
 
 .white {
@@ -86,4 +136,11 @@ a {
     &:active {
         text-decoration: underline; 
     }  
+}
+
+/*** SPECIFIC CLASSES ***/
+
+.quote-details {
+    line-height: 150%;
+    padding-bottom: 0;
 }

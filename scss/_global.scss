@@ -79,6 +79,7 @@ img {
 .nav-links {
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     justify-content: flex-start;
     @media screen and (min-width: 1200px) {
         justify-content: flex-end;
@@ -86,12 +87,18 @@ img {
 }
 
 .nav-link {
-    flex: 0 1 auto;
+    flex: 1 1 50%;
+    @media screen and (min-width: 768px) {
+        flex: 1 1 auto;
+        margin-right: 40px;
+        &:last-of-type {
+            margin-right: 0;
+        }
+    }   
+    @media screen and (min-width: 1200px) {
+        flex: 0 1 auto;      
+    }     
     padding: 0;
-    margin-right: 40px;
-    &:last-of-type {
-        margin-right: 0;
-    }
 }
 
 /********/
@@ -101,77 +108,81 @@ img {
     padding: 12px 20px;
 }
 
-.hero-detail-container {
+.brand-name {
+    padding-bottom: 20px;
+    @media screen and (min-width: $med) {
+        padding-bottom: 0;      
+    }
+}
+
+.navigation-container {
+    padding-top: 20px;
+
+    @media screen and (min-width: $med) {
+        padding-top: 40px;
+    }
+
+    @media screen and (min-width: $lg) {
+        padding-top: 60px;
+    }
+
+    @media screen and (min-width: $xl) {
+        padding-top: 80px;
+    }
+}
+
+.hero-content {
     padding-top: 80px;
+    padding-bottom: 80px;
 
-    // @media screen and (min-width: $med) {
-    //     padding-top: 40px;
-    // }
+    @media screen and (min-width: $med) {
+        padding-top: 112px;
+        padding-bottom: 112px;
+    }
 
-    // @media screen and (min-width: $lg) {
-    //     padding-top: 60px;
-    // }
+    @media screen and (min-width: $lg) {
+        padding-top: 128px;
+        padding-bottom: 160px;
+    }
 
-    // @media screen and (min-width: $xl) {
-    //     padding-top: 80px;
-    // }
+    @media screen and (min-width: $xl) {
+        padding-top: 160px;
+        padding-bottom: 240px;
+    }
 }
 
-.hero-text-container {
-    padding-top: 160px;
-    padding-bottom: 240px;
+.home-content {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    &:first-of-type {
+        padding-top: 80px;
+    }
+    &:nth-of-type(2) {
+        padding-bottom: 80px;
+    }
 
-    // @media screen and (min-width: $med) {
-    //     padding-top: 152px;
-    //     padding-bottom: 176px;
-    // }
+    @media screen and (min-width: $med) {
+        padding-top: 56px;
+        padding-bottom: 56px;
+        &:first-of-type {
+            padding-top: 112px;
+        }
+        &:nth-of-type(2) {
+            padding-bottom: 112px;
+        }
+    }
 
-    // @media screen and (min-width: $lg) {
-    //     padding-top: 184px;
-    //     padding-bottom: 216px;
-    // }
-
-    // @media screen and (min-width: $xl) {
-    //     padding-top: 160px;
-    //     padding-bottom: 240px;
-    // }
+    @media screen and (min-width: $lg) {
+        padding-top: 80px;        
+        padding-bottom: 80px;
+        &:first-of-type {
+            padding-top: 160px;
+        }
+        &:nth-of-type(2) {
+            padding-bottom: 160px;
+        }        
+    }  
 }
-
-// .standard-text-container {
-//     padding-top: 96px;
-//     padding-bottom: 88px;
-
-//     @media screen and (min-width: $med) {
-//         padding-top: 168px;
-//         padding-bottom: 132px;
-//     }
-
-//     @media screen and (min-width: $lg) {
-//         padding-top: 200px;
-//         padding-bottom: 184px;
-//     }
-
-//     @media screen and (min-width: $xl) {
-//         padding-top: 232px;
-//         padding-bottom: 216px;
-//     }
-// }
-
-// .highlight-content-container {
-//     padding-bottom: 80px;
-
-//     @media screen and (min-width: $med) {
-//         padding-bottom: 120px;
-//     }
-
-//     @media screen and (min-width: $lg) {
-//         padding-bottom: 200px;
-//     }
-
-//     @media screen and (min-width: $xl) {
-//         padding-bottom: 216px;
-//     }
-// }
 
 .quote {
     border-top: 1px solid $light;
@@ -188,19 +199,80 @@ img {
 }
 
 footer {
+
+    border-top: 1px solid $light;    
+    margin-top: 56px;
     padding: 80px 0;
 
     @media screen and (min-width: $med) {
-        padding: 96px 0;
+        margin-top: 64px;
+        padding: 112px 0;
     }
 
     @media screen and (min-width: $lg) {
-        padding: 200px 0;
+        margin-top: 80px;
+        padding: 160px 0;
     }
 
     @media screen and (min-width: $xl) {
+        margin-top: 96px;
         padding: 216px 0;
     }    
+}
+
+.nomargin {
+    margin-top: 0;
+}
+
+.noborder {
+    border: none;
+}
+
+.single-heading {
+    padding-top: 80px;
+    padding-bottom: 32px;
+
+    @media screen and (min-width: $med) {
+        padding-top: 96px;
+        padding-bottom: 48px;
+    }
+
+    @media screen and (min-width: $lg) {
+        padding-top: 120px;
+        padding-bottom: 64px;
+    }
+
+    @media screen and (min-width: $xl) {
+        padding-top: 160px;
+        padding-bottom: 64px;
+    }
+}
+
+.leading-paragraph {
+    padding-bottom: 32px;
+
+    @media screen and (min-width: $med) {
+        padding-bottom: 48px;
+    }
+
+    @media screen and (min-width: $lg) {
+        padding-bottom: 64px;
+    }    
+}
+
+.point-of-interest {
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+    @media screen and (min-width: $med) {
+        padding-top: 26px;
+        padding-bottom: 26px;
+    }
+
+    @media screen and (min-width: $lg) {
+        padding-top: 32px;
+        padding-bottom: 32px;
+    }     
 }
 
 .hero-background {
