@@ -261,18 +261,40 @@ footer {
 }
 
 .point-of-interest {
-    padding-top: 20px;
-    padding-bottom: 20px;
+    border-top: 1px solid $light;
+    border-bottom: 1px solid $light;
+    margin: 32px 0;
+    padding: 20px 0;
 
     @media screen and (min-width: $med) {
-        padding-top: 26px;
-        padding-bottom: 26px;
+        margin: 48px 0;
+        padding: 26px 0;
     }
 
     @media screen and (min-width: $lg) {
-        padding-top: 32px;
-        padding-bottom: 32px;
-    }     
+        margin: 64px 0;
+        padding: 32px 0;
+    }
+
+    &__list {
+        display: flex;
+        flex-direction: column;
+        flex-flow: wrap;
+    }
+
+    &__list-item {
+        flex: 1 1 100;
+        &:nth-of-type(odd) {
+            flex: 1 1 100%;
+        }
+        @media screen and (min-width: 1400px) {
+            flex: 1 1 85%;
+            &:nth-of-type(odd) {
+                flex: 1 1 15%;
+            }
+        }
+    }
+
 }
 
 .hero-background {
