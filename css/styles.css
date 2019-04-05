@@ -463,6 +463,20 @@ footer {
   }
 }
 
+.content-spacer__last-parag {
+  margin-bottom: 40px;
+}
+@media screen and (min-width: 48em) {
+  .content-spacer__last-parag {
+    margin-bottom: 80px;
+  }
+}
+@media screen and (min-width: 64em) {
+  .content-spacer__last-parag {
+    margin-bottom: 96px;
+  }
+}
+
 .hero-background {
   background: #f54b07;
   background: linear-gradient(45deg, #f54b07 0%, #6d3c9f 100%);
@@ -475,9 +489,70 @@ footer {
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='$primary2', endColorstr='$primary',GradientType=1 );
 }
 
-.heading, .large-copy, .highlight-copy, .body-copy, .accent-copy, .info-copy {
+.callout-heading {
+  padding: 80px 0 16px 0;
+}
+@media screen and (min-width: 48em) {
+  .callout-heading {
+    padding: 96px 0 28px 0;
+  }
+}
+@media screen and (min-width: 64em) {
+  .callout-heading {
+    padding: 112px 0 32px 0;
+  }
+}
+
+.callout-list {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.25);
+  padding: 32px 0;
+}
+@media screen and (min-width: 64em) {
+  .callout-list {
+    padding: 48px 0;
+  }
+}
+.callout-list:last-of-type {
+  border-bottom: none;
+  padding-bottom: 80px;
+}
+@media screen and (min-width: 48em) {
+  .callout-list:last-of-type {
+    padding-bottom: 96px;
+  }
+}
+@media screen and (min-width: 64em) {
+  .callout-list:last-of-type {
+    padding-bottom: 120px;
+  }
+}
+
+.display, .heading, .large-copy, .highlight-copy, .body-copy, .accent-copy, .info-copy, .info-copy--alt {
   color: rgba(46, 36, 38, 0.85);
   font-weight: normal;
+}
+
+.display {
+  font-size: 40px;
+  font-size: 2.5rem;
+  line-height: 56px;
+  line-height: 3.5rem;
+}
+@media screen and (min-width: 48em) {
+  .display {
+    font-size: 56px;
+    font-size: 3.5rem;
+    line-height: 96px;
+    line-height: 6rem;
+  }
+}
+@media screen and (min-width: 64em) {
+  .display {
+    font-size: 72px;
+    font-size: 4.5rem;
+    line-height: 104px;
+    line-height: 6.5rem;
+  }
 }
 
 .heading {
@@ -549,19 +624,23 @@ footer {
   }
 }
 
-.info-copy {
+.info-copy, .info-copy--alt {
   font-size: 20px;
   font-size: 1.25rem;
   line-height: 28px;
   line-height: 1.75rem;
 }
 @media screen and (min-width: 48em) {
-  .info-copy {
+  .info-copy, .info-copy--alt {
     font-size: 26px;
     font-size: 1.625rem;
     line-height: 40px;
     line-height: 2.5rem;
   }
+}
+
+.display {
+  font-family: geomanistlight;
 }
 
 .heading {
@@ -588,8 +667,27 @@ footer {
   font-family: geomanistbold;
 }
 
-.info-copy {
+.info-copy, .info-copy--alt {
   font-family: geomanistlight;
+}
+
+.info-copy--alt {
+  line-height: 40px;
+  line-height: 2.5rem;
+}
+@media screen and (min-width: 48em) {
+  .info-copy--alt {
+    line-height: 48px;
+    line-height: 3rem;
+  }
+}
+@media screen and (min-width: 64em) {
+  .info-copy--alt {
+    font-size: 28px;
+    font-size: 1.75rem;
+    line-height: 56px;
+    line-height: 3.5rem;
+  }
 }
 
 .white {

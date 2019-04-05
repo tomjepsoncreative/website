@@ -6,8 +6,18 @@
 
 %display-heading {
     @extend %type-defaults;
-    @include font-size(72px);
-    @include line-height(104px);
+    @include font-size(40px);
+    @include line-height(56px);
+
+    @media screen and (min-width: $med) {
+        @include font-size(56px);
+        @include line-height(96px);        
+    }
+
+    @media screen and (min-width: $lg) {
+        @include font-size(72px);
+        @include line-height(104px);      
+    }    
 }
 
 %large-type {
@@ -71,14 +81,10 @@
 
 //***********************
 
-    // @media screen and (min-width: $med) {
-    // }
-
-    // @media screen and (min-width: $lg) {
-    // }
-
-    // @media screen and (min-width: $xl) {
-    // } 
+.display {
+    @extend %display-heading;
+    font-family: geomanistlight;
+}
 
 .heading {
     @extend %large-type;
@@ -112,6 +118,20 @@
 .info-copy {
     @extend %x-small-type;
     font-family: geomanistlight;
+}
+
+.info-copy--alt {
+    @extend .info-copy;
+    @include line-height(40px);
+
+    @media screen and (min-width: $med) {
+        @include line-height(48px);    
+    }
+
+    @media screen and (min-width: $lg) {
+        @include font-size(28px);
+        @include line-height(56px);      
+    } 
 }
 
 .white {
