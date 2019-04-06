@@ -115,9 +115,17 @@
     font-family: geomanistbold; 
 }
 
+.info-accent {
+    @extend  %x-small-type;
+    font-family: geomanistbold; 
+}
+
 .info-copy {
     @extend %x-small-type;
     font-family: geomanistlight;
+    &--book {
+        font-family: geomanistbook;
+    }
 }
 
 .info-copy--alt {
