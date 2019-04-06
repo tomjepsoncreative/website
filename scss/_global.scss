@@ -297,6 +297,20 @@ footer {
 
 }
 
+.content-spacer {
+    &__last-parag {
+        margin-bottom: 40px;
+
+        @media screen and (min-width: $med) {
+            margin-bottom: 80px;
+        }
+    
+        @media screen and (min-width: $lg) {
+            margin-bottom: 96px;
+        }         
+    }
+}
+
 .hero-background {
     background: $accent;
     background: -moz-linear-gradient(45deg, $accent 0%, $accent2 100%);
@@ -312,3 +326,76 @@ footer {
     background: linear-gradient(45deg, $primary2 0%,$primary 100%);
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='$primary2', endColorstr='$primary',GradientType=1 );    
 }
+
+.callout-heading {
+    padding: 80px 0 16px 0;
+
+    @media screen and (min-width: $med) {
+        padding: 96px 0 28px 0;
+    }
+
+    @media screen and (min-width: $lg) {
+        padding: 112px 0 32px 0;
+    }    
+}
+
+.callout-list {
+    border-bottom: 1px solid rgba($white,0.25);
+    padding: 32px 0;
+
+    @media screen and (min-width: $lg) {
+        padding: 48px 0;
+    }
+    
+    &:last-of-type {
+        border-bottom: none;
+        padding-bottom: 80px;
+
+        @media screen and (min-width: $med) {
+            padding-bottom: 96px;
+        }
+    
+        @media screen and (min-width: $lg) {
+            padding-bottom: 120px;
+        }
+    }
+}
+
+a.button,.button {
+      display: inline-block;
+      outline: none;
+      *zoom: 1;
+      text-align: center;
+      text-decoration: none;
+      letter-spacing: 1px;
+      vertical-align: middle;
+      border: 1px solid $white;
+      transition: all 0.2s ease;
+      box-sizing: border-box;
+      padding: 7px 16px 9px 16px;
+      border-radius: 3px;   
+      letter-spacing: -0.25px;
+ 
+      @include font-size(24px);
+      @include line-height(40px);
+  
+      @media screen and (min-width: $med) {
+          @include font-size(28px);
+          @include line-height(60px);        
+      }
+  
+      @media screen and (min-width: $lg) {
+          @include font-size(32px);
+          @include line-height(64px);        
+      }
+      font-family: geomanistlight;
+      font-weight: normal;
+      color: $white;
+
+      &:hover {
+        background: $white;
+        color: $primary;
+        border-color: $white;
+        text-decoration: none;
+      }
+  }
