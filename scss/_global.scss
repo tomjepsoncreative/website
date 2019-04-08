@@ -311,6 +311,22 @@ footer {
     }
 }
 
+.feature_image {
+    padding: 60px 0;
+
+    @media screen and (min-width: $med) {
+        padding: 76px 0;
+    }
+
+    @media screen and (min-width: $lg) {
+        padding: 92px 0;
+    }
+
+    @media screen and (min-width: $xl) {
+        padding: 160px 0;
+    }
+}
+
 .hero-background {
     background: $accent;
     background: -moz-linear-gradient(45deg, $accent 0%, $accent2 100%);
