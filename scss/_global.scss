@@ -325,6 +325,25 @@ footer {
     @media screen and (min-width: $xl) {
         padding: 160px 0;
     }
+
+    &__border {
+        border: 1px solid $light;
+    }
+}
+
+.project_link {
+    &:hover {
+        text-decoration: none;
+    }
+
+    &__wrapper {
+        border: 1px solid $light;
+        padding: 20px 20px 27px 20px;
+        transition: border 0.25s;
+        &:hover {
+            border: 1px solid $accent;
+        }
+    }
 }
 
 .hero-background {
