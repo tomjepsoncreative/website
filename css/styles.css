@@ -138,6 +138,11 @@ footer { border-top: 1px solid rgba(46, 36, 38, 0.25); margin-top: 56px; padding
 @media screen and (min-width: 48em) { .feature_image { padding: 76px 0; } }
 @media screen and (min-width: 64em) { .feature_image { padding: 92px 0; } }
 @media screen and (min-width: 80em) { .feature_image { padding: 160px 0; } }
+.feature_image__border { border: 1px solid rgba(46, 36, 38, 0.25); }
+
+.project_link:hover { text-decoration: none; }
+.project_link__wrapper { border: 1px solid rgba(46, 36, 38, 0.25); padding: 20px 20px 27px 20px; -webkit-transition: border 0.25s; transition: border 0.25s; }
+.project_link__wrapper:hover { border: 1px solid #f54b07; }
 
 .hero-background { background: #f54b07; background: linear-gradient(45deg, #f54b07 0%, #6d3c9f 100%); filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='$accent', endColorstr='$accent2',GradientType=1 ); }
 
