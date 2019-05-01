@@ -105,7 +105,7 @@
     @extend %small-type;
     font-family: geomanistlight;
     padding-bottom: 1rem;
-    &:last-of-type {
+    &:last-child {
         padding-bottom: 0;
     }  
 }
@@ -171,4 +171,8 @@ a {
 .quote-details {
     line-height: 150%;
     padding-bottom: 0;
+}
+
+.bullets {
+    list-style: disc;
 }
