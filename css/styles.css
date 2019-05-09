@@ -193,7 +193,7 @@ a.button:hover, .button:hover { background: #ffffff; color: #AE4356; border-colo
 .highlight-copy { font-family: geomanistlight; }
 
 .body-copy { font-family: geomanistlight; padding-bottom: 1rem; }
-.body-copy:last-of-type { padding-bottom: 0; }
+.body-copy:last-child { padding-bottom: 0; }
 
 .accent-copy { font-family: geomanistbold; }
 
@@ -217,3 +217,5 @@ a:active { text-decoration: underline; }
 
 /*** SPECIFIC CLASSES ***/
 .quote-details { line-height: 150%; padding-bottom: 0; }
+
+.bullets { list-style: disc; }
