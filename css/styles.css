@@ -163,6 +163,7 @@ a.button, .button { display: inline-block; outline: none; *zoom: 1; text-align: 
 @media screen and (min-width: 64em) { a.button, .button { font-size: 32px; font-size: 2rem; line-height: 64px; line-height: 4rem; } }
 a.button:hover, .button:hover { background: #ffffff; color: #AE4356; border-color: #ffffff; text-decoration: none; }
 
+/** Dribbble Shots **/
 .display, .heading, .large-copy, .highlight-copy, .body-copy, .accent-copy, .info-accent, .info-copy, .info-copy--alt { color: rgba(46, 36, 38, 0.85); font-weight: normal; }
 
 .display { font-size: 40px; font-size: 2.5rem; line-height: 56px; line-height: 3.5rem; }

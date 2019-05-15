@@ -18,9 +18,9 @@
     <meta name="description"
         content="Tom Jepson is an experienced freelance digital designer from Nottingham, specialising in UX, web, and app design.">
     <meta name="keywords"
-        content="freelance, design, app, web, ux, user experience, web design, app design, digital products, mobile, responsive, user discovery, discovery, designer, nottingham, nottinghamshire, freelancer, ui design, ui, user interface">
+        content="freelance, design, app, web, ux, user experience, web design, app design, digital products, mobile, responsive, user discovery, discovery, designer, nottingham, nottinghamshire, freelancer, ui design, ui, user interface, remote work, remote, design sprint, discovery session, sprint, consultancy">
 
-    <title>Tom Jepson | Freelance Designer in Nottingham</title>
+    <title>Tom Jepson | Freelance Design Projects - Nottingham and Remote Work</title>
 
     <!--[if lt IE 9]>
         <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
@@ -28,6 +28,34 @@
 
     <link rel="stylesheet" href="../bootstrap/css/bootstrap.css" type="text/css" media="screen">
     <link rel="stylesheet" href="../css/styles.css" type="text/css" media="screen">
+
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+
+    <script type="text/javascript">
+
+        // Set the Access Token
+        var accessToken = "1ee947ccc9358a3090df0a2b87ffd745985b0354e16abd493e1b10cde3b6572c"
+
+        // Call Dribble v2 API
+        $.ajax({
+            url: 'https://api.dribbble.com/v2/user/shots?access_token=' + accessToken,
+            dataType: 'json',
+            type: 'GET',
+            success: function (data) {
+                if (data.length > 0) {
+                    $.each(data.reverse(), function (i, val) {
+                        $('#dribbbleShots').prepend(
+                            '<li class="col-12 col-sm-6 col-lg-4 col-xl-3 mb-3 mb-sm-4" target="_blank" href="' + val.html_url + '" title="' + val.title + '"><img src="' + val.images.hidpi + '"/></li>'
+                        )
+                    })
+                }
+                else {
+                    $('#dribbbleShots').append('<p>Sorry, No shots yet</p>');
+                }
+            }
+        });
+
+    </script>
 
 </head>
 
@@ -54,7 +82,7 @@
 
             <div class="row hero-content">
                 <div class="col-lg-11 col-xl-9">
-                    <p class="heading white">Projects</p>
+                    <h1 class="heading white">Projects</h1>
                     <p class="highlight-copy white">This is a growing collection of recent projects and case studies
                         covering a variety of industries, outputs, and skills. Throughout all my work, there are common
                         threads; I focus heavily on my client's needs, their customer's goals, and delivering
@@ -104,8 +132,22 @@
                     </a>
                 </div>
             </div>
+        </div>            
+    </div>
+
+    <div class="container mt-5">
+        <div class="row">
+            <div class="col-12 col-xl-10 offset-xl-1">
+                <hr class="">
+                <h2 class="large-copy">The Latest from Dribbble</h2>
+                <hr class="mb-4">
+                <div class="row">
+                    <div class="col justify-content-center">
+                        <ul class="row" id="dribbbleShots"></ul>
+                    </div>
+                </div>
+            </div>
         </div>
-    
     </div>
 
     <footer class="container">
