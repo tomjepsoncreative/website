@@ -1,5 +1,6 @@
 /* http://meyerweb.com/eric/tools/css/reset/  v2.0 | 20110126 License: none (public domain)
 */
+@import url("https://fonts.googleapis.com/css?family=Kreon&display=swap");
 html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video { margin: 0; padding: 0; border: 0; font-size: 100%; font: inherit; vertical-align: baseline; }
 
 /* HTML5 display-role reset for older browsers */
@@ -29,11 +30,17 @@ router-outlet { display: none; }
 @font-face { font-family: 'geomanistbook'; src: url("../font/geomanist-book-webfont.ttf") format("truetype"); font-weight: normal; font-style: normal; }
 @font-face { font-family: 'geomanistlight'; src: url("../font/geomanist-light-webfont.eot"); }
 @font-face { font-family: 'geomanistlight'; src: url("../font/geomanist-light-webfont.ttf") format("truetype"); font-weight: normal; font-style: normal; }
+@font-face { font-family: 'geomanistultra'; src: url("../font/geomanist-ultra-webfont.eot"); }
+@font-face { font-family: 'geomanistultra'; src: url("../font/geomanist-ultra-webfont.ttf") format("truetype"); font-weight: normal; font-style: normal; }
+@font-face { font-family: 'geomanistregular'; src: url("../font/geomanist-regular-webfont.eot"); }
+@font-face { font-family: 'geomanistregular'; src: url("../font/geomanist-regular-webfont.ttf") format("truetype"); font-weight: normal; font-style: normal; }
+@font-face { font-family: 'geomanistmedium'; src: url("../font/geomanist-medium-webfont.eot"); }
+@font-face { font-family: 'geomanistmedium'; src: url("../font/geomanist-medium-webfont.ttf") format("truetype"); font-weight: normal; font-style: normal; }
 @font-face { font-family: "FontAwesome"; font-weight: normal; font-display: auto; font-style: normal; src: url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/fonts/fontawesome-webfont.woff2") format("woff2"); }
 /* 768px; */
 /* 1024px */
 /* 1280px */
-html, body { -webkit-font-smoothing: antialiased; background-color: #ffffff; -webkit-box-sizing: border-box; box-sizing: border-box; width: 100%; height: 100%; font-family: "Geomanist", sans-serif; font-size: 100%; line-height: 100%; color: rgba(46, 36, 38, 0.85); -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; word-break: break-word; }
+html, body { -webkit-font-smoothing: antialiased; background-color: #FEFEFE; -webkit-box-sizing: border-box; box-sizing: border-box; width: 100%; height: 100%; font-family: "Geomanist", sans-serif; font-size: 100%; line-height: 100%; color: rgba(46, 36, 38, 0.85); -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; word-break: break-word; }
 
 img { width: 100%; height: 100%; }
 
@@ -99,11 +106,11 @@ img { width: 100%; height: 100%; }
   .home-content:first-of-type { padding-top: 160px; }
   .home-content:nth-of-type(2) { padding-bottom: 160px; } }
 
-.quote { border-top: 1px solid rgba(46, 36, 38, 0.25); border-bottom: 1px solid rgba(46, 36, 38, 0.25); padding: 32px 0 32px 0; }
+.quote { border-top: 1px solid #FEFEFE; border-bottom: 1px solid #FEFEFE; padding: 32px 0 32px 0; }
 @media screen and (min-width: 48em) { .quote { padding: 64px 0 64px 0; } }
 @media screen and (min-width: 64em) { .quote { padding: 96px 0 96px 0; } }
 
-footer { border-top: 1px solid rgba(46, 36, 38, 0.25); margin-top: 56px; padding: 80px 0; }
+footer { border-top: 1px solid #FEFEFE; margin-top: 56px; padding: 80px 0; }
 @media screen and (min-width: 48em) { footer { margin-top: 64px; padding: 112px 0; } }
 @media screen and (min-width: 64em) { footer { margin-top: 80px; padding: 160px 0; } }
 @media screen and (min-width: 80em) { footer { margin-top: 96px; padding: 216px 0; } }
@@ -121,7 +128,7 @@ footer { border-top: 1px solid rgba(46, 36, 38, 0.25); margin-top: 56px; padding
 @media screen and (min-width: 48em) { .leading-paragraph { padding-bottom: 48px; } }
 @media screen and (min-width: 64em) { .leading-paragraph { padding-bottom: 64px; } }
 
-.point-of-interest { border-top: 1px solid rgba(46, 36, 38, 0.25); border-bottom: 1px solid rgba(46, 36, 38, 0.25); margin: 32px 0; padding: 20px 0; }
+.point-of-interest { border-top: 1px solid #FEFEFE; border-bottom: 1px solid #FEFEFE; margin: 32px 0; padding: 20px 0; }
 @media screen and (min-width: 48em) { .point-of-interest { margin: 48px 0; padding: 26px 0; } }
 @media screen and (min-width: 64em) { .point-of-interest { margin: 64px 0; padding: 32px 0; } }
 .point-of-interest__list { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-orient: vertical; -webkit-box-direction: normal; -ms-flex-direction: column; flex-direction: column; -ms-flex-flow: wrap; flex-flow: wrap; }
@@ -138,13 +145,13 @@ footer { border-top: 1px solid rgba(46, 36, 38, 0.25); margin-top: 56px; padding
 @media screen and (min-width: 48em) { .feature_image { padding: 76px 0; } }
 @media screen and (min-width: 64em) { .feature_image { padding: 92px 0; } }
 @media screen and (min-width: 80em) { .feature_image { padding: 160px 0; } }
-.feature_image__border { border: 1px solid rgba(46, 36, 38, 0.25); }
+.feature_image__border { border: 1px solid #FEFEFE; }
 
 .project_link:hover { text-decoration: none; }
-.project_link__wrapper { border: 1px solid rgba(46, 36, 38, 0.25); padding: 20px 20px 27px 20px; -webkit-transition: border 0.25s; transition: border 0.25s; }
-.project_link__wrapper:hover { border: 1px solid #f54b07; }
+.project_link__wrapper { border: 1px solid #FEFEFE; padding: 20px 20px 27px 20px; -webkit-transition: border 0.25s; transition: border 0.25s; }
+.project_link__wrapper:hover { border: 1px solid #AE4356; }
 
-.hero-background { background: #f54b07; background: linear-gradient(45deg, #f54b07 0%, #6d3c9f 100%); filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='$accent', endColorstr='$accent2',GradientType=1 ); }
+.hero-background { background: #AE4356; background: linear-gradient(45deg, #AE4356 0%, #A13F61 100%); filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='$primary', endColorstr='$primary2',GradientType=1 ); }
 
 .callout-background { background: #AE4356; background: linear-gradient(45deg, #A13F61 0%, #AE4356 100%); filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='$primary2', endColorstr='$primary',GradientType=1 ); }
 
@@ -152,71 +159,63 @@ footer { border-top: 1px solid rgba(46, 36, 38, 0.25); margin-top: 56px; padding
 @media screen and (min-width: 48em) { .callout-heading { padding: 96px 0 28px 0; } }
 @media screen and (min-width: 64em) { .callout-heading { padding: 112px 0 32px 0; } }
 
-.callout-list { border-bottom: 1px solid rgba(255, 255, 255, 0.25); padding: 32px 0; }
+.callout-list { border-bottom: 1px solid rgba(254, 254, 254, 0.25); padding: 32px 0; }
 @media screen and (min-width: 64em) { .callout-list { padding: 48px 0; } }
 .callout-list:last-of-type { border-bottom: none; padding-bottom: 80px; }
 @media screen and (min-width: 48em) { .callout-list:last-of-type { padding-bottom: 96px; } }
 @media screen and (min-width: 64em) { .callout-list:last-of-type { padding-bottom: 120px; } }
 
-a.button, .button { display: inline-block; outline: none; *zoom: 1; text-align: center; text-decoration: none; letter-spacing: 1px; vertical-align: middle; border: 1px solid #ffffff; -webkit-transition: all 0.2s ease; transition: all 0.2s ease; -webkit-box-sizing: border-box; box-sizing: border-box; padding: 7px 16px 9px 16px; border-radius: 3px; letter-spacing: -0.25px; font-size: 24px; font-size: 1.5rem; line-height: 40px; line-height: 2.5rem; font-family: geomanistlight; font-weight: normal; color: #ffffff; }
+a.button, .button { display: inline-block; outline: none; *zoom: 1; text-align: center; text-decoration: none; letter-spacing: 1px; vertical-align: middle; border: 1px solid #FEFEFE; -webkit-transition: all 0.2s ease; transition: all 0.2s ease; -webkit-box-sizing: border-box; box-sizing: border-box; padding: 7px 16px 9px 16px; border-radius: 3px; letter-spacing: -0.25px; font-size: 24px; font-size: 1.5rem; line-height: 40px; line-height: 2.5rem; font-family: geomanistlight; font-weight: normal; color: #FEFEFE; }
 @media screen and (min-width: 48em) { a.button, .button { font-size: 28px; font-size: 1.75rem; line-height: 60px; line-height: 3.75rem; } }
 @media screen and (min-width: 64em) { a.button, .button { font-size: 32px; font-size: 2rem; line-height: 64px; line-height: 4rem; } }
-a.button:hover, .button:hover { background: #ffffff; color: #AE4356; border-color: #ffffff; text-decoration: none; }
+a.button:hover, .button:hover { background: #FEFEFE; color: #AE4356; border-color: #FEFEFE; text-decoration: none; }
 
 /** Dribbble Shots **/
-.display, .heading, .large-copy, .highlight-copy, .body-copy, .accent-copy, .info-accent, .info-copy, .info-copy--alt { color: rgba(46, 36, 38, 0.85); font-weight: normal; }
+.hero-heading, .section-heading, .group-heading, .standout, .copy, .quote-copy, .footer-link { font-weight: normal; }
 
-.display { font-size: 40px; font-size: 2.5rem; line-height: 56px; line-height: 3.5rem; }
-@media screen and (min-width: 48em) { .display { font-size: 56px; font-size: 3.5rem; line-height: 96px; line-height: 6rem; } }
-@media screen and (min-width: 64em) { .display { font-size: 72px; font-size: 4.5rem; line-height: 104px; line-height: 6.5rem; } }
+.hero-heading { font-size: 48px; font-size: 3rem; line-height: 56px; line-height: 3.5rem; font-family: geomanistultra; }
+@media screen and (min-width: 48em) { .hero-heading { font-size: 56px; font-size: 3.5rem; line-height: 66px; line-height: 4.125rem; } }
+@media screen and (min-width: 64em) { .hero-heading { font-size: 64px; font-size: 4rem; line-height: 72px; line-height: 4.5rem; } }
+.hero-heading--color { color: #AE4356; }
+.hero-heading--reverse { color: #FEFEFE; }
 
-.heading { font-size: 28px; font-size: 1.75rem; line-height: 44px; line-height: 2.75rem; }
-@media screen and (min-width: 48em) { .heading { font-size: 40px; font-size: 2.5rem; line-height: 72px; line-height: 4.5rem; } }
-@media screen and (min-width: 64em) { .heading { font-size: 56px; font-size: 3.5rem; line-height: 96px; line-height: 6rem; } }
+.section-heading { font-size: 36px; font-size: 2.25rem; line-height: 48px; line-height: 3rem; font-family: geomanistmedium; letter-spacing: -0.9px; }
+@media screen and (min-width: 48em) { .section-heading { font-size: 40px; font-size: 2.5rem; line-height: 56px; line-height: 3.5rem; } }
+@media screen and (min-width: 64em) { .section-heading { font-size: 44px; font-size: 2.75rem; line-height: 64px; line-height: 4rem; } }
+.section-heading--color { color: #AE4356; }
+.section-heading--reverse { color: #FEFEFE; }
 
-.large-copy, .highlight-copy { font-size: 24px; font-size: 1.5rem; line-height: 40px; line-height: 2.5rem; }
-@media screen and (min-width: 48em) { .large-copy, .highlight-copy { font-size: 32px; font-size: 2rem; line-height: 64px; line-height: 4rem; } }
-@media screen and (min-width: 64em) { .large-copy, .highlight-copy { font-size: 40px; font-size: 2.5rem; line-height: 72px; line-height: 4.5rem; } }
+.group-heading { font-size: 28px; font-size: 1.75rem; line-height: 40px; line-height: 2.5rem; font-family: "Kreon", serif; font-weight: 400; letter-spacing: -0.9px; }
+@media screen and (min-width: 48em) { .group-heading { font-size: 34px; font-size: 2.125rem; line-height: 52px; line-height: 3.25rem; } }
+@media screen and (min-width: 64em) { .group-heading { font-size: 36px; font-size: 2.25rem; line-height: 64px; line-height: 4rem; } }
+.group-heading--color { color: #AE4356; }
+.group-heading--reverse { color: #FEFEFE; }
 
-.body-copy, .accent-copy { font-size: 24px; font-size: 1.5rem; line-height: 40px; line-height: 2.5rem; }
-@media screen and (min-width: 48em) { .body-copy, .accent-copy { font-size: 28px; font-size: 1.75rem; line-height: 60px; line-height: 3.75rem; } }
-@media screen and (min-width: 64em) { .body-copy, .accent-copy { font-size: 32px; font-size: 2rem; line-height: 64px; line-height: 4rem; } }
+.standout { font-size: 20px; font-size: 1.25rem; line-height: 38px; line-height: 2.375rem; font-family: geomanistregular; letter-spacing: -0.11px; }
+@media screen and (min-width: 48em) { .standout { font-size: 24px; font-size: 1.5rem; line-height: 40px; line-height: 2.5rem; } }
+@media screen and (min-width: 64em) { .standout { font-size: 28px; font-size: 1.75rem; line-height: 44px; line-height: 2.75rem; } }
+.standout--accent { font-family: geomanistmedium; }
+.standout--color { color: #AE4356; }
+.standout--reverse { color: #FEFEFE; }
 
-.info-accent, .info-copy, .info-copy--alt { font-size: 20px; font-size: 1.25rem; line-height: 28px; line-height: 1.75rem; }
-@media screen and (min-width: 48em) { .info-accent, .info-copy, .info-copy--alt { font-size: 26px; font-size: 1.625rem; line-height: 40px; line-height: 2.5rem; } }
+.copy { font-size: 18px; font-size: 1.125rem; line-height: 32px; line-height: 2rem; font-family: geomanistregular; letter-spacing: -0.4px; padding-bottom: 9px; }
+@media screen and (min-width: 48em) { .copy { font-size: 20px; font-size: 1.25rem; line-height: 38px; line-height: 2.375rem; } }
+@media screen and (min-width: 64em) { .copy { font-size: 24px; font-size: 1.5rem; line-height: 42px; line-height: 2.625rem; padding-bottom: 12px; }
+  .copy:last-child { padding-bottom: 0; } }
+.copy:last-child { padding-bottom: 0; }
+.copy--accent { font-family: geomanistmedium; }
+.copy--color { color: #AE4356; }
+.copy--reverse { color: #FEFEFE; }
 
-.display { font-family: geomanistlight; }
+.quote-copy { font-size: 22px; font-size: 1.375rem; line-height: 38px; line-height: 2.375rem; font-family: "Kreon", serif; font-weight: 400; letter-spacing: -0.9px; }
+@media screen and (min-width: 48em) { .quote-copy { font-size: 24px; font-size: 1.5rem; line-height: 44px; line-height: 2.75rem; } }
+@media screen and (min-width: 64em) { .quote-copy { font-size: 28px; font-size: 1.75rem; line-height: 52px; line-height: 3.25rem; } }
+.quote-copy--color { color: #AE4356; }
+.quote-copy--reverse { color: #FEFEFE; }
 
-.heading { font-family: geomanistbold; }
+.footer-link { font-size: 20px; font-size: 1.25rem; line-height: 38px; line-height: 2.375rem; color: rgba(46, 36, 38, 0.85); font-family: geomanistmedium; text-decoration: none; }
+@media screen and (min-width: 48em) { .footer-link { font-size: 24px; font-size: 1.5rem; line-height: 40px; line-height: 2.5rem; } }
+@media screen and (min-width: 64em) { .footer-link { font-size: 28px; font-size: 1.75rem; line-height: 44px; line-height: 2.75rem; } }
 
-.large-copy { font-family: geomanistbold; }
-
-.highlight-copy { font-family: geomanistlight; }
-
-.body-copy { font-family: geomanistlight; padding-bottom: 1rem; }
-.body-copy:last-child { padding-bottom: 0; }
-
-.accent-copy { font-family: geomanistbold; }
-
-.info-accent { font-family: geomanistbold; }
-
-.info-copy, .info-copy--alt { font-family: geomanistlight; }
-.info-copy--book { font-family: geomanistbook; }
-
-.info-copy--alt { line-height: 40px; line-height: 2.5rem; }
-@media screen and (min-width: 48em) { .info-copy--alt { line-height: 48px; line-height: 3rem; } }
-@media screen and (min-width: 64em) { .info-copy--alt { font-size: 28px; font-size: 1.75rem; line-height: 56px; line-height: 3.5rem; } }
-
-.white { color: #ffffff; }
-
-.primary { color: #AE4356; }
-
-a { color: inherit; text-decoration: none; -webkit-transition: -webkit-text-decoration ease-in-out 0.1s; transition: -webkit-text-decoration ease-in-out 0.1s; transition: text-decoration ease-in-out 0.1s; transition: text-decoration ease-in-out 0.1s, -webkit-text-decoration ease-in-out 0.1s; }
-a:focus { text-decoration: underline; }
-a:hover { text-decoration: underline; }
-a:active { text-decoration: underline; }
-
-/*** SPECIFIC CLASSES ***/
-.quote-details { line-height: 150%; padding-bottom: 0; }
-
-.bullets { list-style: disc; }
+a { color: #AE4356; font-family: inherit; text-decoration: underline; }
+a:hover { color: #A13F61; cursor: pointer; text-decoration: underline; }

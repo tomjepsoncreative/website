@@ -1,6 +1,6 @@
 html, body {
     -webkit-font-smoothing: antialiased;
-    background-color: $white;
+    background-color: $light;
     box-sizing: border-box;
     width: 100%;
     height: 100%;
@@ -341,17 +341,17 @@ footer {
         padding: 20px 20px 27px 20px;
         transition: border 0.25s;
         &:hover {
-            border: 1px solid $accent;
+            border: 1px solid $primary;
         }
     }
 }
 
 .hero-background {
-    background: $accent;
-    background: -moz-linear-gradient(45deg, $accent 0%, $accent2 100%);
-    background: -webkit-linear-gradient(45deg, $accent 0%,$accent2 100%);
-    background: linear-gradient(45deg, $accent 0%,$accent2 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='$accent', endColorstr='$accent2',GradientType=1 );
+    background: $primary;
+    background: -moz-linear-gradient(45deg, $primary 0%, $primary2 100%);
+    background: -webkit-linear-gradient(45deg, $primary 0%,$primary2 100%);
+    background: linear-gradient(45deg, $primary 0%,$primary2 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='$primary', endColorstr='$primary2',GradientType=1 );
 }
 
 .callout-background {
@@ -375,7 +375,7 @@ footer {
 }
 
 .callout-list {
-    border-bottom: 1px solid rgba($white,0.25);
+    border-bottom: 1px solid rgba($light,0.25);
     padding: 32px 0;
 
     @media screen and (min-width: $lg) {
@@ -404,7 +404,7 @@ a.button,.button {
       text-decoration: none;
       letter-spacing: 1px;
       vertical-align: middle;
-      border: 1px solid $white;
+      border: 1px solid $light;
       transition: all 0.2s ease;
       box-sizing: border-box;
       padding: 7px 16px 9px 16px;
@@ -425,12 +425,12 @@ a.button,.button {
       }
       font-family: geomanistlight;
       font-weight: normal;
-      color: $white;
+      color: $light;
 
       &:hover {
-        background: $white;
+        background: $light;
         color: $primary;
-        border-color: $white;
+        border-color: $light;
         text-decoration: none;
       }
   }
