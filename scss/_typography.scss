@@ -157,7 +157,15 @@
 
     &--reverse {
         color: $light;
-    }    
+    }
+
+    &--no_padding {
+        padding: 0;
+    }
+
+    &--right {
+        text-align: right;
+    }
 }
 
 .quote-copy {
@@ -225,4 +233,8 @@ a {
     }
     &:active {
     }  
+}
+
+.ctr {
+    text-align: center;
 }
