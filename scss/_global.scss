@@ -19,17 +19,24 @@ img {
 }
 
 .container {
-    //background-color: red;
     box-sizing: border-box;
     margin: 0 auto;
     max-width: 1366px;
-    //padding: 0 20px;
     width: 100%;
 
     display: grid;
-    grid-template-columns: repeat(12, 1fr);
+    grid-template-columns: repeat(4, 1fr);
     grid-template-rows: auto;
-    grid-column-gap: 32px;
+    grid-column-gap: 16px;    
+
+    @media screen and (min-width: $med) {
+        grid-template-columns: repeat(6, 1fr);
+        grid-column-gap: 32px;
+    }
+
+    @media screen and (min-width: $lg) {
+        grid-template-columns: repeat(12, 1fr);
+    }
 }
 
 .hero {
@@ -43,28 +50,84 @@ img {
     grid-template-columns: auto;
     grid-template-rows: 50px auto;
 
-    height: 770px;
+    height: 95%;
+    @media screen and (min-width: $med) {
+        height: 660px;
+    }
+    @media screen and (min-width: $lg) {
+        height: 770px;
+    }    
 
     &__navigation {
 
         align-items: center;
         display: flex;
-        flex-direction: row;
-        padding: 60px 60px;
+        
+        flex-direction: column;
+        @media screen and (min-width: $med) {
+            flex-direction: row;
+        }
+
+        padding: 16px;
+        @media screen and (min-width: $med) {
+            padding: 32px;
+        }
+        @media screen and (min-width: $lg) {
+            padding: 60px;
+        }         
+
+        @media screen and (min-width: $med) {
+            flex-wrap: wrap;
+        }
+        @media screen and (min-width: $lg) {
+            flex-wrap: nowrap;
+        }          
 
         h2 {
-            flex: 1;
+            flex: 1 0 auto;
+            @media screen and (min-width: $med) {
+                flex: 1 0 100%;
+            }
+            @media screen and (min-width: $lg) {
+                flex: 1 0 auto;
+            }
+
+            margin-bottom: 16px;
+            @media screen and (min-width: $med) {
+                margin-bottom: 32px;
+            }
+            @media screen and (min-width: $lg) {
+                margin-bottom: 0;
+            }                         
+            
+            text-align: center;
+            @media screen and (min-width: $lg) {
+                text-align: left;
+            }            
         }
 
         nav {
-            justify-content: flex-end;
-            display: flex;
-            flex: 1 0 auto;
-            flex-direction: row;
             align-items: center;
+            display: flex;
+            flex: 1 1 100%;         
+
+            flex-direction: column;
+            @media screen and (min-width: $med) {
+                flex-direction: row;
+            }            
+            
+            justify-content: center;
+            @media screen and (min-width: $lg) {
+                justify-content: flex-end;
+            }
+
+            width: 100%;
 
             a {
-                margin-right: 40px;
+                @media screen and (min-width: $med) {
+                    margin-right: 40px;
+                }
+
                 text-decoration: none;
                 &:last-of-type {
                     margin: 0;
@@ -78,25 +141,45 @@ img {
     }
 
     &__content {
-        align-self: center;
+        align-self: flex-end;
+        @media screen and (min-width: $med) {
+            align-self: center;
+        }
+        
+        padding-bottom: 10%;
+        @media screen and (min-height: 569px) and (max-width: 767px) {
+            padding-bottom: 20%;
+        }
+        @media screen and (min-height: 736px) and (max-width: 767px)  {
+            padding-bottom: 30%;
+        }
+        @media screen and (min-height: 768px) and (min-width: 767px)  {
+            padding-bottom: 0;
+            align-self: center;
+        }              
     }
 
 }
 
 .full-width {
-    grid-column: 1 / span 12;
-}
+    grid-column: 1 / span 4;
+    @media screen and (min-width: $med) {
+        grid-column: 1 / span 6;
+    }
+    @media screen and (min-width: $lg) {
+        grid-column: 1 / span 12;
+    }
 
-// 2-column layout for UX services
-.fifty-fifty {
-    grid-column: span 6;
-    display: grid;
-}
-
-// Internal padding for off-grid content
-.slim-content {
-    box-sizing: border-box;
-    padding: 0 60px 0 60px;
+    padding: 0 16px;
+    @media screen and (min-width: $med) {
+        padding: 0 32px;
+    }
+    @media screen and (min-width: $xl) {
+        padding: 0 64px;
+    }
+    @media screen and (min-width: 1500px) {
+        padding: 0;
+    }       
 }
 
 .align-button {
@@ -104,29 +187,119 @@ img {
 }
 
 .intro {
-    grid-column: 3 / 11;
+    grid-column: 1 / 5;
+    @media screen and (min-width: $med) {
+        grid-column: 2 / 6;     
+    }
+    @media screen and (min-width: $lg) {
+        grid-column: 3 / 11;     
+    }    
+
     grid-row: auto;
-    padding: 180px 0;
+
+    padding: 80px 16px;
+    @media screen and (min-width: $med) {
+        padding: 120px 0;       
+    }
+    @media screen and (min-width: $lg) {
+        padding: 180px 0;       
+    }
 }
 
-.services {
+.service-bg {
+    background: transparent;
+
     border: 1px solid $primary;
+    border-left: none;
+    border-right: none;
+    @media screen and (min-width: $med) {
+        border: 1px solid $primary;       
+    }
+
+    height: auto;
     margin: 0 auto;
     margin-bottom: 180px;
-    padding: 180px 0;
+
+    padding: 80px 0;
+    @media screen and (min-width: $med) {
+        padding: 120px 0;       
+    }
+    @media screen and (min-width: $lg) {
+        padding: 180px 0;       
+    }
+
     position: relative;
-    width: 80%;
+
+    width: 100%;
+    @media screen and (min-width: $med) {
+        width: 90%;       
+    }
+    @media screen and (min-width: $lg) {
+        width: 80%;       
+    }
+
+    z-index: 0;
 
     &::after {
-        background-color: #f8f6f9;
+        background-color: rgba($primary,0.05);
         content: '';
-        position: absolute;
-        width: 100%;
         height: 100%;
-        left: 20px;
-        top: 20px;
+        
+        left: 16px;
+        @media screen and (min-width: $med) {
+            left: 20px;     
+        }
+        
+        position: absolute;
+        
+        top: 16px;
+        @media screen and (min-width: $med) {
+            top: 20px;     
+        }
+
+        width: calc(100% - 16px);
+        @media screen and (min-width: $med) {
+            width: 100%;      
+        }
+
         z-index: -1;
     }
+}
+
+.service-articles {
+    background: transparent;
+    box-sizing: border-box;
+    display: grid;
+    grid-column: 1 / 5;
+    grid-row: auto;
+
+    padding: 0 16px;
+    &:first-of-type {
+        margin-bottom: 32px;
+    }
+
+    z-index: 1;
+    
+    @media screen and (min-width: $med) {
+        grid-column: span 3;
+        &:first-of-type {
+            padding: 0 0 0 32px;
+            margin-bottom: 0;
+        }
+        &:last-of-type {
+            padding: 0 32px 0 0;
+        }        
+    }
+
+    @media screen and (min-width: $lg) {
+        grid-column: span 6;
+        &:first-of-type {
+            padding: 0 16px 0 60px;
+        }
+        &:last-of-type {
+            padding: 0 60px 0 16px;
+        }
+    }    
 }
 
 .casestudy {
@@ -328,111 +501,222 @@ img {
 
 .cta {
     border-top: 1px solid $dark25;
-    padding: 180px 0;
+
+    padding: 80px 16px;
+    @media screen and (min-width: $med) {
+        padding: 120px 0;       
+    }
+    @media screen and (min-width: $lg) {
+        padding: 180px 0;       
+    }
 
     &__heading {
-        grid-column: 3 / 11;
+        grid-column: 1 / 5;
+        @media screen and (min-width: $med) {
+            grid-column: 2 / 6;     
+        }
+        @media screen and (min-width: $lg) {
+            grid-column: 3 / 11;     
+        } 
         grid-row: auto;
         padding-bottom: 20px;
     }
     &__leader {
-        grid-column: 3 / 12;
+        grid-column: 1 / 5;
+        @media screen and (min-width: $med) {
+            grid-column: 2 / 6;     
+        }
+        @media screen and (min-width: $lg) {
+            grid-column: 3 / 12;     
+        } 
         grid-row: auto;
-        padding-bottom: 56px;    
+
+        padding-bottom: 20px; 
+        @media screen and (min-width: $med) {
+            padding-bottom: 32px;       
+        }
+        @media screen and (min-width: $lg) {
+            padding-bottom: 46px;       
+        }    
     }
     &__content {
-        grid-column: 3 / 11;
+        grid-column: 1 / 5;
+        @media screen and (min-width: $med) {
+            grid-column: 2 / 6;     
+        }
+        @media screen and (min-width: $lg) {
+            grid-column: 3 / 11;     
+        } 
         grid-row: auto;        
     }        
 }
 
 footer {
-    grid-column: 1 / span 12;
-    grid-row: auto;    
-
-    display: grid;
-    grid-template-columns: repeat(12, 1fr);
-    grid-template-rows: auto;
-    grid-column-gap: 32px;
-
-    border-top: 1px solid $dark25;
-    padding: 100px 0 140px 0;
-
     * h3 {
-        margin-bottom: 16px;
+        margin-bottom: 8px;
+        @media screen and (min-width: $med) {
+            margin-bottom: 16px;
+        }
+        @media screen and (min-width: $lg) {
+            margin-bottom: 20px;                
+        }
     }
     
     * li {
-        margin-bottom: 20px;
+        margin-bottom: 8px;
+        @media screen and (min-width: $med) {
+            margin-bottom: 16px;
+        }
+        @media screen and (min-width: $lg) {
+            margin-bottom: 20px;                
+        }        
     }
+    border-top: 1px solid $dark25;
+    display: grid;
+
+    // Lay footer on .container
+    grid-column: 1 / span 4;
+    @media screen and (min-width: $med) {
+        grid-column: 1 / span 6;       
+    }
+    @media screen and (min-width: $lg) {
+        grid-column: 1 / span 12;     
+    }
+
+    // Footer grid
+    grid-template-columns: repeat(4, 1fr);
+    @media screen and (min-width: $med) {
+        grid-template-columns: repeat(6, 1fr);
+    }
+    @media screen and (min-width: $lg) {
+        grid-template-columns: repeat(12, 1fr);
+    }
+
+    grid-template-rows: auto;
+
+    grid-column-gap: 16px;
+    @media screen and (min-width: $med) {
+        grid-column-gap: 32px;
+    }        
+
+    padding: 100px 0 140px 0;
 
     .f {
-
         &_online{
-            grid-column: 1 / span 3;
-            grid-row: auto;
+            grid-column: 1 / span 4;
+            @media screen and (min-width: $med) {
+                grid-column: 1 / span 3;
+            }
+            @media screen and (min-width: $lg) {
+                grid-column: 1 / span 3;                
+            }
+
+            padding-left: 16px;
+            @media screen and (min-width: $med) {
+                padding-left: 32px;
+            }
+            @media screen and (min-width: 1406px) {
+                padding: 0;                
+            }             
         }
         &_content{
-            grid-column: 4 / span 3;
-            grid-row: auto;
+            grid-column: 1 / span 4;
+            @media screen and (min-width: $med) {
+                grid-column: 4 / span 3;
+            }
+            @media screen and (min-width: $lg) {
+                grid-column: 4 / span 3;                   
+            }
+            
+            padding-left: 16px;
+            @media screen and (min-width: $med) {
+                padding-left: 32px;
+            }
+            @media screen and (min-width: $lg) {
+                padding: 0;                
+            }
         }
         &_contact{
-            grid-column: 7 / span 6;
-            grid-row: auto;
+            grid-column: 1 / span 4;
+            @media screen and (min-width: $med) {
+                grid-column: 1 / span 6;                
+            }
+            @media screen and (min-width: $lg) {
+                grid-column: 7 / span 6;                
+            }
+
+            padding-left: 16px;
+            @media screen and (min-width: $med) {
+                padding-left: 32px;
+            }
+            @media screen and (min-width: $lg) {
+                padding: 0;                
+            }            
         }                
     }
-
 }
 
 a.button,.button {
-      display: inline-block;
-      outline: none;
-      *zoom: 1;
-      text-align: center;
-      text-decoration: none;
-      letter-spacing: 1px;
-      vertical-align: middle;
-      border: 1px solid transparent;
-      transition: all 0.2s ease;
-      box-sizing: border-box;
-      padding: 19px 32px 19px 32px;
-      border-radius: calc(56px/2);
-      letter-spacing: -0.25px;
- 
-      @include font-size(18px);
-      @include line-height(18px);  
-  
-      @media screen and (min-width: $med) {
+    *zoom: 1;
+    background-color: $primary;    
+    box-sizing: border-box;
+    border: 1px solid transparent;    
+    border-radius: calc(56px/2);
+    color: $light;        
+    display: inline-block;
+    font-family: geomanistregular;
+    font-weight: normal;
+
+    @include font-size(15px);
+    @include line-height(15px);
+    @media screen and (min-width: $med) {
         @include font-size(18px);
-        @include line-height(18px);  
-      }
-  
-      @media screen and (min-width: $lg) {
-          @include font-size(18px);
-          @include line-height(18px);        
-      }
-      background-color: $primary;
-      font-family: geomanistregular;
-      font-weight: normal;
-      color: $light;
-      text-transform: uppercase;
-      margin-top: 32px;
+        @include line-height(18px);
+    }
 
-      &--nav {
-          
-          background-color: $light;
-          color: $primary;
-          margin: 0;
-          &:hover {
-              border: 1px solid $light;
-              background-color: $light50;
-              text-decoration: none !important;
-          }
-      }
+    @media screen and (min-width: $lg) {
+        @include font-size(18px);
+        @include line-height(18px);        
+    }
 
-      &:hover {
+    letter-spacing: -0.25px;      
+    margin-top: 32px;
+    outline: none;    
+    text-align: center;
+    text-decoration: none;    
+    text-transform: uppercase;
+    transition: all 0.2s ease;
+
+    padding: 14px 32px 14px 32px;
+    @media screen and (min-width: $med) {
+        padding: 17px 32px 17px 32px;
+    }
+    @media screen and (min-width: $lg) {
+        padding: 19px 32px 19px 32px;
+    }
+
+    width: 100%;
+    @media screen and (min-width: $med) {
+        width: auto;
+    }
+
+    vertical-align: middle;    
+
+    &:hover {
         background: $primary2;
         color: $light;
         text-decoration: none;
       }
-  }
+
+    &--nav {
+        background-color: $light;
+        color: $primary;
+        margin: 0;
+
+        &:hover {
+            border: 1px solid $light;
+            background-color: $light50;
+            text-decoration: none !important;
+        }
+    }
+}
