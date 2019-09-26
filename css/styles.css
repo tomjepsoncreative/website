@@ -64,8 +64,8 @@ html, body { -webkit-font-smoothing: antialiased; background-color: #FEFEFE; -we
 .hero__navigation nav { -webkit-box-align: center; -ms-flex-align: center; align-items: center; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-flex: 1; -ms-flex: 1 1 100%; flex: 1 1 100%; -webkit-box-orient: vertical; -webkit-box-direction: normal; -ms-flex-direction: column; flex-direction: column; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; width: 100%; }
 @media screen and (min-width: 48em) { .hero__navigation nav { -webkit-box-orient: horizontal; -webkit-box-direction: normal; -ms-flex-direction: row; flex-direction: row; } }
 @media screen and (min-width: 64em) { .hero__navigation nav { -webkit-box-pack: end; -ms-flex-pack: end; justify-content: flex-end; } }
-.hero__navigation nav a { text-decoration: none; }
-@media screen and (min-width: 48em) { .hero__navigation nav a { margin-right: 40px; } }
+.hero__navigation nav a { margin: 0 0 16px 0; text-decoration: none; }
+@media screen and (min-width: 48em) { .hero__navigation nav a { margin: 0 40px 0 0; } }
 .hero__navigation nav a:last-of-type { margin: 0; }
 .hero__navigation nav a:hover { color: #FEFEFE; text-decoration: underline; }
 .hero__content { -ms-flex-item-align: end; align-self: flex-end; padding-bottom: 10%; }
@@ -149,13 +149,13 @@ html, body { -webkit-font-smoothing: antialiased; background-color: #FEFEFE; -we
 @media screen and (min-width: 64em) { .customer-quote--narrow { grid-column: 2 / 10; } }
 @media screen and (min-width: 48em) { .customer-quote--narrow { margin-bottom: 120px; } }
 @media screen and (min-width: 64em) { .customer-quote--narrow { margin-bottom: 180px; } }
-.customer-quote::before { background-color: #f8f6f9; content: ''; position: absolute; width: 95%; height: 100%; left: 16px; top: 16px; z-index: -3; }
+.customer-quote::before { background-color: rgba(174, 67, 86, 0.05); content: ''; position: absolute; width: 95%; height: 100%; left: 16px; top: 16px; z-index: -3; }
 @media screen and (min-width: 48em) { .customer-quote::before { width: 85%; } }
 @media screen and (min-width: 64em) { .customer-quote::before { left: 95%; } }
 @media screen and (min-width: 48em) { .customer-quote::before { left: calc(10% + 20px); } }
 @media screen and (min-width: 48em) { .customer-quote::before { top: 20px; } }
-.customer-quote::after { content: ""; border: 1px solid #866e9e; border-left: none; border-right: none; position: absolute; width: 100%; height: 100%; left: 0; top: 0; z-index: -2; }
-@media screen and (min-width: 48em) { .customer-quote::after { border: 1px solid #866e9e; } }
+.customer-quote::after { content: ""; border: 1px solid #AE4356; border-left: none; border-right: none; position: absolute; width: 100%; height: 100%; left: 0; top: 0; z-index: -2; }
+@media screen and (min-width: 48em) { .customer-quote::after { border: 1px solid #AE4356; } }
 @media screen and (min-width: 48em) { .customer-quote::after { width: 85%; } }
 @media screen and (min-width: 64em) { .customer-quote::after { left: 95%; } }
 @media screen and (min-width: 48em) { .customer-quote::after { left: 10%; } }

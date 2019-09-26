@@ -119,14 +119,17 @@ html, body {
             width: 100%;
 
             a {
+                margin: 0 0 16px 0;
                 @media screen and (min-width: $med) {
-                    margin-right: 40px;
+                    margin: 0 40px 0 0;
                 }
 
                 text-decoration: none;
+                
                 &:last-of-type {
                     margin: 0;
                 }
+
                 &:hover {
                     color: $light;
                     text-decoration: underline;
@@ -489,7 +492,7 @@ html, body {
     position: relative;
 
     &::before {
-        background-color: #f8f6f9;
+        background-color: rgba($primary,0.05);
         content: '';
         position: absolute;
         
@@ -518,11 +521,11 @@ html, body {
 
     &::after {
         content: "";
-        border: 1px solid #866e9e;
+        border: 1px solid $primary;
         border-left: none;
         border-right: none;
         @media screen and (min-width: $med) {
-            border: 1px solid #866e9e;       
+            border: 1px solid $primary;       
         }
 
         position: absolute;
