@@ -42,8 +42,6 @@ router-outlet { display: none; }
 /* 1280px */
 html, body { -webkit-font-smoothing: antialiased; background-color: #FEFEFE; -webkit-box-sizing: border-box; box-sizing: border-box; width: 100%; height: 100%; font-family: "Geomanist", sans-serif; font-size: 100%; line-height: 100%; color: rgba(46, 36, 38, 0.85); -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; word-break: break-word; }
 
-img { width: 100%; height: 100%; }
-
 .container { -webkit-box-sizing: border-box; box-sizing: border-box; margin: 0 auto; max-width: 1366px; width: 100%; display: grid; grid-template-columns: repeat(4, 1fr); grid-template-rows: auto; grid-column-gap: 16px; }
 @media screen and (min-width: 48em) { .container { grid-template-columns: repeat(6, 1fr); grid-column-gap: 32px; } }
 @media screen and (min-width: 64em) { .container { grid-template-columns: repeat(12, 1fr); } }
@@ -84,6 +82,13 @@ img { width: 100%; height: 100%; }
 @media screen and (min-width: 1500px) { .full-width { padding: 0; } }
 
 .align-button { -ms-flex-item-align: end; align-self: end; }
+
+.client-logos { grid-column: span 12; grid-row: auto; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-orient: horizontal; -webkit-box-direction: normal; -ms-flex-direction: row; flex-direction: row; -ms-flex-wrap: nowrap; flex-wrap: nowrap; -webkit-box-pack: start; -ms-flex-pack: start; justify-content: flex-start; margin-top: 32px; overflow-y: scroll; }
+@media screen and (min-width: 48em) { .client-logos { -ms-flex-wrap: wrap; flex-wrap: wrap; } }
+@media screen and (min-width: 48em) { .client-logos { -ms-flex-pack: distribute; justify-content: space-around; } }
+@media screen and (min-width: 48em) { .client-logos { overflow-y: visible; } }
+.client-logos img { -webkit-box-flex: 0; -ms-flex: 0 0 auto; flex: 0 0 auto; padding: 0 16px 0 16px; }
+@media screen and (min-width: 48em) { .client-logos img { padding: 0; } }
 
 .intro { grid-column: 1 / 5; grid-row: auto; padding: 80px 16px; }
 @media screen and (min-width: 48em) { .intro { grid-column: 2 / 6; } }
@@ -139,11 +144,16 @@ img { width: 100%; height: 100%; }
 .customer-quote { grid-column: 1 / 5; grid-row: auto; padding: 72px 0; position: relative; }
 @media screen and (min-width: 48em) { .customer-quote { grid-column: 1 / 7; } }
 @media screen and (min-width: 64em) { .customer-quote { grid-column: 2 / 12; } }
+.customer-quote--narrow { grid-column: 1 / 5; grid-row: 1; margin-bottom: 80px; }
+@media screen and (min-width: 48em) { .customer-quote--narrow { grid-column: 1 / 7; } }
+@media screen and (min-width: 64em) { .customer-quote--narrow { grid-column: 2 / 10; } }
+@media screen and (min-width: 48em) { .customer-quote--narrow { margin-bottom: 120px; } }
+@media screen and (min-width: 64em) { .customer-quote--narrow { margin-bottom: 180px; } }
 .customer-quote::before { background-color: #f8f6f9; content: ''; position: absolute; width: 95%; height: 100%; left: 16px; top: 16px; z-index: -3; }
 @media screen and (min-width: 48em) { .customer-quote::before { width: 85%; } }
 @media screen and (min-width: 64em) { .customer-quote::before { left: 95%; } }
 @media screen and (min-width: 48em) { .customer-quote::before { left: calc(10% + 20px); } }
-@media screen and (min-width: 48em) { .customer-quote::before { top: calc(10% - 20px); } }
+@media screen and (min-width: 48em) { .customer-quote::before { top: 20px; } }
 .customer-quote::after { content: ""; border: 1px solid #866e9e; border-left: none; border-right: none; position: absolute; width: 100%; height: 100%; left: 0; top: 0; z-index: -2; }
 @media screen and (min-width: 48em) { .customer-quote::after { border: 1px solid #866e9e; } }
 @media screen and (min-width: 48em) { .customer-quote::after { width: 85%; } }
@@ -152,9 +162,16 @@ img { width: 100%; height: 100%; }
 .customer-quote__content { padding: 0 16px; z-index: 2; }
 @media screen and (min-width: 48em) { .customer-quote__content { padding: 0 64px 0 32px; } }
 @media screen and (min-width: 64em) { .customer-quote__content { padding: 0 100px 0 0; } }
+@media screen and (min-width: 64em) { .customer-quote__content--narrow { padding: 0 150px 0 0; } }
 .customer-quote__content::after { content: ''; position: absolute; top: 15%; left: 0; width: calc(14% - 32px); height: 50%; background-color: #FEFEFE; z-index: -1; }
 @media screen and (min-width: 48em) { .customer-quote__content::after { left: 2px; } }
 @media screen and (min-width: 64em) { .customer-quote__content::after { left: 0; } }
+
+.inline-image { display: none; grid-column: span 4; margin-top: 40px; }
+@media screen and (min-width: 64em) { .inline-image { display: block; } }
+@media screen and (min-width: 48em) { .inline-image { grid-column: span 6; } }
+@media screen and (min-width: 64em) { .inline-image { grid-column: 9 / 13; z-index: 2; grid-row: 1; } }
+.inline-image img { max-height: 400px; height: auto; width: 100%; }
 
 .casestudy-images { grid-column: span 4; display: grid; grid-template-columns: repeat(3, 1fr); grid-template-rows: auto; grid-column-gap: 16px; grid-row-gap: 16px; margin: 80px 0 80px 0; padding: 0; }
 @media screen and (min-width: 48em) { .casestudy-images { grid-column: span 6; } }
@@ -170,8 +187,6 @@ img { width: 100%; height: 100%; }
 @media screen and (min-width: 48em) { .casestudy-images__double { grid-column: span 2; } }
 @media screen and (min-width: 48em) { .casestudy-images__double { padding: 0; } }
 .casestudy-images * img { max-width: 100%; height: auto; width: auto; }
-
-.tully-bg::before { content: ''; position: absolute; top: 0; left: 0; width: calc(23% - 2rem); height: 80%; background-color: #FEFEFE; z-index: -1; }
 
 .partners { border-top: 1px solid rgba(46, 36, 38, 0.25); padding: 80px 0px; }
 @media screen and (min-width: 48em) { .partners { padding: 120px 0; } }
@@ -202,7 +217,10 @@ img { width: 100%; height: 100%; }
 @media screen and (min-width: 48em) { .partner img { max-width: 175px; } }
 @media screen and (min-width: 48em) { .partner img { max-width: 200px; } }
 
-.cta { border-top: 1px solid rgba(46, 36, 38, 0.25); padding: 80px 16px; }
+.cta { border-top: none; margin-top: 0px; padding: 80px 16px; }
+@media screen and (min-width: 48em) { .cta { border-top: 1px solid rgba(46, 36, 38, 0.25); } }
+@media screen and (min-width: 48em) { .cta { margin-top: 120px; } }
+@media screen and (min-width: 64em) { .cta { margin-top: 180px; } }
 @media screen and (min-width: 48em) { .cta { padding: 120px 0; } }
 @media screen and (min-width: 64em) { .cta { padding: 180px 0; } }
 .cta__heading { grid-column: 1 / 5; grid-row: auto; padding-bottom: 20px; }
