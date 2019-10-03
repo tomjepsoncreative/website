@@ -44,7 +44,7 @@ html, body {
     box-sizing: border-box;
     display: grid;
     grid-template-columns: auto;
-    grid-template-rows: auto; // Breaks mobile styling - FIX IT!
+    grid-template-rows: auto;
     @media screen and (min-width: $med) {
         grid-template-rows: 200px auto;
     }    
@@ -61,7 +61,6 @@ html, body {
     }    
 
     &__navigation {
-        background: blue;
         align-items: center;
         display: flex;
         
@@ -151,8 +150,6 @@ html, body {
     }
 
     &__content {
-
-        background: red;
         align-self: flex-end;
         @media screen and (min-width: $med) {
             align-self: center;
@@ -1041,26 +1038,99 @@ a.button,.button {
 
 .consulting {
     &-content {
-        grid-column: 1 / span 7;
+        grid-column: 1 / span 4;
+        @media screen and (min-width: $med) {
+            grid-column: 1 / span 6;
+        }
+        @media screen and (min-width: $lg) {
+            grid-column: 1 / span 7;            
+        }
         grid-row: auto;
+
+        padding: 0 1rem;
+        @media screen and (min-width: $med) {
+            padding: 0 2rem;       
+        }
+        @media screen and (min-width: 1500px) {
+            padding: 0;       
+        }        
     }
     &-image {
-        grid-column: span 5;
-        grid-row: auto;        
+        grid-column: 1 / span 4;        
+        @media screen and (min-width: $med) {
+            grid-column: 2/ span 4;       
+        }
+        @media screen and (min-width: $lg) {
+            grid-column: span 5;       
+        }
+        
+        grid-row: auto;
+        
+        margin-top: 4rem;
+        @media screen and (min-width: $med) {
+            margin-top: 8rem;
+        }
+        @media screen and (min-width: $lg) {
+            margin-top: 0;           
+        }          
+        
+        img {
+            width: 100%;
+            height: auto;
+        }
     }
     &-features {
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
+        @media screen and (min-width: $med) {
+            flex-direction: row;            
+        }         
         flex-wrap: wrap;
 
-        grid-column: 2 / span 10;
+        grid-column: 1 / span 4;
+        @media screen and (min-width: $med) {
+            grid-column: 1 / span 6;
+        }
+        @media screen and (min-width: $lg) {
+            grid-column: 2 / span 10;            
+        }         
         grid-row: auto;
 
         justify-content: space-around;
+        margin: 80px 0;
+        @media screen and (min-width: $med) {
+            margin: 120px 0;
+        }
+        @media screen and (min-width: $lg) {
+            margin: 180px 0;            
+        }          
+
+        &--no-margin {
+            margin-bottom: 0;
+        }
     }
     &-feature {
-        flex: 0 1 42%;
+        flex: 1 1 auto;
+        @media screen and (min-width: $med) {
+            flex: 0 1 40%;            
+        }
+
+        margin-bottom: 1rem;
+        @media screen and (min-width: $med) {
+            margin-bottom: 2rem;
+        }
+        @media screen and (min-width: $lg) {
+            margin-bottom: 4rem;            
+        }        
+
         text-align: center;
+
+        &:nth-of-type(5) {
+            @media screen and (min-width: $med) {
+                flex: 0 1 60%; 
+                margin-bottom: 0;           
+            }            
+        }
     }
 }
 
@@ -1073,27 +1143,14 @@ a.button,.button {
         grid-column: 2 / 12;
     }
 
-    &--narrow {
-        grid-column: 1 / 5;
-        grid-row: 1;
-        @media screen and (min-width: $med) {
-            grid-column: 1 / 7;    
-        }
-        @media screen and (min-width: $lg) {
-            grid-column: 2 / 10;
-        }
-        
-        margin-bottom: 80px;
-        @media screen and (min-width: $med) {
-            margin-bottom: 120px;    
-        }
-        @media screen and (min-width: $lg) {
-            margin-bottom: 180px;
-        }            
-    }
-
     grid-row: auto;
-    margin: 180px 0;
+    margin: 80px 0;
+    @media screen and (min-width: $med) {
+        margin: 120px 0;  
+    }
+    @media screen and (min-width: $lg) {
+        margin: 180px 0;
+    }    
     padding: 72px 0;
     position: relative;
 
