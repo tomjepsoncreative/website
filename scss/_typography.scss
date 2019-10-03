@@ -7,7 +7,7 @@
 .hero-heading {
     @extend %type-defaults;
 
-    @include font-size(48px);
+    @include font-size(46px);
     @include line-height(56px); 
 
     @media screen and (min-width: $med) {

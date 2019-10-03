@@ -343,7 +343,7 @@ a.button--nav:hover, .button--nav:hover { border: 1px solid #FEFEFE; background-
 
 .hero-heading, .section-heading, .group-heading, .standout, .copy, .quote-copy, .footer-link { font-weight: normal; }
 
-.hero-heading { font-size: 48px; font-size: 3rem; line-height: 56px; line-height: 3.5rem; font-family: geomanistultra; }
+.hero-heading { font-size: 46px; font-size: 2.875rem; line-height: 56px; line-height: 3.5rem; font-family: geomanistultra; }
 @media screen and (min-width: 48em) { .hero-heading { font-size: 56px; font-size: 3.5rem; line-height: 66px; line-height: 4.125rem; } }
 @media screen and (min-width: 64em) { .hero-heading { font-size: 64px; font-size: 4rem; line-height: 72px; line-height: 4.5rem; } }
 .hero-heading--color { color: #AE4356; }
