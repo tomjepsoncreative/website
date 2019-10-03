@@ -275,7 +275,7 @@ a.button--nav, .button--nav { background-color: #FEFEFE; color: #AE4356; margin:
 a.button--nav:hover, .button--nav:hover { border: 1px solid #FEFEFE; background-color: rgba(254, 254, 254, 0.5); text-decoration: none !important; }
 
 /** UX CONSULTANCY **/
-.heading-box { grid-column: span 4; grid-row: auto; margin-bottom: 2.5rem; padding: 0 1.8rem 0 1rem; }
+.heading-box { grid-column: span 4; grid-row: auto; margin-bottom: 2.5rem; padding: 0 1rem; }
 @media screen and (min-width: 48em) { .heading-box { grid-column: span 6; } }
 @media screen and (min-width: 64em) { .heading-box { grid-column: span 9; } }
 @media screen and (min-width: 48em) { .heading-box { padding: 0 2rem; } }
