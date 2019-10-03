@@ -78,7 +78,7 @@ html, body {
         @media screen and (min-width: $med) {
             padding: 32px;
         }
-        @media screen and (min-width: $lg) {
+        @media screen and (min-width: 1500px) {
             padding: 60px;
         }         
 
@@ -1026,24 +1026,62 @@ a.button,.button {
 /** UX CONSULTANCY **/
 
 .heading-box {
-    grid-column: span 7;
+    grid-column: span 4;
+    @media screen and (min-width: $med) {
+        grid-column: span 6;      
+    }
+    @media screen and (min-width: $lg) {
+        grid-column: span 9;       
+    }    
     grid-row: auto;
     margin-bottom: 2.5rem;
+    padding: 0 1rem;
+    @media screen and (min-width: $med) {
+        padding: 0 2rem;       
+    }
+    @media screen and (min-width: 1500px) {
+        padding: 0;       
+    } 
 }
 
 .copy-box {
-    grid-column: span 9;
+    grid-column: span 4;
+    @media screen and (min-width: $med) {
+        grid-column: span 5;      
+    }
+    @media screen and (min-width: $lg) {
+        grid-column: span 9;       
+    }       
     grid-row: auto;
+    padding: 0 1rem;
+    @media screen and (min-width: $med) {
+        padding: 0 2rem;       
+    }
+    @media screen and (min-width: 1500px) {
+        padding: 0;       
+    }    
 }
 
 .consulting {
+    border-bottom: 1px solid $dark25;
+    margin-bottom: 80px;
+    @media screen and (min-width: $med) {
+        margin-bottom: 120px;
+    }
+    @media screen and (min-width: $lg) {
+        margin-bottom: 180px;
+    }     
+
     &-content {
         grid-column: 1 / span 4;
         @media screen and (min-width: $med) {
             grid-column: 1 / span 6;
         }
         @media screen and (min-width: $lg) {
-            grid-column: 1 / span 7;            
+            grid-column: 1 / span 7;
+            &--alt {
+                grid-column: 1 / span 6;   
+            }
         }
         grid-row: auto;
 
@@ -1054,14 +1092,17 @@ a.button,.button {
         @media screen and (min-width: 1500px) {
             padding: 0;       
         }        
-    }
+    }   
     &-image {
         grid-column: 1 / span 4;        
         @media screen and (min-width: $med) {
             grid-column: 2/ span 4;       
         }
         @media screen and (min-width: $lg) {
-            grid-column: span 5;       
+            grid-column: span 5;
+            &--alt {
+                grid-column: span 6;   
+            }                 
         }
         
         grid-row: auto;
@@ -1078,7 +1119,7 @@ a.button,.button {
             width: 100%;
             height: auto;
         }
-    }
+    }     
     &-features {
         display: flex;
         flex-direction: column;
@@ -1160,6 +1201,12 @@ a.button,.button {
         position: absolute;
         
         width: 95%;
+        @media screen and (min-width: $med) {   
+            width: 85%;
+        }         
+        @media screen and (min-width: $lg) {
+            width: 95%; 
+        }         
 
         height: 100%;
         
@@ -1188,9 +1235,12 @@ a.button,.button {
         position: absolute;
 
         width: 100%;
-        @media screen and (min-width: $med) {
-            width: 95%;     
-        }     
+        @media screen and (min-width: $med) {   
+            width: 85%;
+        }         
+        @media screen and (min-width: $lg) {
+            width: 95%; 
+        }      
 
         height: 100%;
 
@@ -1216,14 +1266,16 @@ a.button,.button {
             @media screen and (min-width: $lg) {
                 padding: 0 0 0 0;
             }
-        }     
+        }
 
-
+        p:first-of-type {
+            margin-bottom: 0.1rem;
+        }
 
         &::after {
             content: '';
             position: absolute;
-            top: 25%;
+            top: 28%;
             left: 0;
             @media screen and (min-width: $med) {
                 left: 2px;
@@ -1231,7 +1283,10 @@ a.button,.button {
             @media screen and (min-width: $lg) {
                 left: 0;
             }            
-            width: calc(14% - 32px);
+            width: 0;
+            @media screen and (min-width: $med) {
+                width: calc(14% - 32px);
+            }            
             height: 60%;
             background-color: $light;
             z-index: -1;
