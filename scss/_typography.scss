@@ -86,9 +86,12 @@
     &--reverse {
         color: $light;
     }
-    
+
     &--right {
-        text-align: right;
+        text-align: left;
+        @media screen and (min-width: $med) {
+            text-align: right;       
+        }     
     }        
 }
 
