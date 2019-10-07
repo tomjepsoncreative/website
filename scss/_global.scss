@@ -1323,29 +1323,95 @@ a.button,.button {
         border-top: 1px solid $dark25;
     }
 
-    grid-column: 1 / span 12;
+    grid-column: 1 / span 4;
+    @media screen and (min-width: $med) {
+        grid-column: 1 / span 6;     
+    }
+    @media screen and (min-width: $lg) {
+        grid-column: 1 / span 12;      
+    }     
+
     grid-row: auto;    
     margin: 0 0 120px 0;
-    padding: 180px 0 0 0;
+    
+    padding: 80px 0 0 0;
+    @media screen and (min-width: $med) {
+        padding: 120px 0 0 0;
+    }
+    @media screen and (min-width: $lg) {
+        padding: 180px 0 0 0;
+    }   
     text-align: center;
 }
 
 .workshops {
     grid-row: auto;
 
+    padding: 0 16px;
+    @media screen and (min-width: $med) {
+        padding: 0 32px;
+    }
+    @media screen and (min-width: $xl) {
+        padding: 0 64px;
+    }
+    @media screen and (min-width: 1500px) {
+        padding: 0;
+    } 
+
     &__heading {
-        grid-column: span 12;
-        &--inset {
-            grid-column: 6 / span 7;
+        grid-column: span 4;
+        @media screen and (min-width: $med) {
+            grid-column: span 6;     
         }
+        @media screen and (min-width: $lg) {
+            grid-column: span 12;      
+        }
+        
+        &--inset {
+            @media screen and (min-width: $lg) {
+                grid-column: 6 / span 7;     
+            }
+        }
+        padding-bottom: 0.5rem;
     }
 
     &__content {
-        grid-column: span 7;
+        grid-column: span 4;
+        @media screen and (min-width: $med) {
+            grid-column: span 3;
+        }
+        @media screen and (min-width: $lg) {
+            grid-column: span 7;            
+        }
+
+        &--reverselayout {
+            order: 1;
+            @media screen and (min-width: $med) {
+                order: 2;
+            }      
+        }
     }
 
     &__image {
-        grid-column: span 5;
+        grid-column: span 4;
+        @media screen and (min-width: $med) {
+            grid-column: span 3;   
+        }
+        @media screen and (min-width: $lg) {
+            grid-column: span 5;
+        }
+
+        margin-top: 2rem;
+        @media screen and (min-width: $med) {
+            margin-top: 0;
+        }         
+
+        &--reverselayout {
+            order: 2;
+            @media screen and (min-width: $med) {
+                order: 1;
+            }    
+        }
         
         img {
             width: 100%;
@@ -1355,10 +1421,20 @@ a.button,.button {
 }
 
 .workshop-article {
-    grid-column: 2 / span 10;
+    grid-column: 1 / span 4;
+    @media screen and (min-width: $med) {
+        grid-column: 1 / span 6;
+    } 
+    @media screen and (min-width: $lg) {
+        grid-column: 2 / span 10;
+    }
     grid-row: auto;
     margin-bottom: 3rem;
     &:last-of-type {
         margin-bottom: 0;
     }
+    padding: 0 16px;
+    @media screen and (min-width: $med) {
+        padding: 0 64px;
+    }     
 }
