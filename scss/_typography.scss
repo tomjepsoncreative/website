@@ -28,7 +28,11 @@
 
     &--reverse {
         color: $light;
-    }    
+    }
+
+    &--lightweight {
+        font-family: geomanistregular;
+    }
 }
 
 .section-heading {

@@ -1020,7 +1020,7 @@ a.button,.button {
     }
     @media screen and (min-width: $lg) {
         grid-column: span 9;       
-    }    
+    }  
     grid-row: auto;
     margin-bottom: 2.5rem;
 
@@ -1030,7 +1030,13 @@ a.button,.button {
     }
     @media screen and (min-width: 1500px) {
         padding: 0;       
-    } 
+    }
+
+    &--slimmer {
+        @media screen and (min-width: $lg) {
+            padding-right: 4rem;       
+        }          
+    }
 }
 
 .copy-box {
@@ -1176,13 +1182,35 @@ a.button,.button {
     }
 
     grid-row: auto;
+
     margin: 80px 0;
     @media screen and (min-width: $med) {
         margin: 120px 0;  
     }
     @media screen and (min-width: $lg) {
         margin: 180px 0;
-    }    
+    }
+
+    &--marginal {
+        margin: 0 0 80px 0;
+        @media screen and (min-width: $med) {
+            margin: 0 0 120px 0;  
+        }
+        @media screen and (min-width: $lg) {
+            margin: 0 0 180px 0;
+        }        
+    }
+
+    &--in-content {
+        margin: 0 0 0 0;
+        @media screen and (min-width: $med) {
+            margin: 0 0 0 0;
+        }
+        @media screen and (min-width: $lg) {
+            margin: 0 0 0 0;
+        }         
+    }
+
     padding: 72px 0;
     position: relative;
 
@@ -1287,4 +1315,33 @@ a.button,.button {
     }
 
     z-index: 4;
+}
+
+.workshops {
+    grid-row: auto;
+
+    &__heading {
+        grid-column: span 12;
+        &--inset {
+            grid-column: 6 / span 7;
+        }
+    }
+
+    &__content {
+        grid-column: span 7;
+    }
+
+    &__image {
+        grid-column: span 5;
+        
+        img {
+            width: 100%;
+            height: auto;
+        }        
+    }
+}
+
+.workshop-article {
+    grid-column: 2 / span 10;
+    grid-row: auto;
 }
