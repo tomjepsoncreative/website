@@ -1202,12 +1202,12 @@ a.button,.button {
     }
 
     &--in-content {
-        margin: 0 0 0 0;
+        margin: 60px 0 80px 0;
         @media screen and (min-width: $med) {
-            margin: 0 0 0 0;
+            margin: 80px 0 120px 0;
         }
         @media screen and (min-width: $lg) {
-            margin: 0 0 0 0;
+            margin: 120px 0 180px 0;
         }         
     }
 
@@ -1317,6 +1317,19 @@ a.button,.button {
     z-index: 4;
 }
 
+.workshop-header {
+    border-top: none;
+    @media screen and (min-width: $med) {
+        border-top: 1px solid $dark25;
+    }
+
+    grid-column: 1 / span 12;
+    grid-row: auto;    
+    margin: 0 0 120px 0;
+    padding: 180px 0 0 0;
+    text-align: center;
+}
+
 .workshops {
     grid-row: auto;
 
@@ -1344,4 +1357,8 @@ a.button,.button {
 .workshop-article {
     grid-column: 2 / span 10;
     grid-row: auto;
+    margin-bottom: 3rem;
+    &:last-of-type {
+        margin-bottom: 0;
+    }
 }
