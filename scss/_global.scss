@@ -58,7 +58,17 @@ html, body {
     }
     @media screen and (min-width: $lg) {
         height: 80vh;
-    }    
+    }
+    
+    &--shorter {
+        height: auto;
+        @media screen and (min-width: $med) {
+            height: 400px;
+        }
+        @media screen and (min-width: $lg) {
+            height: 500px;
+        }        
+    }
 
     &__navigation {
         align-items: center;
@@ -146,6 +156,14 @@ html, body {
                     text-decoration: underline;
                 }
             }
+        }
+    }
+
+    .brand {
+        text-decoration: none;
+        &:hover {
+            color: $light;
+            text-decoration: underline;
         }
     }
 
@@ -1024,6 +1042,10 @@ a.button,.button {
     grid-row: auto;
     margin-bottom: 2.5rem;
 
+    &--shorter {
+        margin-bottom: 0.5rem;    
+    }
+
     padding: 0 1rem;
     @media screen and (min-width: $med) {
         padding: 0 2rem;       
@@ -1437,4 +1459,99 @@ a.button,.button {
     @media screen and (min-width: $med) {
         padding: 0 64px;
     }     
+}
+
+.benefit-list {
+    margin-bottom: 80px;
+    @media screen and (min-width: $med) {
+        margin-bottom: 120px;
+    } 
+    @media screen and (min-width: $lg) {
+        margin-bottom: 180px;
+    }
+
+    padding: 0 16px;
+    @media screen and (min-width: $med) {
+        padding: 0
+    }
+
+    &__heading {
+        grid-column: span 4;        
+        grid-row: auto;
+        @media screen and (min-width: $med) {
+            grid-column: 2 / span 4;
+        } 
+        @media screen and (min-width: $lg) {
+            grid-column: 3 / span 8;
+        }        
+    }
+    &__benefits {
+        grid-column: span 4;        
+        grid-row: auto;
+        @media screen and (min-width: $med) {
+            grid-column: 2 / span 4;
+        } 
+        @media screen and (min-width: $lg) {
+            grid-column: 3 / span 8;
+        } 
+
+        li {                       
+            &:nth-of-type(1n) {
+                border-bottom: 1px solid $dark25;
+
+                padding: 16px 0;
+                @media screen and (min-width: $lg) {
+                    padding: 32px 0;
+                }     
+
+                position: relative;
+
+                &::before {                    
+                    color: $primary;
+                    left: -60px;
+                    position: absolute;
+                    text-align: right;
+                    width: 30px;
+                }
+            }     
+            &:nth-of-type(1) {
+                &::before { 
+                    content: "i";
+                }
+            }
+            &:nth-of-type(2) {
+                &::before { 
+                    content: "ii";
+                } 
+            }
+            &:nth-of-type(3) {
+                &::before { 
+                    content: "iii";
+                }
+            }
+            &:nth-of-type(4) {
+                &::before { 
+                    content: "iv";
+                }
+            }
+            &:nth-of-type(5) {
+                &::before { 
+                    content: "v";
+                }  
+            }
+            &:nth-of-type(6) {
+                &::before { 
+                    content: "vi";
+                }
+            }
+            &:nth-of-type(7) {
+                border-bottom: none;
+                padding-bottom: 0;
+
+                &::before { 
+                    content: "vii";
+                }
+            }                                 
+        }
+    }
 }
