@@ -907,46 +907,56 @@ footer {
 
     .f {
         &_online{
-            grid-column: 1 / span 4;
+
+            * li {
+                display: inline;
+                padding-right: 12px;
+                &:last-of-type {
+                    padding-right: 0;
+                }
+            }
+
+            grid-column: span 4;
             @media screen and (min-width: $med) {
-                grid-column: 1 / span 3;
+                grid-column: span 3;
             }
             @media screen and (min-width: $lg) {
-                grid-column: 1 / span 3;                
+                grid-column: span 3;                
             }
 
             padding-left: 16px;
             @media screen and (min-width: $med) {
                 padding-left: 32px;
             }
-            @media screen and (min-width: 1406px) {
+            @media screen and (min-width: 1550px) {
                 padding: 0;                
-            }             
+            }    
+                               
         }
         &_content{
-            grid-column: 1 / span 4;
+            grid-column: span 4;
             @media screen and (min-width: $med) {
-                grid-column: 4 / span 3;
+                grid-column: span 2;
             }
             @media screen and (min-width: $lg) {
-                grid-column: 4 / span 3;                   
+                grid-column: span 3;                   
             }
             
             padding-left: 16px;
             @media screen and (min-width: $med) {
                 padding-left: 32px;
             }
-            @media screen and (min-width: $lg) {
+            @media screen and (min-width: 1550px) {
                 padding: 0;                
             }
         }
         &_contact{
-            grid-column: 1 / span 4;
+            grid-column: span 4;
             @media screen and (min-width: $med) {
-                grid-column: 1 / span 6;                
+                grid-column: span 3;                
             }
             @media screen and (min-width: $lg) {
-                grid-column: 7 / span 6;                
+                grid-column: span 5;                
             }
 
             padding-left: 16px;
