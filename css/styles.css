@@ -419,8 +419,9 @@ a.button--nav:hover, .button--nav:hover { border: 1px solid #FEFEFE; background-
 @media screen and (min-width: 64em) { .button-group { grid-column: 1 / span 12; } }
 @media screen and (min-width: 48em) { .button-group { margin-bottom: 120px; } }
 @media screen and (min-width: 48em) { .button-group { padding: 0; } }
-.button-group a { margin-right: 20px; margin-top: 16px; }
-.button-group a:last-of-type { margin-right: 0; }
+.button-group a { margin-top: 16px; }
+@media screen and (min-width: 48em) { .button-group a { margin-right: 20px; }
+  .button-group a:last-of-type { margin-right: 0; } }
 .button-group a:first-of-type { margin-top: 0; }
 @media screen and (min-width: 48em) { .button-group a { margin-top: 0px; } }
 
