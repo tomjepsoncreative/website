@@ -810,14 +810,10 @@ html, body {
         margin-top: 180px;       
     }    
 
-    padding: 80px 16px;
+    padding: 80px 16px 80px 16px;
     @media screen and (min-width: $med) {
-        padding: 120px 0;       
+        padding: 80px 0px;      
     }
-    @media screen and (min-width: $lg) {
-        padding: 180px 0;       
-    }
-
     &__heading {
         grid-column: 1 / 5;
         @media screen and (min-width: $med) {
@@ -1552,6 +1548,35 @@ a.button,.button {
                     content: "vii";
                 }
             }                                 
+        }
+    }
+}
+
+.button-group {
+    grid-column: 1 / span 4;
+    @media screen and (min-width: $med) {
+        grid-column: 1 / span 6;
+    } 
+    @media screen and (min-width: $lg) {
+        grid-column: 1 / span 12;
+    }
+    margin-bottom: 80px;
+    @media screen and (min-width: $med) {
+        margin-bottom: 120px;
+    }    
+    padding: 0 16px;
+    @media screen and (min-width: $med) {
+        padding: 0;
+    }
+    text-align: center;
+
+    a {
+        margin-top: 16px;
+        &:first-of-type {
+            margin-top: 0;
+        }
+        @media screen and (min-width: $med) {
+            margin-top: 0px;
         }
     }
 }
