@@ -169,7 +169,7 @@ html, body { -webkit-font-smoothing: antialiased; background-color: #FEFEFE; -we
 @media screen and (min-width: 48em) { .customer-quote__content { padding: 0 64px 0 32px; } }
 @media screen and (min-width: 64em) { .customer-quote__content { padding: 0 100px 0 0; } }
 @media screen and (min-width: 64em) { .customer-quote__content--narrow { padding: 0 150px 0 0; } }
-.customer-quote__content::after { content: ''; position: absolute; top: 12%; left: 0; width: calc(13% - 32px); height: 65%; background-color: #FEFEFE; z-index: -1; }
+.customer-quote__content::after { content: ''; position: absolute; top: 12%; left: 0; width: calc(13% - 32px); height: 59%; background-color: #FEFEFE; z-index: -1; }
 @media screen and (min-width: 48em) { .customer-quote__content::after { left: 18px; } }
 
 .inline-image { display: none; grid-column: span 4; margin-top: 40px; }
