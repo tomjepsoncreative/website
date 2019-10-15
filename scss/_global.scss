@@ -821,7 +821,7 @@ html, body {
         }
         @media screen and (min-width: $lg) {
             grid-column: 3 / 11;     
-        } 
+        }
         grid-row: auto;
         padding-bottom: 20px;
     }
@@ -853,6 +853,22 @@ html, body {
         } 
         grid-row: auto;        
     }        
+}
+
+.workshop-details {
+    border-bottom: 1px solid $dark25;
+
+    grid-column: 1 / 5;
+    @media screen and (min-width: $med) {
+        grid-column: 2 / 6;     
+    }
+    @media screen and (min-width: $lg) {
+        grid-column: 3 / 11;     
+    }
+
+    margin-bottom: 3rem;
+    grid-row: auto;
+    padding: 20px 0 3rem 0;
 }
 
 footer {
