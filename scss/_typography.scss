@@ -186,12 +186,12 @@
     @include line-height(38px);
 
     @media screen and (min-width: $med) {
-        @include font-size(24px);
+        @include font-size(28px);
         @include line-height(44px);    
     }
 
     @media screen and (min-width: $lg) {
-        @include font-size(28px);
+        @include font-size(33px);
         @include line-height(52px); 
     }
 
@@ -205,7 +205,11 @@
 
     &--reverse {
         color: $light;
-    }    
+    }
+    
+    &--spaced {
+        margin-bottom: 1rem;
+    }
 }
 
 .footer-link {

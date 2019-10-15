@@ -592,16 +592,13 @@ html, body {
         &::after {
             content: '';
             position: absolute;
-            top: 15%;
+            top: 12%;
             left: 0;
             @media screen and (min-width: $med) {
-                left: 2px;
-            }
-            @media screen and (min-width: $lg) {
-                left: 0;
-            }            
-            width: calc(14% - 32px);
-            height: 50%;
+                left: 18px;
+            }          
+            width: calc(13% - 32px);
+            height: 65%;
             background-color: $light;
             z-index: -1;
         }        
@@ -1597,6 +1594,10 @@ a.button,.button {
     text-align: center;
 
     a {
+        margin-right: 20px;
+        &:last-of-type {
+            margin-right: 0;
+        }
         margin-top: 16px;
         &:first-of-type {
             margin-top: 0;
