@@ -212,16 +212,16 @@
     @extend %type-defaults;
 
     @include font-size(20px);
-    @include line-height(38px);  
+    @include line-height(26px);
 
     @media screen and (min-width: $med) {
-        @include font-size(24px);
-        @include line-height(40px);      
+        @include font-size(22px);
+        @include line-height(28px);  
     }
 
     @media screen and (min-width: $lg) {
-        @include font-size(28px);
-        @include line-height(44px); 
+        @include font-size(24px);
+        @include line-height(32px);
     }
 
     color: $dark;

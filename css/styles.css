@@ -465,9 +465,9 @@ a.button--nav:hover, .button--nav:hover { border: 1px solid #FEFEFE; background-
 .quote-copy--color { color: #AE4356; }
 .quote-copy--reverse { color: #FEFEFE; }
 
-.footer-link { font-size: 20px; font-size: 1.25rem; line-height: 38px; line-height: 2.375rem; color: rgba(46, 36, 38, 0.85); font-family: geomanistmedium; text-decoration: none; }
-@media screen and (min-width: 48em) { .footer-link { font-size: 24px; font-size: 1.5rem; line-height: 40px; line-height: 2.5rem; } }
-@media screen and (min-width: 64em) { .footer-link { font-size: 28px; font-size: 1.75rem; line-height: 44px; line-height: 2.75rem; } }
+.footer-link { font-size: 20px; font-size: 1.25rem; line-height: 26px; line-height: 1.625rem; color: rgba(46, 36, 38, 0.85); font-family: geomanistmedium; text-decoration: none; }
+@media screen and (min-width: 48em) { .footer-link { font-size: 22px; font-size: 1.375rem; line-height: 28px; line-height: 1.75rem; } }
+@media screen and (min-width: 64em) { .footer-link { font-size: 24px; font-size: 1.5rem; line-height: 32px; line-height: 2rem; } }
 
 a { color: #AE4356; font-family: inherit; text-decoration: underline; }
 a:hover { color: #A13F61; cursor: pointer; text-decoration: underline; }
