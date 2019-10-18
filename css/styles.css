@@ -46,7 +46,7 @@ html, body { -webkit-font-smoothing: antialiased; background-color: #FEFEFE; -we
 @media screen and (min-width: 48em) { .container { grid-template-columns: repeat(6, 1fr); grid-column-gap: 32px; } }
 @media screen and (min-width: 64em) { .container { grid-template-columns: repeat(12, 1fr); } }
 
-.hero { background: #AE4356; background: url("../img/ampersand_bg.svg") right top no-repeat, linear-gradient(45deg, #AE4356 0%, #A13F61 100%); filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='$primary', endColorstr='$primary2',GradientType=1 ); -webkit-box-sizing: border-box; box-sizing: border-box; display: grid; grid-template-columns: auto; grid-template-rows: auto; height: auto; }
+.hero { background: #AE4356; background: url("../img/ampersand_bg.svg") 105% top no-repeat, linear-gradient(45deg, #AE4356 0%, #A13F61 100%); filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='$primary', endColorstr='$primary2',GradientType=1 ); background-size: contain; -webkit-box-sizing: border-box; box-sizing: border-box; display: grid; grid-template-columns: auto; grid-template-rows: auto; height: auto; }
 @media screen and (min-width: 48em) { .hero { grid-template-rows: 200px auto; } }
 @media screen and (min-width: 64em) { .hero { grid-template-rows: 120px auto; } }
 @media screen and (min-width: 48em) { .hero { height: 75vh; } }
@@ -426,7 +426,7 @@ a.button--nav:hover, .button--nav:hover { border: 1px solid #FEFEFE; background-
 .button-group a:first-of-type { margin-top: 0; }
 @media screen and (min-width: 48em) { .button-group a { margin-top: 0px; } }
 
-.hero-heading, .section-heading, .group-heading, .standout, .copy, .quote-copy, .footer-link { font-weight: normal; }
+.hero-heading, .section-heading, .group-heading, .standout, .copy, .quote-copy, .highlight-list, .footer-link { font-weight: normal; }
 
 .hero-heading { font-size: 46px; font-size: 2.875rem; line-height: 56px; line-height: 3.5rem; font-family: geomanistultra; }
 @media screen and (min-width: 48em) { .hero-heading { font-size: 56px; font-size: 3.5rem; line-height: 66px; line-height: 4.125rem; } }
@@ -473,6 +473,13 @@ a.button--nav:hover, .button--nav:hover { border: 1px solid #FEFEFE; background-
 .quote-copy--color { color: #AE4356; }
 .quote-copy--reverse { color: #FEFEFE; }
 .quote-copy--spaced { margin-bottom: 1rem; }
+
+.highlight-list { font-size: 20px; font-size: 1.25rem; line-height: 38px; line-height: 2.375rem; font-family: "Kreon", serif; font-weight: 400; letter-spacing: -0.9px; }
+@media screen and (min-width: 48em) { .highlight-list { font-size: 24px; font-size: 1.5rem; line-height: 44px; line-height: 2.75rem; } }
+@media screen and (min-width: 64em) { .highlight-list { font-size: 28px; font-size: 1.75rem; line-height: 52px; line-height: 3.25rem; } }
+.highlight-list--color { color: #AE4356; }
+.highlight-list--reverse { color: #FEFEFE; }
+.highlight-list--spaced { margin-bottom: 1rem; }
 
 .footer-link { font-size: 20px; font-size: 1.25rem; line-height: 26px; line-height: 1.625rem; color: rgba(46, 36, 38, 0.85); font-family: geomanistmedium; text-decoration: none; }
 @media screen and (min-width: 48em) { .footer-link { font-size: 22px; font-size: 1.375rem; line-height: 28px; line-height: 1.75rem; } }
