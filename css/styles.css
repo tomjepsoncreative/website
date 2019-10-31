@@ -46,7 +46,7 @@ html, body { -webkit-font-smoothing: antialiased; background-color: #FEFEFE; -we
 @media screen and (min-width: 48em) { .container { grid-template-columns: repeat(6, 1fr); grid-column-gap: 32px; } }
 @media screen and (min-width: 64em) { .container { grid-template-columns: repeat(12, 1fr); } }
 
-.hero { background: #AE4356; background: url("../img/ampersand_bg.svg") 105% top no-repeat, linear-gradient(45deg, #AE4356 0%, #A13F61 100%); filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='$primary', endColorstr='$primary2',GradientType=1 ); background-size: contain; -webkit-box-sizing: border-box; box-sizing: border-box; display: grid; grid-template-columns: auto; grid-template-rows: auto; height: auto; }
+.hero { background: #AE4356; background: linear-gradient(45deg, #AE4356 0%, #A13F61 100%); filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='$primary', endColorstr='$primary2',GradientType=1 ); background-size: contain; -webkit-box-sizing: border-box; box-sizing: border-box; display: grid; grid-template-columns: auto; grid-template-rows: auto; height: auto; }
 @media screen and (min-width: 48em) { .hero { grid-template-rows: 200px auto; } }
 @media screen and (min-width: 64em) { .hero { grid-template-rows: 120px auto; } }
 @media screen and (min-width: 48em) { .hero { height: 75vh; } }
