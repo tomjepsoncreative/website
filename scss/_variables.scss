@@ -8,13 +8,14 @@ $bold: 700;
 // Colour
 $primary: #AE4356;
 $primary2: #A13F61;
-$accent: #f54b07;
-$accent2: #6d3c9f;
 $primaryDark: darken($primary, 10%);
 $reallyDark: #2E2426;
 $dark: rgba(#2E2426,0.85);
-$light: rgba(#2E2426,0.25);
-$white: #ffffff;
+$dark50: rgba(#2E2426,0.50);
+$dark25: rgba(#2E2426,0.25);
+$light: #FEFEFE;
+$light85: rgba(#FEFEFE,0.85);
+$light50: rgba(#FEFEFE,0.50);
 
 // Breakpoints
 $sm: 320px;
