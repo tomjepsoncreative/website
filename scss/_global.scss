@@ -36,9 +36,12 @@ html, body {
 
 .hero {
     background: $primary;
-    background: url('../img/ampersand_bg.svg') 105% top no-repeat, -moz-linear-gradient(45deg, $primary 0%, $primary2 100%);
-    background: url('../img/ampersand_bg.svg') 105% top no-repeat, -webkit-linear-gradient(45deg, $primary 0%,$primary2 100%);
-    background: url('../img/ampersand_bg.svg') 105% top no-repeat, linear-gradient(45deg, $primary 0%,$primary2 100%);
+    // background: url('../img/ampersand_bg.svg') 105% top no-repeat, -moz-linear-gradient(45deg, $primary 0%, $primary2 100%);
+    // background: url('../img/ampersand_bg.svg') 105% top no-repeat, -webkit-linear-gradient(45deg, $primary 0%,$primary2 100%);
+    // background: url('../img/ampersand_bg.svg') 105% top no-repeat, linear-gradient(45deg, $primary 0%,$primary2 100%);
+    background: -moz-linear-gradient(45deg, $primary 0%, $primary2 100%);
+    background: -webkit-linear-gradient(45deg, $primary 0%,$primary2 100%);
+    background: linear-gradient(45deg, $primary 0%,$primary2 100%);
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='$primary', endColorstr='$primary2',GradientType=1 );
 
     background-size: contain;
