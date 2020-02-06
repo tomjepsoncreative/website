@@ -7,9 +7,12 @@ tags: ['post']
 <!-- Excerpt Start -->
 <!-- Excerpt End -->
 
+*****
+
+
 User experience design as a profession is still, in the grand scheme of things, fresh off the boat. Compared to its counterparts in web design, industrial art, and myriad other creative spheres it is the baby of the bunch. When you look at its brief existence, however, the field of UX has travelled far, fast. Its specificities are many with plentiful micro-disciplines bound into the ‘User Experience Designer’ mantle.
 
-We have books on specific subjects from UX strategy to prototyping and wireframing; we have innumerable interpretations of what constitutes ‘UX’ from a practical perspective; we’ve reached further and further afield with service design and *not-strictly-about-UX-but-it’s-very-important* concepts like Chip Heath and Dan Heath’s [‘The Power Of Moments’](https://www.google.com).
+We have books on specific subjects from UX strategy to prototyping and wireframing; we have innumerable interpretations of what constitutes ‘UX’ from a practical perspective; we’ve reached further and further afield with service design and *not-strictly-about-UX-but-it’s-very-important* concepts like Chip Heath and Dan Heath’s ‘The Power Of Moments’.
 
 I have been wondering for a long time what the ‘next big thing’ might be or what user experience will mean in another decade; I know others pontificate on the same strand, too. The value of the discipline is being recognised for businesses everywhere - even if it is only lip-service that’s paid - since users (see: the people in touch with our products and services) are those who matter most in our design equations.
 
@@ -100,11 +103,14 @@ I’m thinking about how we design products presently. We want frictionless UX. 
 That sounds a little crazy to me.
 
 What if we were no longer to assume that mastery or prior knowledge of a concept is necessary? What if we were to ask for more attention from our users rather than give them what they expect on a plate? Do we need more focus from both our designs and our users? Focus more; learn more; do less in the long-run.
+
 I believe that deeper levels of personalisation and therefore technology integration will benefit this. We’re now thinking differently. It’s not just finding a use for an Apple Watch because the tech’s good (Author: guilty!); it’s understanding that the tech can help you out, if you give it the attention it needs when it needs it.
 
 As with all things there will be a flip-side and negative effects which must be considered should we look to create things which ‘do no harm’. Rewriting the rules and demanding more, focussed attention runs the risk of addiction; never disconnecting; becoming detached from what’s real. The invisible tech should not - I stress - be a replacement, but merely a support to improve our position.
 
 Where will we be in another decade? I don’t know. I hope, if nothing else, that we can begin to create new trust, new tolerance, and stronger intention in the design of our digital products AND our use of them, too.
+
+*****
 
 ### References
 

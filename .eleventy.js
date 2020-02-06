@@ -1,10 +1,10 @@
 // Copy in CSS
-module.exports = function(eleventyConfig) {
-    eleventyConfig.addPassthroughCopy('css')
-    return {
-      passthroughFileCopy: true
-    };
-  }
+// module.exports = function(eleventyConfig) {
+//     eleventyConfig.addPassthroughCopy('css')
+//     return {
+//       passthroughFileCopy: true
+//     };
+//   }
 
 // Dates
 const moment = require('moment');
@@ -22,6 +22,12 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addFilter('dateReadable', date => {
     return moment(date).format('LL'); // E.g. May 31, 2019
   });
+
+  eleventyConfig.addPassthroughCopy('css')
+  return {
+    passthroughFileCopy: true
+  };
+
 };
 
 // Article Extract
