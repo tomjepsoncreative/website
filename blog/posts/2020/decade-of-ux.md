@@ -33,8 +33,7 @@ In the case of this early online shopping experience, it was fine demonstration 
 
 ## Digital Products.
 <!-- Excerpt Start -->
-As digital product makers, our expectations of what constitutes a good experience are so advanced from 10, 15, 20 years ago that I don’t honestly believe we’re even looking at something cut from the same cloth. It might now be an amalgam of concepts learned along the way but we’ve come so far down a road, what we had is akin to Betamax next to todays’ streaming services.
-<!-- Excerpt End -->
+As digital product makers, our expectations of what constitutes a good experience are so advanced from 10, 15, 20 years ago that I don’t honestly believe we’re even looking at something cut from the same cloth. It might now be an amalgam of concepts learned along the way but we’ve come so far down a road, what we had is akin to Betamax next to todays’ streaming services. <!-- Excerpt End -->
 
 With age comes experience; we know more and knowledge is power!
 

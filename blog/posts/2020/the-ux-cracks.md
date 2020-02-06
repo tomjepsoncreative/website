@@ -9,8 +9,7 @@ tags: ['post']
 
 ### Summary
 <!-- Excerpt Start -->
-‘Outstanding UX’ is no longer a USP for digital products. Putting user experience first is paramount in delivering value for your customers and for your business. Knowing the right problem to solve before you begin can unlock opportunities in your product that could save you time and money later.
-<!-- Excerpt End -->
+‘Outstanding UX’ is no longer a USP for digital products. Putting user experience first is paramount in delivering value for your customers and for your business. Knowing the right problem to solve before you begin can unlock opportunities in your product that could save you time and money later. <!-- Excerpt End -->
 
 *****
 

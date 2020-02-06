@@ -31,6 +31,7 @@ article.blogpost {
 
     h1 {
         @extend .section-heading;
+        padding-bottom: 1rem;
         
         a {
             color: inherit;
@@ -39,6 +40,10 @@ article.blogpost {
                 color: $primary;
                 text-decoration: underline;                
             }
+        }
+
+        &.heading_no-pad {
+            padding-bottom: 0;
         }
     }
     h2 {
@@ -53,9 +58,22 @@ article.blogpost {
         @extend .copy;
         padding-bottom: 1rem;
     }
-    ol {
+    ol, dl, ul {
         @extend .copy;
     }
+
+    ul {
+        color: $primary;
+        list-style: disc;
+    }
+
+    ol {
+        list-style: lower-roman;
+        li {
+            margin-bottom: 1rem;
+        }
+    }
+
     time {
         @extend .copy;
         @extend .copy--color;
@@ -76,16 +94,22 @@ article.blogpost {
     strong {
         font-family: geomanistmedium;
     }
-}
 
-article.blogpost blockquote {
-    margin: auto;
-    padding: 2rem 0 3rem 0;
-    width: 83%;
+    blockquote {
+        margin: auto;
+        padding: 2rem 0 3rem 0;
+        width: 83%;
+    
+        p {
+            @extend .standout;
+            @extend .standout--accent;
+        }
+    }
 
-    p {
-        @extend .standout;
-        @extend .standout--accent;
+    img {
+        width: 100%;
+        height: auto;
+        margin: 2rem 0;
     }
 }
 
