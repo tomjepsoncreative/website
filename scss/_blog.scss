@@ -9,6 +9,8 @@ article.blogpost {
 
     grid-row: auto;
 
+    margin-bottom: 2rem;
+
     &:last-of-type {
         margin-bottom: 4rem;
     }
@@ -69,6 +71,10 @@ article.blogpost {
     }
     a.readmore {
         @extend p;
+    }
+
+    strong {
+        font-family: geomanistmedium;
     }
 }
 

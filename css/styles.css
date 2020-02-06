@@ -1723,6 +1723,7 @@ a {
 article.blogpost {
   grid-column: 1 / 5;
   grid-row: auto;
+  margin-bottom: 2rem;
   padding: 0 1rem; }
   @media screen and (min-width: 48em) {
     article.blogpost {
@@ -1756,6 +1757,8 @@ article.blogpost {
     background-color: rgba(46, 36, 38, 0.25);
     padding: 0;
     margin: 2rem 0; }
+  article.blogpost strong {
+    font-family: geomanistmedium; }
 
 article.blogpost blockquote {
   margin: auto;
