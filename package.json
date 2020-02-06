@@ -1,0 +1,24 @@
+{
+  "name": "website",
+  "version": "1.0.0",
+  "description": "Get in touch: * <hello@tomjepsoncreative.work> * [@thepixelgrid on Twitter](http://twitter.com/thepixelgrid)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tomjepsoncreative/website.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tomjepsoncreative/website/issues"
+  },
+  "homepage": "https://github.com/tomjepsoncreative/website#readme",
+  "devDependencies": {
+    "@11ty/eleventy": "^0.10.0",
+    "moment": "^2.24.0"
+  }
+}
