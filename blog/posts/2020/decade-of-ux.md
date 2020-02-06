@@ -15,6 +15,8 @@ I have been wondering for a long time what the ‘next big thing’ might be or 
 
 To think more about what could be we should look back at what was.
 
+![Image showing the text 'And so the adventure begins'](../../../../img/blog/ux-adventure.jpg)
+
 ## A Brief Story About Online Retail.
 
 I recall an experience I had buying music online in the early days of digital retail.
