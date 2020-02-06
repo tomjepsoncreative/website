@@ -290,3 +290,27 @@ a {
 .icon {
     padding-right: 12px;
 }
+
+article.blogpost {
+    h1 {
+        @extend .section-heading;
+    }
+    h2 {
+        @extend .group-heading;
+        padding-bottom: 1rem;
+    }
+    h3 {
+        @extend .group-heading;
+        padding-bottom: 1rem;
+    }
+    p {
+        @extend .copy;
+        padding-bottom: 1rem;
+    }
+    time {
+        @extend .copy;
+        @extend .copy--color;
+        display: block;
+        padding-bottom: 1.5rem;
+    }
+}

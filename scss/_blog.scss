@@ -1,0 +1,30 @@
+article.blogpost {
+    grid-column: 1 / 5;
+    @media screen and (min-width: $med) {
+        grid-column: 2 / 6;     
+    }
+    @media screen and (min-width: $lg) {
+        grid-column: 3 / 11;
+    }    
+
+    grid-row: auto;
+
+    // padding: 80px 16px;
+    // @media screen and (min-width: $med) {
+    //     padding: 120px 0;       
+    // }
+    // @media screen and (min-width: $lg) {
+    //     padding: 180px 0;       
+    // }
+}
+
+article.blogpost blockquote {
+    margin: auto;
+    padding: 2rem 0 3rem 0;
+    width: 83%;
+
+    p {
+        @extend .standout;
+        @extend .standout--accent;
+    }
+}
