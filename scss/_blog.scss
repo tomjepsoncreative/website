@@ -58,17 +58,28 @@ article.blogpost {
         @extend .copy;
         padding-bottom: 1rem;
     }
-    ol, dl, ul {
+    ol, ul {
         @extend .copy;
+
+        margin-left: 1rem;
+        @media screen and (min-width: $med) {
+            margin-left: 0;
+            padding-bottom: 0;
+        }        
     }
 
     ul {
         color: $primary;
         list-style: disc;
+
+        li {
+            padding-bottom: 0.5rem;
+        }
     }
 
     ol {
         list-style: lower-roman;
+
         li {
             margin-bottom: 1rem;
         }
