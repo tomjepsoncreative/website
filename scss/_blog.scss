@@ -9,7 +9,15 @@ article.blogpost {
 
     grid-row: auto;
 
-    margin-bottom: 4rem;
+    &:last-of-type {
+        margin-bottom: 4rem;
+    }
+    
+
+    padding: 0 1rem;
+    @media screen and (min-width: $med) {
+        padding: 0;   
+    }    
 
     // padding: 80px 16px;
     // @media screen and (min-width: $med) {
@@ -21,6 +29,15 @@ article.blogpost {
 
     h1 {
         @extend .section-heading;
+        
+        a {
+            color: inherit;
+            text-decoration: none;
+            &:hover {
+                color: $primary;
+                text-decoration: underline;                
+            }
+        }
     }
     h2 {
         @extend .group-heading;
@@ -34,18 +51,15 @@ article.blogpost {
         @extend .copy;
         padding-bottom: 1rem;
     }
-
     ol {
         @extend .copy;
     }
-
     time {
         @extend .copy;
         @extend .copy--color;
         display: block;
         padding: 0;
     }
-
     hr {
         height: 1px;
         border: none;
@@ -53,7 +67,9 @@ article.blogpost {
         padding: 0;
         margin: 2rem 0;
     }
-
+    a.readmore {
+        @extend p;
+    }
 }
 
 article.blogpost blockquote {

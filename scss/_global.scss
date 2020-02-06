@@ -72,7 +72,10 @@ html, body {
         }
         @media screen and (min-width: $lg) {
             height: 500px;
-        }        
+        }
+        &-margin {
+            margin-bottom: 4rem;
+        }
     }
 
     &__navigation {

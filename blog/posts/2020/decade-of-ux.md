@@ -4,11 +4,8 @@ title: A New Decade of UX
 date: 2020-02-05
 tags: ['post']
 ---
-<!-- Excerpt Start -->
-<!-- Excerpt End -->
 
 *****
-
 
 User experience design as a profession is still, in the grand scheme of things, fresh off the boat. Compared to its counterparts in web design, industrial art, and myriad other creative spheres it is the baby of the bunch. When you look at its brief existence, however, the field of UX has travelled far, fast. Its specificities are many with plentiful micro-disciplines bound into the ‘User Experience Designer’ mantle.
 
@@ -35,8 +32,9 @@ Pretty bad, right?
 In the case of this early online shopping experience, it was fine demonstration of a model which was just not there yet; aiming to replicate an offline interaction without completing the circle of micro-interactions and nuances. Things which we now understand are crucial (and definitely possible with our light-speed technical advances) to ensuring people are served well; well enough to come back themselves or to recommend us to a friend.
 
 ## Digital Products.
-
+<!-- Excerpt Start -->
 As digital product makers, our expectations of what constitutes a good experience are so advanced from 10, 15, 20 years ago that I don’t honestly believe we’re even looking at something cut from the same cloth. It might now be an amalgam of concepts learned along the way but we’ve come so far down a road, what we had is akin to Betamax next to todays’ streaming services.
+<!-- Excerpt End -->
 
 With age comes experience; we know more and knowledge is power!
 
@@ -46,11 +44,11 @@ For consumers ‘good UX’ is no longer a USP - it’s an unspoken requirement 
 
 Culturally, we are engaged in a dialogue with the tools we use - they’re as much a part of our lives as we are of theirs, their makeup and structure - and, when they’re not performant we’re comfortable in saying as much. Not because we know what went wrong but because we expect them to ‘work’ and to serve our needs; it clearly demonstrates consumer expectations of ‘good UX’.
 
-As Cliff Kuang cites in his book ‘User Friendly’, a quote from Stanford professor and renowned HCI author Clifford Nass:
+As Cliff Kuang cites in his book ‘User Friendly’, a quote from Stanford professor and renowned HCI author <a href="https://en.wikipedia.org/wiki/Clifford_Nass" target="_blank">Clifford Nass</a>:
 
 > “Humans expect computers to act as though they were people and get annoyed when technology fails to respond in socially appropriate ways”.
 
-This requirement for a human-like response from our technology breeds dependency. Like in a case of ‘death by sat nav’ where a woman and her child became stranded in the desert after following the guidance systems’ clear, helpful instructions.
+This requirement for a human-like response from our technology breeds dependency. Like in a case of <a href="https://www.sacbee.com/entertainment/living/travel/article2573180.html" target="_blank">‘death by sat nav’</a> where a woman and her child became stranded in the desert after following the guidance systems’ clear, helpful instructions.
 
 We trust our tools to hold our hands and guide us down the right path. The expectation is that these digital things will, like a guardian angel, save us from error; save us from our own silly mistakes; help us out because we are only human.
 
@@ -114,9 +112,9 @@ Where will we be in another decade? I don’t know. I hope, if nothing else, tha
 
 ### References
 
-1. The Power of Moments, Chip Heath & Dan Heath
-2. User Friendly (p112), Cliff Kuang & Robert Fabricant
-3. Cautionary Tales podcast
-4. Cennyd Bowles NA Conf talk
-5. Princess Cruises ‘Ocean Medallion’
-6. Disney ‘Magicband’
+1. <a href="https://amzn.to/2H1zfqN" target="_blank">The Power of Moments, Chip Heath & Dan Heath</a>
+2. <a href="https://amzn.to/3881VdK" target="_blank">User Friendly (p112), Cliff Kuang & Robert Fabricant</a>
+3. <a href="http://timharford.com/2019/12/cautionary-tales-ep-8-you-have-reached-your-desination/" target="_blank">Cautionary Tales Podcast - Episode 8</a>
+4. <a href="https://newadventuresconf.com/2020/coverage/" target="_blank">Cennyd Bowles' at New Adventures Conference 2020</a>
+5. <a href="https://www.princess.com/learn/faq_answer/pre_cruise/ocean_medallion.jsp" target="_blank">Princess Cruises ‘Ocean Medallion’</a>
+6. <a href="https://disneyworld.disney.go.com/en_GB/plan/my-disney-experience/bands-cards/" target="_blank">Disney ‘Magic Band’</a>

@@ -1,5 +1,5 @@
 ---
-layout: base-layout.njk
+layout: blog-layout.njk
 pagination:
   data: collections.post
   size: 10
@@ -10,7 +10,7 @@ pagination:
 
 {% for post in posts %}
 
-  <article class="full-width">
+  <article class="blogpost">
     <h1>
       <a href="{{ post.url | url }}">{{ post.data.title }}</a>
     </h1>
@@ -19,7 +19,7 @@ pagination:
 
     {% excerpt post %}
 
-    <a href="{{ post.url | url }}"aria-label="Read more on {{ post.data.title }}">Read more</a>
+    <a class="readmore" href="{{ post.url | url }}" aria-label="Read more on {{ post.data.title }}">&hellip; continue this article</a>
   </article>
 
 {% endfor %}
