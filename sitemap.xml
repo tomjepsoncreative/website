@@ -4,51 +4,57 @@
       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
       xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
             http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
 
 
 <url>
   <loc>https://tomjepsoncreative.work/</loc>
-  <lastmod>2019-07-21T09:32:20+00:00</lastmod>
+  <lastmod>2020-02-06T15:06:17+00:00</lastmod>
   <priority>1.00</priority>
 </url>
 <url>
-  <loc>https://tomjepsoncreative.work/content/about.html</loc>
-  <lastmod>2019-07-21T09:32:20+00:00</lastmod>
+  <loc>https://tomjepsoncreative.work/ux-consultancy/</loc>
+  <lastmod>2020-02-06T15:06:17+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://tomjepsoncreative.work/content/podcast.html</loc>
-  <lastmod>2019-07-21T09:32:20+00:00</lastmod>
+  <loc>https://tomjepsoncreative.work/ux-workshops/</loc>
+  <lastmod>2020-02-06T15:06:17+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://tomjepsoncreative.work/content/projects.html</loc>
-  <lastmod>2019-07-21T09:32:20+00:00</lastmod>
+  <loc>https://tomjepsoncreative.work/biography/</loc>
+  <lastmod>2020-02-06T15:06:17+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://tomjepsoncreative.work/content/design-sprints.html</loc>
-  <lastmod>2019-07-21T09:32:20+00:00</lastmod>
+  <loc>https://tomjepsoncreative.work/blog/</loc>
+  <lastmod>2020-02-06T15:06:17+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://tomjepsoncreative.work/content/running-discovery-session.html</loc>
-  <lastmod>2019-07-21T09:32:20+00:00</lastmod>
-  <priority>0.80</priority>
+  <loc>https://tomjepsoncreative.work/blog/posts/2020/decade-of-ux/</loc>
+  <lastmod>2020-02-06T15:06:17+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://tomjepsoncreative.work/content/lead-designer-in-nottingham.html</loc>
-  <lastmod>2019-07-21T09:32:20+00:00</lastmod>
-  <priority>0.80</priority>
+  <loc>https://tomjepsoncreative.work/blog/posts/2020/the-ux-cracks/</loc>
+  <lastmod>2020-02-06T15:06:17+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://tomjepsoncreative.work/content/remote-work.html</loc>
-  <lastmod>2019-07-21T09:32:20+00:00</lastmod>
-  <priority>0.80</priority>
+  <loc>https://tomjepsoncreative.work/blog/posts/2020/resilience/</loc>
+  <lastmod>2020-02-06T15:06:17+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://tomjepsoncreative.work/content/branding_tech_nottingham.html</loc>
-  <lastmod>2019-07-21T09:32:20+00:00</lastmod>
+  <loc>https://tomjepsoncreative.work/blog/posts/2019/retrospective-coo/</loc>
+  <lastmod>2020-02-06T15:06:17+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://tomjepsoncreative.work/blog/posts/2019/tough-games/</loc>
+  <lastmod>2020-02-06T15:06:17+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 
