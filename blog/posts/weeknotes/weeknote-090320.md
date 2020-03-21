@@ -9,8 +9,6 @@ tags: ['post']
 <!-- Excerpt Start -->
 In an effort to commit to writing more frequently here is my first #weeknote! I'll be documenting highlights and points of note from each week, hopefully sparking thoughts and ideas for exciting future 'stuff'. <!-- Excerpt End -->
 
-## Weeknote 09.03.2020
-
 - I've been reading Annie Duke's 'Thinking in Bets'. A great book from the mind of an expert poker player, it has helped me reframe how I think about the success of the decisions I make plus how I relate to and update my own beliefs through learned experience.
 
 - Other books on my in-progress list include Mike Monteiro's astounding 'Ruined by Design', Offscreen magazine issue 22, and 'Super Thinking' (a great book about biases and mental models) by Gabriel Weinberg and Lauren McCann.
