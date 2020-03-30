@@ -9,7 +9,6 @@ tags: ['post']
 <!-- Excerpt Start -->
 Weekly notes for w/c 23rd March 2020. Coronavirus homebound status update week 1. There were two new NIN albums out this week.<!-- Excerpt End -->
 
-## Weeknote 23.03.20
 - The first full week of all-indoors thanks to the current pandemic. Rebalancing our routines has been a surprisingly pleasing phase of prototyping!
 - I finished Annie Duke’s ‘Thinking in Bets’. Reframing how I make decisions in both my work and life - awareness of hindsight bias and thinking probabilistically - is going to be a fun exploration.
 - Joined the weekly virtual happy hour, hosted by the ever-vibrant Elizabeth Dunne (@geek_freelance on Twitter).
