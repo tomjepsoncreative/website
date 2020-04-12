@@ -2,7 +2,7 @@
 layout: post-layout.njk 
 title: I don’t believe in future-proof
 date: 2020-04-12
-tags: [‘post’]
+tags: ['post']
 ---
 
 *****
