@@ -7,11 +7,6 @@ tags: [‘post’]
 
 *****
 
-## A UX hot take.
-
-<!— Excerpt Start —>
-The dictionary defines resilience as ‘the capacity to recover from difficulties’. It is what enables us to keep moving; it is toughness, strength. To be resilient is to face down the things which challenge us and say ‘not today’. <!— Excerpt End —>
-
 As a user experience designer, a major part of my work is catering to unknowns. Unknowns with our product and service users; unknowns with our internal teams and stakeholders; unknowns with where our industry might be headed now, next week, or further into the future. It is common working in such a fast-paced industry for tools and trends to come and go, and for ‘required skills‘ to fly and fade in the blink of an eye.
 
 These skills and tools are sold to us as the next big thing to future-proof our careers and ensure we’re hireable and professionally desirable for the entirety of our journey. It is valuable to keep in step with what’s going on however knowing it all and making our skills ‘future-proof’ isn’t.
