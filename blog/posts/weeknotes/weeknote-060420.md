@@ -1,7 +1,7 @@
 ---
 layout: post-layout.njk 
 title: Weeknote 06.04.2020
-date: 2020-04-05
+date: 2020-04-12
 tags: ['post']
 ---
 
