@@ -1,8 +1,8 @@
 ---
 layout: post-layout.njk 
-title: I don’t believe in future-proof
+title: "I don’t believe in future-proof."
 date: 2020-04-12
-tags: [‘post’]
+tags: ['post']
 ---
 
 *****
@@ -11,9 +11,8 @@ As a user experience designer, a major part of my work is catering to unknowns. 
 
 These skills and tools are sold to us as the next big thing to future-proof our careers and ensure we’re hireable and professionally desirable for the entirety of our journey. It is valuable to keep in step with what’s going on however knowing it all and making our skills ‘future-proof’ isn’t.
 
-I don’t believe in the term ‘future-proof’.
-
-From Wikipedia, ‘in general, the term “future-proof” refers to the ability of something to continue to be of value into the distant future—that the item does not become obsolete.’
+<!-- Excerpt Start -->
+From Wikipedia, ‘the term “future-proof” refers to the ability of something to continue to be of value into the distant future—that the item does not become obsolete.’ This infers that fear of obsolescence is a guiding principle for growth. I don't agree and, needless to say, I don’t believe in the term ‘future-proof’. <!-- Excerpt End -->
 
 Here’s the rub. Future proof assumes that we know and understand our landscape, our audience, and our trajectory. It assumes we’re able to manage each and every factor within our circle of influence and be personally accountable to the things we have written off as ‘outside the circle’. It assumes we are not going to change course, either through necessity or desire.
 
