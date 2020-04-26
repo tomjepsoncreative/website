@@ -15,5 +15,5 @@ I am aware that I’ve been adding dates from Mondays not Sundays... Feels odd! 
 - My website is now accessible at tomjepsoncreative.com - I’ll be transitioning my entire estate over to the .com in the coming weeks. Having the .work address was a great way to start my identity as a freelancer but I feel I have outgrown it and am heading into the next chapter of whatever-this-thing-is quickly.
 - Animal Crossing has become a pretty major feature in our daily entertainment. With three of us playing it, the inter-island politics of item placement and landscaping are becoming heated!
 - I finished ‘Ruined by Design’. I believe it’s something that everyone - designers and non-designers alike - should read. Seriously.
-- I’ve started a really interested book on why gaming could set the stall for a ‘new normal’. It’s called ‘Reality is Broken’ and is by Jane McGonigal.
+- I’ve started a really interesting book on why gaming could set the stall for a ‘new normal’. It’s called ‘Reality is Broken’ and is by Jane McGonigal.
 - Watched ‘Joker’. It’s good; really, really good.
