@@ -8,13 +8,13 @@ tags: ['post']
 *****
 
 ### Summary
-<!-— Excerpt Start -—>
+<!-- Excerpt Start -->
 * Online meetings are a great asset for virtual work but we’re in a place where we’re at risk of ‘meeting apathy’.
 * Gamification is more valuable to our meetings than a ‘traditional’ model of input-reward-repeat: building confidence, inspiring change, promoting collaboration, and introducing healthy competition.
 * Leveraging game concepts to boost and maintain focus and energy in an online meeting was really important to the workshop attendees.
 * We need to introduce ‘good games’ that work for everyone; remember peoples’ own context and comfortability is important for engagement.
 * When you’re choosing your game mechanics, don’t devalue the purpose of a meeting with random activities that bear little relevance to everyone’s goals.
-<!—- Excerpt End -—>
+<!-- Excerpt End -->
 
 *****
 
