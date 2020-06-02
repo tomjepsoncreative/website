@@ -1,6 +1,6 @@
 ---
 layout: post-layout.njk 
-title: The Gamification of Online Meetings: First Steps to Greater Engagement
+title: The Gamification of Online Meetings - First Steps to Greater Engagement
 date: 2020-06-02
 tags: ['post']
 ---
@@ -8,17 +8,17 @@ tags: ['post']
 *****
 
 ### Summary
-<!-- Excerpt Start -->
+
 * Online meetings are a great asset for virtual work but we’re in a place where we’re at risk of ‘meeting apathy’.
 * Gamification is more valuable to our meetings than a ‘traditional’ model of input-reward-repeat: building confidence, inspiring change, promoting collaboration, and introducing healthy competition.
 * Leveraging game concepts to boost and maintain focus and energy in an online meeting was really important to the workshop attendees.
 * We need to introduce ‘good games’ that work for everyone; remember peoples’ own context and comfortability is important for engagement.
 * When you’re choosing your game mechanics, don’t devalue the purpose of a meeting with random activities that bear little relevance to everyone’s goals.
-<!-- Excerpt End -->
+
 
 *****
-
-Online meetings can fast become a time-sink and productivity-killer if they’re overused, dry, and one-directional. At this point in 2020, I’d be satisfied to say that we’re all pretty ‘zoomed out’ and are suffering some significant ‘online meeting apathy’. I don’t blame you for feeling this way; I’m right there with you.
+<!-- Excerpt Start -->
+Online meetings can fast become a time-sink and productivity-killer if they’re overused, dry, and one-directional. At this point in 2020, I’d be satisfied to say that we’re all pretty ‘zoomed out’ and are suffering some significant ‘online meeting apathy’. I don’t blame you for feeling this way; I’m right there with you. <!-- Excerpt End -->
 
 I ran a free, collaborative workshop to explore the idea of ‘gamifying’ our online meetings; looking at how game concepts - rewards, structure, collaboration, and co-operation - could play into creating more engaging, effective meetings.
 
