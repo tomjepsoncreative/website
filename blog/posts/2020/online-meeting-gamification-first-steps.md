@@ -1,7 +1,7 @@
 ---
 layout: post-layout.njk 
-title: Don’t Fall Through The UX Cracks
-date: 2020-01-15
+title: The Gamification of Online Meetings: First Steps to Greater Engagement
+date: 2020-06-02
 tags: ['post']
 ---
 
@@ -16,8 +16,6 @@ tags: ['post']
 
 
 *****
-
-# The Gamification of Online Meetings: First Steps to Greater Engagement
 
 <!-— Excerpt Start -—>Online meetings can fast become a time-sink and productivity-killer if they’re overused, dry, and one-directional. At this point in 2020, I’d be satisfied to say that we’re all pretty ‘zoomed out’ and are suffering some significant ‘online meeting apathy’. I don’t blame you for feeling this way; I’m right there with you.<!—- Excerpt End -—>
 
