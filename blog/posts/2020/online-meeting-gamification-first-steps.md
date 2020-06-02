@@ -15,7 +15,6 @@ tags: ['post']
 * We need to introduce ‘good games’ that work for everyone; remember peoples’ own context and comfortability is important for engagement.
 * When you’re choosing your game mechanics, don’t devalue the purpose of a meeting with random activities that bear little relevance to everyone’s goals.
 
-
 *****
 <!-- Excerpt Start -->
 Online meetings can fast become a time-sink and productivity-killer if they’re overused, dry, and one-directional. At this point in 2020, I’d be satisfied to say that we’re all pretty ‘zoomed out’ and are suffering some significant ‘online meeting apathy’. I don’t blame you for feeling this way; I’m right there with you. <!-- Excerpt End -->
@@ -36,13 +35,15 @@ Since we are heading towards a global, remote-first way of working the effects -
 
 At the beginning of the workshop it was clear that the group had differing perspectives on what gamification is and how it can be used; outside of the standard ‘input/reward’ models, it is important to note that gamification and aspects of play can be used for much more. To build confidence in a team or individual; as a means to inspire change; as a way to learn; as a way to add meaning to rewards; as a way to promote collaboration; and, as a means to add healthy competition amidst a group of potentially unfamiliar people.
 
-For people to benefit from any of these possible outcomes, engagement, and willingness to participate are key. Healthy scepticism of games and ‘play at work’ is fine but a desire to ‘join in and play’ can make the difference between a successful outcome and yet-another-failed-meeting-hack. Something which Jane McGonigal mentions in her exceptional title ‘Reality is Broken’ is that to build true engagement, people often need to feel like they are contributing to something bigger than themselves; a ‘greater good’ or commons. Have you ever asked ‘What are we really looking to achieve from this meeting?’ before you begin?
+For people to benefit from any of these possible outcomes, engagement, and willingness to participate are key. Healthy scepticism of games and ‘play at work’ is fine but a desire to ‘join in and play’ can make the difference between a successful outcome and yet-another-failed-meeting-hack. Something which Jane McGonigal mentions in her exceptional title ‘Reality is Broken’ is that to build true engagement, people often need to feel like they are contributing to something bigger than themselves; a ‘greater good’ or commons. 
+
+Have you ever asked ‘What are we really looking to achieve from this meeting?’ before you begin?
 
 It’s with these thoughts that the collaborative session was framed. A group of people focusing on a goal bigger than their own immediate network, a set of constraints, and a story to follow.
 
 ## Heroes, villains, and power-ups - Gamifying your online meetings
 
-“Taking a journey; telling a story.”
+### “Taking a journey; telling a story.”
 The session was broken into four main parts: The Hero, The Villain, Power-Ups, and an Epic Boss Battle. Framing the workshop in this way gave attendees the opportunity to ‘take a journey’ and feel a sense of achievement when they came out the other side; something especially important when you are asking people to engage freely and share in group participation tasks.
 
 ‘The Hero’ tasked our team with thinking up the positive traits of the online meeting; the parts which we’d like to maintain or grow.
