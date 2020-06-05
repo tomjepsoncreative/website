@@ -7,7 +7,6 @@ tags: ['post']
 
 *****
 
-### Summary
 <!-- Excerpt Start -->
 ‘Decide fast and move on’ is a mantra I bring to every project. It isn’t a mission statement as much as a directive for everyone to think on their feet and be ready to take action, quickly!<!-- Excerpt End -->
 
