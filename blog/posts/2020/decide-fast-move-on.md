@@ -7,7 +7,7 @@ tags: ['post']
 
 *****
 
-### “Decide fast and move on” (or “why it’s important to make good decisions quickly, avoid getting stuck in the details, and learn from your mistakes.”)
+### “Why it’s important to make good decisions quickly, avoid getting stuck in the details, and learn from your mistakes.”
 
 <!-- Excerpt Start -->
 ‘Decide fast and move on’ is a mantra I bring to every project. It isn’t a mission statement as much as a directive for everyone to think on their feet and be ready to take action, quickly!<!-- Excerpt End -->
@@ -15,6 +15,8 @@ tags: ['post']
 You might feel that it’s a cop out or a shortcut to making any old decision just for the sake of getting work off your desk; this isn’t the case. Being ready to make swift decisions is a way to keep your projects moving forward, keep everyone on the same page, reduce ‘output debt’, and keep a laser focus on your project goals.
 
 How do we set up for success in making these fast decisions? It isn’t hard to start and there are practical tools to help you when it feels like you’re getting nowhere.
+
+*****
 
 ## Finding the right problem: build understanding with good questions
 Being able to make a fast decision on it’s own is easy: left or right; black or white; true or false. Making a *good* fast decision however takes a little more legwork.
