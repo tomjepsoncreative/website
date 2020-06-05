@@ -12,23 +12,23 @@ tags: ['post']
 <!-- Excerpt Start -->
 ‘Decide fast and move on’ is a mantra I bring to every project. It isn’t a mission statement as much as a directive for everyone to think on their feet and be ready to take action, quickly!<!-- Excerpt End -->
 
-You might feel that it’s a cop out or a shortcut to making any old decision just for the sake of getting work off your desk; this isn’t the case. Being ready to make swift decisions is a way to keep your projects moving forward, keep everyone on the same page, reduce ‘output debt’, and keep a laser focus on your project goals.
+You might feel that it’s a cop-out or a shortcut to making any old decision just for the sake of getting work off your desk; this isn’t the case. Being ready to make swift decisions is a way to keep your projects moving forward, keep everyone on the same page, reduce ‘output debt’, and keep a laser focus on your project goals.
 
 How do we set up for success in making these fast decisions? It isn’t hard to start and there are practical tools to help you when it feels like you’re getting nowhere.
 
 *****
 
 ## Finding the right problem: build understanding with good questions
-Being able to make a fast decision on it’s own is easy: left or right; black or white; true or false. Making a *good* fast decision however takes a little more legwork.
+Being able to make a fast decision on its own is easy: left or right; black or white; true or false. Making a *good* fast decision, however, takes a little more legwork.
 
-Learning how to ask a ‘good question’ is the first step to being able to move forward at pace. By asking questions which surface the right information from the right people you will be equipped to make decisions which address real needs and contribute to succeeding with your goal.
+Learning how to ask a ‘good question’ is the first step to being able to move forward at pace. By asking questions that surface the right information from the right people you will be equipped to make decisions that address real needs and contribute to succeeding with your goal.
 
 **Tip**: Ask ‘open questions’ - try starting with ‘how’ or ‘why’ - and prime the person you’re speaking with to give more than a ‘binary’ answer.
 
 ## Don’t get hung up on the details (yet)
 As tempting as it may be to iron out all of the quirks and bumps in the road before you ‘ready’ to show off your idea, you’ll be sabotaging any opportunity you have to move forward quickly with your project.
 
-Working on every single edge case or fork in your logic diagram up front might feel like very useful work to add value to a solution and - in some cases - it is. Be mindful however that with every extra layer of detail you have an extra layer of decisions to make.
+Working on every single edge case or fork in your logic diagram upfront might feel like very useful work to add value to a solution and - in some cases - it is. Be mindful however that with every extra layer of detail you have an extra layer of decisions to make.
 
 **Tip**: As you make decisions and test them for validity, you’ll end up iterating on your ideas; building on what you had before, changing things, or starting over entirely! Keep a pool of ideas for the details you might have ‘missed’ and revisit them later when you know the core of your idea is on the right path.
 
@@ -40,7 +40,7 @@ By acknowledging this and making decisions which allow you to move forward, you�
 **Tip**: Follow the guideline of ‘share early and often’. Decide on the idea you want to share, work out the best means to do so, and get it out there with other people. Having a clear goal for your ‘test’, too, is important; what do you really want to know when you’re sharing the idea?
 
 ## Find the best way to work at pace
-This isn’t always easy especially when you’re working with a lot of stakeholders or have a systemic culture of ‘moving at a glacial pace’. Even in these scenarios there are tools you can use to help people see the whole picture and make the fast decisions you need to get the job done.
+This isn’t always easy especially when you’re working with a lot of stakeholders or have a systemic culture of ‘moving at a glacial pace’. Even in these scenarios, there are tools you can use to help people see the whole picture and make the fast decisions you need to get the job done.
 
 It’s important to acknowledge here that one size rarely fits all. Think about what you really want to achieve and look for a tool that’ll help you get there. Your context is everything.
 
