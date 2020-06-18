@@ -1,5 +1,4 @@
 ---
-layout: dev-layout.njk 
-title: New Page
+layout: dev.njk 
 ---
 This is a new page.
