@@ -2,4 +2,9 @@
 layout: dev-layout.njk
 ---
 <h1>This is the dev site</h1>
-{{ content | safe }}
+
+<ul>
+{%- for page in collections.all -%}
+  <li><a href="{{ page.url }}">{{ page.url }}</a></li>
+{%- endfor -%}
+</ul>

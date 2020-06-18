@@ -1,4 +1,4 @@
 ---
-layout: dev-layout.njk
+tags: page
 ---
 This is a new page.
