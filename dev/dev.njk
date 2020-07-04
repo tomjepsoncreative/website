@@ -1,0 +1,12 @@
+---
+layout: dev-layout.njk
+---
+<h1>This is the dev site</h1>
+
+<ul>
+
+{%- for page in collections.page -%}
+<li><a href="{{ page.url }}">{{ page.url }}</a></li>
+{%- endfor -%}
+
+</ul>
