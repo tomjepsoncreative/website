@@ -1,7 +1,7 @@
 ---
 layout: post-layout.njk 
 title: Showing up: For now, for later, for yourself
-date: 2020-09-07
+date: 2020-07-09
 tags: ['post']
 ---
 
