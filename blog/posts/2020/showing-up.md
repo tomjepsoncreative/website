@@ -1,6 +1,6 @@
 ---
 layout: post-layout.njk 
-title: Showing up: for now, for later, for you
+title: Showing up - For now, for later, for you.
 date: 2020-07-09
 tags: ['post']
 ---
