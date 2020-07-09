@@ -4,7 +4,8 @@ title: Showing up: For now, for later, for yourself
 date: 2020-09-07
 tags: ['post']
 ---
-******
+
+*****
 <!-- Excerpt Start -->
 Throughout our careers we'll be given advice; some will stick and some won't. One thing which has resonated with me for as long as I can remember is that, to achieve real success, you have to 'show up'. Being there whether we want to or not and putting in the time sets us apart from the pack and tees us up to succeed.<!-- Excerpt End -->
 
