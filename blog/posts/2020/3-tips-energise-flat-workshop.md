@@ -20,9 +20,7 @@ Regardless of the cause of this sudden lack of action, you as the facilitator mu
 
 Should the tide change far enough and everyone is ready to jump ship, what you do - and how you do it - will be the deciding factor between your ship sinking and making it to shore intact! Making a decision on the fly is not easy and grows with your experience. Pausing a session and addressing the group as the person in control is not an easy thing to do, either. While it puts you in a position of vulnerability it shows you’re on side with the participants and ready to do right by them and the session goal. Get ready to weather a storm and move forward!
 
-## “Oh, buddy. Read the room!”
-
-### Inaction and poor focus
+## Inaction and poor focus
 If your participants keep homing in on something which falls outside the scope of the session there is likely a reason for it. If the group is attempting to move the focus of the session to something which you **know** is not going to result in a favourable or actionable outcome, it's time to put on the breaks.
 
 The groups’ shift in focus could be indicative of an underlying problem which needs to be addressed. Think about what you can do to pause, read the room, and address the group with a question that allows them to divert focus briefly and unearth the cause of the misalignment.
@@ -42,7 +40,7 @@ Once you've found out where you **should** be placing your collective attention,
 
 **Tip**: However you choose to pause and refocus the session ensure you are not acting in an accusatory way. You will know - as will your stakeholders - that something isn’t right, however pointing fingers isn’t the done thing. Make sure to address the group in a way which is serving the outcome you’re looking to meet and is respectful of the time they have given up to take part in the conversation.
 
-### Reengagement
+## Reengagement
 What you do with your workshop if it feels like it is floundering begins with remembering your attendees and stakeholders are **people**. There's no point in attempting to reset a session or press on if the people in the room aren't feeling it or are unwilling to come back on side.
 
 Keeping the conversation going to maintain communication is important. A group who sit stoically waiting for you to come back with the answer they need might end up more frustrated as they stew in their own juices. Can you kick off a chat about something you discussed earlier in the day? Could you run a brief ice-breaker or energiser to pick everyone up? Be aware of the personalities in the group and find a method to push things forward.
