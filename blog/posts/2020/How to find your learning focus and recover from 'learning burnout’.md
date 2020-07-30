@@ -1,7 +1,7 @@
 ---
 layout: post-layout.njk 
 title: How to find your learning focus and recover from 'learning burnout’
-date: 2020-30-07
+date: 2020-07-30
 tags: ['post']
 ---
 
