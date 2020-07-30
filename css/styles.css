@@ -90,7 +90,7 @@ html, body { -webkit-font-smoothing: antialiased; background-color: #FEFEFE; -we
 
 .full-width-hero { grid-column: 1 / span 4; padding: 0 16px; }
 @media screen and (min-width: 48em) { .full-width-hero { grid-column: 1 / span 6; } }
-@media screen and (min-width: 64em) { .full-width-hero { grid-column: 1 / span 10; } }
+@media screen and (min-width: 64em) { .full-width-hero { grid-column: 2 / span 10; } }
 @media screen and (min-width: 48em) { .full-width-hero { padding: 0 32px; } }
 @media screen and (min-width: 80em) { .full-width-hero { padding: 0 64px; } }
 @media screen and (min-width: 1500px) { .full-width-hero { padding: 0; } }
