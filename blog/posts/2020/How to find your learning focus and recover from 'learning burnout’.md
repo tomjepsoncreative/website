@@ -7,7 +7,8 @@ tags: ['post']
 
 *****
 
-A creative professional’s inspiration well can have infinite depth; blogs, articles, videos, podcasts… It’s rich and full of potential if we are able to find the value in it.
+<!-- Excerpt Start -->
+A creative professional’s inspiration well can have infinite depth; blogs, articles, videos, podcasts… It’s rich and full of potential if we are able to find the value in it.<!-- Excerpt End -->
 An advocate for life-long learning, I have always been drawn to the well and the opportunity to experience a new perspective or learn a new skill. However, after many hours (years?) of listening to podcasts and soaking up articles I feel ... done. I burned out on the constant barrage of content. The Instagram slideshows packed with tips; the 'quick read' articles on Medium; the latest conversation threads on Twitter.
 It isn’t that I want to learn any less. I stopped being able to see the wood for the trees and find the branches which support me and show the true value of what I was consuming.
 I lost my learning focus.
