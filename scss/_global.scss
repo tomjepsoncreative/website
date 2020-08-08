@@ -211,6 +211,27 @@ html, body {
     }       
 }
 
+.full-width-hero {
+    grid-column: 1 / span 4;
+    @media screen and (min-width: $med) {
+        grid-column: 1 / span 6;
+    }
+    @media screen and (min-width: $lg) {
+        grid-column: 2 / span 10;
+    }
+
+    padding: 0 16px;
+    @media screen and (min-width: $med) {
+        padding: 0 32px;
+    }
+    @media screen and (min-width: $xl) {
+        padding: 0 64px;
+    }
+    @media screen and (min-width: 1500px) {
+        padding: 0;
+    }       
+}
+
 .align-button {
     align-self: end;
 }
