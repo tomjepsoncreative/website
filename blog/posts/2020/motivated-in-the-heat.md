@@ -12,7 +12,7 @@ Full disclosure; I'm writing this to keep myself motivated in the heat! I've com
 *****
 
 <!-- Excerpt Start -->
-We all know how hard it is to summon the energy to graft hard and smash the task list when you’re cooking from the inside out. That sluggish feeling, summoning the energy to fire up the design tools and embrace the marathon slog of wireframes, research analysis, or Zoom calls; the heat only amplified by the glory of your 4K display and furnace-like Mac computer.<!-- Excerpt End -->
+We all know how tough it can be summoning the energy to graft hard and smash the task list when you’re cooking from the inside out. That sluggish feeling against the marathon slog of wireframes, research analysis, or Zoom calls; the heat only amplified by the glory of your 4K display and furnace-like Mac computer.<!-- Excerpt End -->
 
 Here're three things I do to push on, even when it's roasting!
 
