@@ -12,7 +12,7 @@ As I progress as a writer and content creator, I am discovering that while showi
 
 Knowing how to act on the ‘lightbulb moment’ is something for which you must train yourself. The act of showing up, forming habits, allows you to capitalise on the real magic when it happens; you're never fully 'off'. I am certain there are myriad products and books that were never made because of a cold, standing start. You need to be equipped to go when it is go time.
 
-I’ve talked before about showing up and self-care. Arriving at the same time every day and 'just getting on with it'. Hustlers and the 'success mindset set' will tell you that you should put in that maximum effort instead of watching a Netflix or engaging in something else diversionary. But we are only human. It’s hard to remember not to beat yourself up when lightening strikes and you’ve been a little out-of-the-habit.
+I’ve [talked before](https://tomjepsoncreative.com/blog/posts/2020/showing-up/) about showing up and self-care. Arriving at the same time every day and 'just getting on with it'. Hustlers and the 'success mindset set' will tell you that you should put in that maximum effort instead of watching a Netflix or engaging in something else diversionary. But we are only human. It’s hard to remember not to beat yourself up when lightening strikes and you’ve been a little out-of-the-habit.
 
 Sometimes - when you are out of the habit of showing up - it might just be that your mind is full. You have reached capacity for the stuff you can fairly contend with before you feel burnout coming. Do you really need to take on that extra project that’ll eat up all your free time ‘just to get ahead’? Do you need to start your new habit today when you already know your focus is fractured?
 
