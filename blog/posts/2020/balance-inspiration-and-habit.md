@@ -1,7 +1,7 @@
 ---
 layout: post-layout.njk 
 title: The balance between inspiration and habit
-date: 2020-30-08
+date: 2020-08-30
 tags: ['post']
 ---
 
