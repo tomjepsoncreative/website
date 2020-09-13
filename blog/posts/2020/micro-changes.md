@@ -12,7 +12,7 @@ I think about change a *lot*. Constantly-moving dynamics of work; fluctuations i
 
 For me, change is nearly always good (unless it's a massive tax bill that causes a negative change in my bank account!). I like to believe - ever the optimist - that the majority of things in my life are subject to change and, more importantly, subject to changes which I can affect.
 
-This said, I want to share some 'micro changes' - the incidental shifts in behaviour or scenario - which I've begun to enact in my day to day life. As with all things, I've got a 'what', 'why', and 'how' in my mind; thinking strategically often helps me make more sense of the world.
+This said, I want to share some 'micro changes' - the incidental shifts in behaviour or scenario - which I've begun to enact in my day to day life.
 
 ## Sleep
 I used to be very good about getting plenty of sleep. Then we had children and that went to the dogs. The need for the creative mind to get proper rest and important, restorative sleep is well-documented. I've been forcing myself - a positive change! - up to bed around 9pm every night. Since my day begins around 5:30am, having lights out by 10pm gives me some chance of getting 7 hours of good sleep.
