@@ -6,9 +6,7 @@ tags: ['post']
 ---
 
 *****
-<!-- Excerpt Start -->Energy. Get up and go. Fire. Passion. There are many names for that which gives us our drive to keep moving and to do the next thing on our agendas.
-
-We each have the capacity to grow this fire-filled passion pit and live our lives highly motivated, energised, and overflowing with enthusiasm.<!-- Excerpt End --> The amount of energy we have to give, however, is directly related to the things which demand said energy; the pool - the reserve - we have available to us is finite.
+<!-- Excerpt Start -->Energy. Get up and go. Fire. Passion. There are many names for that which gives us our drive to keep moving and to do the next thing on our agendas. We each have the capacity to grow this fire-filled passion pit and live our lives highly motivated, energised, and overflowing with enthusiasm.<!-- Excerpt End --> The amount of energy we have to give, however, is directly related to the things which demand said energy; the pool - the reserve - we have available to us is finite.
 
 Speaking recently with a good friend, we spoke about energy and looking after yourself. We had recently closed down our (very, very small) community startup after 2020's significant change in pace; it wasn't a viable thing for us to plough our effort into and make it a success. We both agreed that while we loved the concept and the potential we first saw it was sapping our energy; it was consuming our conscious energy but also the unconscious reserves we had for all the other stuff on our plates.
 
