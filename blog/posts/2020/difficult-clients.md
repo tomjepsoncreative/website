@@ -1,6 +1,6 @@
 ---
 layout: post-layout.njk 
-title: "We're our biggest customer..." - The challenge of overpowering motivations
+title: We're our biggest customer... - The challenge of overpowering motivations
 date: 2020-10-21
 tags: ['post']
 ---
