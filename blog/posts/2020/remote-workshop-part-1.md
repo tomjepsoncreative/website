@@ -20,9 +20,13 @@ In its current form I want to bring everything I have learned about workshops, f
 
 It’s not ‘a course’ in the traditional sense but a means for me to share my experience with people who want it and need it. After all this year has given us, a fresh view on what is *really* possible with remote collaboration in our communities around the globe may be one of the finest gifts.
 
-What I want to achieve with this new endeavour is to help people find *their* way of workshopping effectively in the virtual space. It’s all about creating an understanding of what’s possible with the tools people have at their disposal; how to use them to draw effective outcomes from any session regardless of someone's position in a company or their level of experience.
+## Effective Virtual Workshops
+
+What I want to achieve with this new endeavour is to help people find their way of workshopping effectively in the virtual space. It’s all about creating an understanding of what’s possible with the tools people have at their disposal; how to use them to draw effective outcomes from any session regardless of someone's position in a company or their level of experience.
 
 I’m not trying to corner a market for any particular style of session; there are agencies who have doubled-down on Design Sprints and Design Thinking. I’m not looking to set up some proprietary method for ‘doing things better’ because I don’t believe that would be helpful; introducing new tools into people’s consciousness (and then trying to help them develop behaviours to create ‘stickiness’) is a surefire way to make a rod for my back.
+
+## Refine All The Time
 
 In the coming days I am going to be taking the leanest version of The Remote Workshop Guide I can and getting it ‘out into the wild’. After a discussion with the course cohort, it’s apparent that taking a staggered approach to garner interest - a smoke test of the idea - is likely fruitless and wouldn’t do me much to further the offering. What I really want is for people to put their trust in me, pay to subscribe, and join me on the journey of building something in the open.
 
