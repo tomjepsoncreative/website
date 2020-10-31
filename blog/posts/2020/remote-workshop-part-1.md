@@ -8,15 +8,15 @@ tags: ['post']
 *****
 
 <!-- Excerpt Start -->
-As I was making my coffee this morning I realised I have not shared anything to do with my recent journeys into product-making. I’d long ago posted about writing a course on setting up a remote workshop using MURAL; I never followed through and finished it.<!-- Excerpt End -->
+As I was making my coffee this morning I realised I have not shared anything to do with my recent journeys into product-making. **I’d long ago posted about writing a course on setting up a remote workshop using MURAL**; I never followed through and finished it.<!-- Excerpt End -->
  
 Excuses were made and production halted.
 
 However, as we’re approaching the end of 2020 - a year of significant trauma, trial, and change - I wanted to ‘get back on the horse’ so to speak and revisit something about which I am passionate.
 
-At the beginning of October I signed up for Christopher Murphy’s ‘Sell While You Sleep Course’ - party to satisfy my need to ‘do something’ to progress my own learning and also to support Chris as he makes his way in to a brand new career path as a school founder. After only 6 weeks of course material and with the support of my student peers and Chris as a mentor I have resurrected the workshopping course; it has transformed into something much greater, much more valuable, than I first imagined it could be.
+At the beginning of October I signed up for Christopher Murphy’s ‘Sell While You Sleep Course’ - party to satisfy my need to ‘do something’ to progress my own learning and also to support Chris as he makes his way in to a brand new career path as a school founder. After only 6 weeks of course material and with the support of my student peers and Chris as a mentor **I have resurrected the workshopping course**; it has transformed into something much greater, much more valuable, than I first imagined it could be.
 
-In its current form I want to bring everything I have learned about workshops, facilitation, and engagement in the virtual space, presenting it in a way which is digestible, accessible, and - most importantly - easy to implement by anyone looking to learn.
+In its current form I want to bring **everything I have learned about workshops, facilitation, and engagement in the virtual space**, presenting it in a way which is digestible, accessible, and - most importantly - easy to implement by anyone looking to learn.
 
 It’s not ‘a course’ in the traditional sense but a means for me to share my experience with people who want it and need it. After all this year has given us, **a fresh view on what is really possible with remote collaboration in our communities around the globe** may be one of the finest gifts.
 
