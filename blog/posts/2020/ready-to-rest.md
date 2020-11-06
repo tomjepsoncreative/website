@@ -1,6 +1,6 @@
 ---
 layout: post-layout.njk 
-title: "Ready to rest" - Doing our best work without emptying our mental bank account
+title: Doing our best work without emptying our mental bank account
 date: 2020-11-06
 tags: ['post']
 ---
