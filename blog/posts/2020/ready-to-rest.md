@@ -46,6 +46,7 @@ Doing our best, most meaningful work needn't be something which comes at an unre
 - Determine our routines and find ways to carve out the time to focus deeply on the things which will make a difference and push us forward creatively.
 - Earning our rest and taking it, willingly, by devoting time to the short, focused working sessions.
 - Give ourselves the time to think subconsciously, rest actively in pursuits we enjoy, and experience all that life has to offer us.
+
 Get ready to unleash your greatest creative work; get ready to rest.
 
 ***
