@@ -1,7 +1,7 @@
 ---
 layout: post-layout.njk 
 title: A Healthier Life with Fewer Distractions
-date: 2020-28-11
+date: 2020-11-28
 tags: ['post']
 ---
 
