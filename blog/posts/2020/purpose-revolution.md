@@ -30,10 +30,10 @@ It’s your core; the almost indestructible threads of your fabric. Importantly,
 
 In beginning to understand how a new generation of entrepreneurs, creatives, and knowledge-workers are looking to cut their cloth, many questions came to mind.
 
-> Do we know our true purpose and seek to live it, or are we learning it and defining it *as* we live?
-> Where does our sense of purpose come from? What inspires us to define purpose for ourselves?
-> Do we need to compromise on our own sense of purpose to 'fit in' with the common expectations of industry today?
-> Do we feel stress in our work, in our lives, because we’re at odds with our own sense of purpose and our values?
+- Do we know our true purpose and seek to live it, or are we learning it and defining it *as* we live?
+- Where does our sense of purpose come from? What inspires us to define purpose for ourselves?
+- Do we need to compromise on our own sense of purpose to 'fit in' with the common expectations of industry today?
+- Do we feel stress in our work, in our lives, because we’re at odds with our own sense of purpose and our values?
 
 If this new generation is driving forward with their purpose at the beginning of their working life, why do we end up coasting or living task-by-task? Why do we forget our purpose? 
 
