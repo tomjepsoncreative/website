@@ -1,23 +1,23 @@
 // Set up baseline type classes and extend with @extend %class-name
 %type-defaults {
     //color: $dark;
-    font-weight: normal; 
+    font-weight: normal;
 }
 
 .hero-heading {
     @extend %type-defaults;
 
     @include font-size(46px);
-    @include line-height(56px); 
+    @include line-height(56px);
 
     @media screen and (min-width: $med) {
         @include font-size(56px);
-        @include line-height(66px);    
+        @include line-height(66px);
     }
 
     @media screen and (min-width: $lg) {
         @include font-size(64px);
-        @include line-height(72px); 
+        @include line-height(72px);
     }
 
     font-family: geomanistultra;
@@ -39,16 +39,16 @@
     @extend %type-defaults;
 
     @include font-size(36px);
-    @include line-height(48px); 
+    @include line-height(48px);
 
     @media screen and (min-width: $med) {
         @include font-size(40px);
-        @include line-height(56px);      
+        @include line-height(56px);
     }
 
     @media screen and (min-width: $lg) {
         @include font-size(44px);
-        @include line-height(64px); 
+        @include line-height(64px);
     }
 
     font-family: geomanistmedium;
@@ -60,23 +60,23 @@
 
     &--reverse {
         color: $light;
-    }    
+    }
 }
 
 .group-heading {
     @extend %type-defaults;
 
     @include font-size(28px);
-    @include line-height(40px);  
+    @include line-height(40px);
 
     @media screen and (min-width: $med) {
         @include font-size(34px);
-        @include line-height(52px);        
+        @include line-height(52px);
     }
 
     @media screen and (min-width: $lg) {
         @include font-size(36px);
-        @include line-height(64px); 
+        @include line-height(64px);
     }
 
     font-family: "Kreon", serif;
@@ -94,25 +94,25 @@
     &--right {
         text-align: left;
         @media screen and (min-width: $med) {
-            text-align: right;       
-        }     
-    }        
+            text-align: right;
+        }
+    }
 }
 
 .standout {
     @extend %type-defaults;
 
     @include font-size(20px);
-    @include line-height(38px);  
+    @include line-height(38px);
 
     @media screen and (min-width: $med) {
         @include font-size(24px);
-        @include line-height(40px);      
+        @include line-height(40px);
     }
 
     @media screen and (min-width: $lg) {
         @include font-size(28px);
-        @include line-height(44px); 
+        @include line-height(44px);
     }
 
     font-family: geomanistregular;
@@ -128,7 +128,7 @@
 
     &--reverse {
         color: $light;
-    }       
+    }
 }
 
 .copy {
@@ -139,7 +139,7 @@
 
     @media screen and (min-width: $med) {
         @include font-size(20px);
-        @include line-height(38px);        
+        @include line-height(38px);
     }
 
     @media screen and (min-width: $lg) {
@@ -148,7 +148,7 @@
         padding-bottom: 12px;
         &:last-child {
             padding-bottom: 0;
-        }        
+        }
     }
 
     font-family: geomanistregular;
@@ -187,18 +187,18 @@
 
     @media screen and (min-width: $med) {
         @include font-size(28px);
-        @include line-height(44px);    
+        @include line-height(44px);
     }
 
     @media screen and (min-width: $lg) {
         @include font-size(33px);
-        @include line-height(52px); 
+        @include line-height(52px);
     }
 
     font-family: "Kreon", serif;
     font-weight: 400;
     letter-spacing: -0.9px;
-    
+
     &--color {
         color: $primary;
     }
@@ -206,7 +206,7 @@
     &--reverse {
         color: $light;
     }
-    
+
     &--spaced {
         margin-bottom: 1rem;
     }
@@ -220,18 +220,18 @@
 
     @media screen and (min-width: $med) {
         @include font-size(24px);
-        @include line-height(44px);    
+        @include line-height(44px);
     }
 
     @media screen and (min-width: $lg) {
         @include font-size(28px);
-        @include line-height(52px); 
+        @include line-height(52px);
     }
 
     font-family: "Kreon", serif;
     font-weight: 400;
     letter-spacing: -0.9px;
-    
+
     &--color {
         color: $primary;
     }
@@ -239,7 +239,7 @@
     &--reverse {
         color: $light;
     }
-    
+
     &--spaced {
         margin-bottom: 1rem;
     }
@@ -253,7 +253,7 @@
 
     @media screen and (min-width: $med) {
         @include font-size(22px);
-        @include line-height(28px);  
+        @include line-height(28px);
     }
 
     @media screen and (min-width: $lg) {
@@ -280,7 +280,7 @@ a {
         text-decoration: underline;
     }
     &:active {
-    }  
+    }
 }
 
 .ctr {
@@ -289,4 +289,32 @@ a {
 
 .icon {
     padding-right: 12px;
+}
+
+.btm-pad {
+  padding-bottom: 16px;
+}
+
+.list {
+  margin-bottom: 20px;
+
+  li {
+
+    list-style: none;
+    @media screen and (min-width: $med) {
+      list-style: disc;
+    }
+
+    padding-bottom: 0px;
+    max-width: 97%;
+    }
+
+  &--number {
+    li {
+      @media screen and (min-width: $med) {
+        list-style: decimal;
+      }
+    }
+  }
+
 }

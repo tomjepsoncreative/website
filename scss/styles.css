@@ -294,7 +294,7 @@ html, body {
       grid-column: 1 / span 6; } }
   @media screen and (min-width: 64em) {
     .full-width-hero {
-      grid-column: 1 / span 10; } }
+      grid-column: 2 / span 10; } }
   @media screen and (min-width: 48em) {
     .full-width-hero {
       padding: 0 32px; } }
