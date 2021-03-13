@@ -14,6 +14,10 @@ html, body {
 }
 
 .container {
+
+    // Remove this later
+    // background-color: rgba(10,40,11,0.5);
+
     box-sizing: border-box;
     margin: 0 auto;
     max-width: 1366px;
@@ -22,7 +26,7 @@ html, body {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: auto;
-    grid-column-gap: 16px;    
+    grid-column-gap: 16px;
 
     @media screen and (min-width: $med) {
         grid-template-columns: repeat(6, 1fr);
@@ -45,14 +49,14 @@ html, body {
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='$primary', endColorstr='$primary2',GradientType=1 );
 
     background-size: contain;
-    
+
     box-sizing: border-box;
     display: grid;
     grid-template-columns: auto;
     grid-template-rows: auto;
     @media screen and (min-width: $med) {
         grid-template-rows: 200px auto;
-    }    
+    }
     @media screen and (min-width: $lg) {
         grid-template-rows: 120px auto;
     }
@@ -64,7 +68,7 @@ html, body {
     @media screen and (min-width: $lg) {
         height: 80vh;
     }
-    
+
     &--shorter {
         height: auto;
         @media screen and (min-width: $med) {
@@ -81,7 +85,7 @@ html, body {
     &__navigation {
         align-items: center;
         display: flex;
-        
+
         flex-direction: column;
         @media screen and (min-width: $med) {
             flex-direction: row;
@@ -90,7 +94,7 @@ html, body {
         margin-bottom: 2.5rem;
         @media screen and (min-width: $lg) {
             margin-bottom: 0;
-        }        
+        }
 
         padding: 16px;
         @media screen and (min-width: $med) {
@@ -98,14 +102,14 @@ html, body {
         }
         @media screen and (min-width: 1500px) {
             padding: 60px;
-        }         
+        }
 
         @media screen and (min-width: $med) {
             flex-wrap: wrap;
         }
         @media screen and (min-width: $lg) {
             flex-wrap: nowrap;
-        }          
+        }
 
         h2 {
             flex: 1 0 auto;
@@ -122,24 +126,24 @@ html, body {
             }
             @media screen and (min-width: $lg) {
                 margin-bottom: 0;
-            }                         
-            
+            }
+
             text-align: center;
             @media screen and (min-width: $lg) {
                 text-align: left;
-            }            
+            }
         }
 
         nav {
             align-items: center;
             display: flex;
-            flex: 1 1 100%;         
+            flex: 1 1 100%;
 
             flex-direction: column;
             @media screen and (min-width: $med) {
                 flex-direction: row;
-            }            
-            
+            }
+
             justify-content: center;
             @media screen and (min-width: $lg) {
                 justify-content: flex-end;
@@ -154,7 +158,7 @@ html, body {
                 }
 
                 text-decoration: none;
-                
+
                 &:last-of-type {
                     margin: 0;
                 }
@@ -185,7 +189,7 @@ html, body {
         margin-bottom: 2.5rem;
         @media screen and (min-width: $lg) {
             margin-bottom: 0;
-        }                      
+        }
     }
 
 }
@@ -208,7 +212,7 @@ html, body {
     }
     @media screen and (min-width: 1500px) {
         padding: 0;
-    }       
+    }
 }
 
 .full-width-hero {
@@ -217,7 +221,7 @@ html, body {
         grid-column: 1 / span 6;
     }
     @media screen and (min-width: $lg) {
-        grid-column: 2 / span 10;
+        grid-column: span 10;
     }
 
     padding: 0 16px;
@@ -229,7 +233,7 @@ html, body {
     }
     @media screen and (min-width: 1500px) {
         padding: 0;
-    }       
+    }
 }
 
 .align-button {
@@ -245,7 +249,7 @@ html, body {
     flex-wrap: nowrap;
     @media screen and (min-width: $med) {
         flex-wrap: wrap;
-    }    
+    }
     justify-content: flex-start;
     @media screen and (min-width: $med) {
         justify-content: space-around;
@@ -270,20 +274,20 @@ html, body {
 .intro {
     grid-column: 1 / 5;
     @media screen and (min-width: $med) {
-        grid-column: 2 / 6;     
+        grid-column: 2 / 6;
     }
     @media screen and (min-width: $lg) {
-        grid-column: 3 / 11;     
-    }    
+        grid-column: 3 / 11;
+    }
 
     grid-row: auto;
 
     padding: 80px 16px;
     @media screen and (min-width: $med) {
-        padding: 120px 0;       
+        padding: 120px 0;
     }
     @media screen and (min-width: $lg) {
-        padding: 180px 0;       
+        padding: 180px 0;
     }
 }
 
@@ -294,35 +298,35 @@ html, body {
     border-left: none;
     border-right: none;
     @media screen and (min-width: $med) {
-        border: 1px solid $primary;       
+        border: 1px solid $primary;
     }
 
     height: auto;
     margin: 0 auto;
     margin-bottom: 80px;
     @media screen and (min-width: $med) {
-        margin-bottom: 120px;       
+        margin-bottom: 120px;
     }
     @media screen and (min-width: $lg) {
-        margin-bottom: 180px;       
-    }    
+        margin-bottom: 180px;
+    }
 
     padding: 80px 0;
     @media screen and (min-width: $med) {
-        padding: 120px 0;       
+        padding: 120px 0;
     }
     @media screen and (min-width: $lg) {
-        padding: 180px 0;       
+        padding: 180px 0;
     }
 
     position: relative;
 
     width: 100%;
     @media screen and (min-width: $med) {
-        width: 90%;       
+        width: 90%;
     }
     @media screen and (min-width: $lg) {
-        width: 80%;       
+        width: 80%;
     }
 
     z-index: 0;
@@ -331,22 +335,22 @@ html, body {
         background-color: rgba($primary,0.05);
         content: '';
         height: 100%;
-        
+
         left: 16px;
         @media screen and (min-width: $med) {
-            left: 20px;     
+            left: 20px;
         }
-        
+
         position: absolute;
-        
+
         top: 16px;
         @media screen and (min-width: $med) {
-            top: 20px;     
+            top: 20px;
         }
 
         width: calc(100% - 16px);
         @media screen and (min-width: $med) {
-            width: 100%;      
+            width: 100%;
         }
 
         z-index: -1;
@@ -366,7 +370,7 @@ html, body {
     }
 
     z-index: 1;
-    
+
     @media screen and (min-width: $med) {
         grid-column: span 3;
         &:first-of-type {
@@ -375,7 +379,7 @@ html, body {
         }
         &:last-of-type {
             padding: 0 32px 0 0;
-        }        
+        }
     }
 
     @media screen and (min-width: $lg) {
@@ -386,17 +390,17 @@ html, body {
         &:last-of-type {
             padding: 0 60px 0 16px;
         }
-    }    
+    }
 }
 
 .casestudy {
     grid-column: span 4;
     @media screen and (min-width: $med) {
-        grid-column: span 6;     
+        grid-column: span 6;
     }
     @media screen and (min-width: $lg) {
-        grid-column: span 12;     
-    }    
+        grid-column: span 12;
+    }
 
     grid-row: auto;
 
@@ -412,7 +416,7 @@ html, body {
     }
     @media screen and (min-width: $lg) {
         grid-template-areas:
-        "logo logo content";     
+        "logo logo content";
     }
 
     margin-bottom: 80px;
@@ -420,21 +424,21 @@ html, body {
         margin-right: 100px;
     }
     @media screen and (min-width: $lg) {
-        margin-right: 112px;    
+        margin-right: 112px;
     }
 
-    
+
     &__logo {
         grid-area: logo;
         align-self: center;
         justify-self: center;
-        
+
         margin: 0 0 32px 0;
         @media screen and (min-width: $med) {
             margin: 0 64px 0 0;
         }
         @media screen and (min-width: $lg) {
-            margin: 0 80px 0 0;   
+            margin: 0 80px 0 0;
         }
 
         padding: 0 0 0 0;
@@ -442,8 +446,8 @@ html, body {
             padding: 0 0 0 32px;
         }
         @media screen and (min-width: $lg) {
-            padding: 0 0 0 64px;    
-        }        
+            padding: 0 0 0 64px;
+        }
 
         img {
             max-width: 150px;
@@ -456,24 +460,24 @@ html, body {
 
             height: auto;
             width: 100%;
-        } 
+        }
     }
     &__content {
         grid-area: content;
         padding: 0 16px 0 16px;
         @media screen and (min-width: $med) {
             padding: 0 32px 0 0;
-        }       
+        }
     }
 
     &__quote-alt {
         grid-area: quote;
         margin: 7rem 0 8.75rem 7.1875rem;
-        
+
         box-sizing: border-box;
         position: relative;
         padding: 4.5rem 32.5625rem 4.5rem 0;
-        
+
         &::before {
             background-color: #f8f6f9;
             content: '';
@@ -484,7 +488,7 @@ html, body {
             top: 20px;
             z-index: -1;
         }
-            
+
         &::after {
             content: "";
             border: 0.1rem solid #866e9e;
@@ -512,9 +516,20 @@ html, body {
 }
 
 .customer-quote {
+
+    z-index: 999;
+
+    margin: 80px 0;
+    @media screen and (min-width: $med) {
+        margin: 120px 0;
+    }
+    @media screen and (min-width: $lg) {
+        margin: 180px 0;
+    }
+
     grid-column: 1 / 5;
     @media screen and (min-width: $med) {
-        grid-column: 1 / 7;    
+        grid-column: 1 / 7;
     }
     @media screen and (min-width: $lg) {
         grid-column: 2 / 12;
@@ -524,19 +539,19 @@ html, body {
         grid-column: 1 / 5;
         grid-row: 1;
         @media screen and (min-width: $med) {
-            grid-column: 1 / 7;    
+            grid-column: 1 / 7;
         }
         @media screen and (min-width: $lg) {
             grid-column: 2 / 10;
         }
-        
+
         margin-bottom: 80px;
         @media screen and (min-width: $med) {
-            margin-bottom: 120px;    
+            margin-bottom: 120px;
         }
         @media screen and (min-width: $lg) {
             margin-bottom: 180px;
-        }            
+        }
     }
 
     grid-row: auto;
@@ -547,29 +562,29 @@ html, body {
         background-color: rgba($primary,0.05);
         content: '';
         position: absolute;
-        
+
         width: 95%;
         @media screen and (min-width: $med) {
-            width: 85%;     
+            width: 85%;
         }
         @media screen and (min-width: $lg) {
-            left: 95%;     
+            left: 95%;
         }
 
         height: 100%;
-        
+
         left: 16px;
         @media screen and (min-width: $med) {
-            left: calc(10% + 20px);     
-        }              
-        
+            left: calc(10% + 20px);
+        }
+
         top: 16px;
         @media screen and (min-width: $med) {
-            top: 20px;     
-        }        
-       
+            top: 20px;
+        }
+
         z-index: -3;
-    }    
+    }
 
     &::after {
         content: "";
@@ -577,25 +592,25 @@ html, body {
         border-left: none;
         border-right: none;
         @media screen and (min-width: $med) {
-            border: 1px solid $primary;       
+            border: 1px solid $primary;
         }
 
         position: absolute;
 
         width: 100%;
         @media screen and (min-width: $med) {
-            width: 85%;     
+            width: 85%;
         }
         @media screen and (min-width: $lg) {
-            left: 95%;     
-        }        
+            left: 95%;
+        }
 
         height: 100%;
 
         left: 0;
         @media screen and (min-width: $med) {
-            left: 10%;     
-        }         
+            left: 10%;
+        }
 
         top: 0;
         z-index: -2;
@@ -614,7 +629,7 @@ html, body {
             @media screen and (min-width: $lg) {
                 padding: 0 150px 0 0;
             }
-        }     
+        }
 
         z-index: 2;
 
@@ -625,27 +640,27 @@ html, body {
             left: 0;
             @media screen and (min-width: $med) {
                 left: 18px;
-            }          
+            }
             width: calc(13% - 32px);
             height: 59%;
             background-color: $light;
             z-index: -1;
-        }        
+        }
     }
 }
 
 .inline-image {
     display: none;
     @media screen and (min-width: $lg) {
-        display: block;     
-    }    
+        display: block;
+    }
 
     grid-column: span 4;
     @media screen and (min-width: $med) {
-        grid-column: span 6;     
+        grid-column: span 6;
     }
     @media screen and (min-width: $lg) {
-        grid-column: 9 / 13;  
+        grid-column: 9 / 13;
         z-index: 2;
         grid-row: 1;
     }
@@ -663,10 +678,10 @@ html, body {
 .casestudy-images {
     grid-column: span 4;
     @media screen and (min-width: $med) {
-        grid-column: span 6;     
+        grid-column: span 6;
     }
     @media screen and (min-width: $lg) {
-        grid-column: span 12;     
+        grid-column: span 12;
     }
 
     display: grid;
@@ -682,19 +697,19 @@ html, body {
     @media screen and (min-width: $lg) {
         margin: 120px 0 180px 0;
     }
-    
+
     padding: 0;
     @media screen and (min-width: $med) {
         padding: 0 16px;
     }
     @media screen and (min-width: 1400px) {
         padding: 0;
-    }     
+    }
 
     &__single {
         grid-column: span 3;
         @media screen and (min-width: $med) {
-            grid-column: span 1;    
+            grid-column: span 1;
         }
 
         padding: 0 16px;
@@ -706,13 +721,13 @@ html, body {
     &__double {
         grid-column: span 3;
         @media screen and (min-width: $med) {
-            grid-column: span 2;    
+            grid-column: span 2;
         }
 
         padding: 0 16px;
         @media screen and (min-width: $med) {
             padding: 0;
-        }        
+        }
     }
 
     * img {
@@ -726,10 +741,10 @@ html, body {
     border-top: 1px solid $dark25;
     padding: 80px 0px;
     @media screen and (min-width: $med) {
-        padding: 120px 0;       
+        padding: 120px 0;
     }
     @media screen and (min-width: $lg) {
-        padding: 180px 0;       
+        padding: 180px 0;
     }
 }
 
@@ -739,7 +754,7 @@ html, body {
         grid-column: 2 / span 4;
     }
     @media screen and (min-width: $lg) {
-        grid-column: 3 / span 8;      
+        grid-column: 3 / span 8;
     }
 
     grid-row: auto;
@@ -748,8 +763,8 @@ html, body {
         padding: 0 0 3.5rem 0;
     }
     @media screen and (min-width: $lg) {
-        padding-bottom: 7rem;       
-    }    
+        padding-bottom: 7rem;
+    }
 }
 
 .partner {
@@ -758,7 +773,7 @@ html, body {
         grid-column: 1 / span 3;
     }
     @media screen and (min-width: $lg) {
-        grid-column: 2 / span 5;  
+        grid-column: 2 / span 5;
     }
     &:nth-of-type(even) {
         grid-column: 1 / span 4;
@@ -766,29 +781,29 @@ html, body {
             grid-column: 4 / span 3;
         }
         @media screen and (min-width: $lg) {
-            grid-column: 7 / span 5;      
-        }        
+            grid-column: 7 / span 5;
+        }
     }
 
     grid-row: auto;
-    
+
     &:nth-of-type(1) {
         margin-bottom: 32px;
         @media screen and (min-width: $lg) {
-            margin-bottom: 52px;    
-        }        
+            margin-bottom: 52px;
+        }
     }
     &:nth-of-type(2) {
         margin-bottom: 32px;
         @media screen and (min-width: $lg) {
-            margin-bottom: 52px;    
-        }        
+            margin-bottom: 52px;
+        }
     }
     &:nth-of-type(3) {
         margin-bottom: 32px;
         @media screen and (min-width: $lg) {
-            margin-bottom: 52px;    
-        }        
+            margin-bottom: 52px;
+        }
     }
 
     padding: 0 16px;
@@ -796,7 +811,7 @@ html, body {
         padding: 0 32px;
     }
     @media screen and (min-width: $lg) {
-        padding: 0 40px;      
+        padding: 0 40px;
     }
 
     text-align: center;
@@ -826,27 +841,27 @@ html, body {
     border-top: none;
     @media screen and (min-width: $med) {
         border-top: 1px solid $dark25;
-    }  
+    }
 
     margin-top: 0px;
     @media screen and (min-width: $med) {
         margin-top: 120px;
     }
     @media screen and (min-width: $lg) {
-        margin-top: 180px;       
-    }    
+        margin-top: 180px;
+    }
 
     padding: 80px 16px 80px 16px;
     @media screen and (min-width: $med) {
-        padding: 80px 0px;      
+        padding: 80px 0px;
     }
     &__heading {
         grid-column: 1 / 5;
         @media screen and (min-width: $med) {
-            grid-column: 2 / 6;     
+            grid-column: 2 / 6;
         }
         @media screen and (min-width: $lg) {
-            grid-column: 3 / 11;     
+            grid-column: 3 / 11;
         }
         grid-row: auto;
         padding-bottom: 20px;
@@ -854,31 +869,31 @@ html, body {
     &__leader {
         grid-column: 1 / 5;
         @media screen and (min-width: $med) {
-            grid-column: 2 / 6;     
+            grid-column: 2 / 6;
         }
         @media screen and (min-width: $lg) {
-            grid-column: 3 / 12;     
-        } 
+            grid-column: 3 / 12;
+        }
         grid-row: auto;
 
-        padding-bottom: 20px; 
+        padding-bottom: 20px;
         @media screen and (min-width: $med) {
-            padding-bottom: 32px;       
+            padding-bottom: 32px;
         }
         @media screen and (min-width: $lg) {
-            padding-bottom: 46px;       
-        }    
+            padding-bottom: 46px;
+        }
     }
     &__content {
         grid-column: 1 / 5;
         @media screen and (min-width: $med) {
-            grid-column: 2 / 6;     
+            grid-column: 2 / 6;
         }
         @media screen and (min-width: $lg) {
-            grid-column: 3 / 11;     
-        } 
-        grid-row: auto;        
-    }        
+            grid-column: 3 / 11;
+        }
+        grid-row: auto;
+    }
 }
 
 .workshop-details {
@@ -886,10 +901,10 @@ html, body {
 
     grid-column: 1 / 5;
     @media screen and (min-width: $med) {
-        grid-column: 2 / 6;     
+        grid-column: 2 / 6;
     }
     @media screen and (min-width: $lg) {
-        grid-column: 3 / 11;     
+        grid-column: 3 / 11;
     }
 
     margin-bottom: 3rem;
@@ -904,18 +919,18 @@ footer {
             margin-bottom: 16px;
         }
         @media screen and (min-width: $lg) {
-            margin-bottom: 20px;                
+            margin-bottom: 20px;
         }
     }
-    
+
     * li {
         margin-bottom: 8px;
         @media screen and (min-width: $med) {
             margin-bottom: 16px;
         }
         @media screen and (min-width: $lg) {
-            margin-bottom: 20px;                
-        }        
+            margin-bottom: 20px;
+        }
     }
     border-top: 1px solid $dark25;
     display: grid;
@@ -923,10 +938,10 @@ footer {
     // Lay footer on .container
     grid-column: 1 / span 4;
     @media screen and (min-width: $med) {
-        grid-column: 1 / span 6;       
+        grid-column: 1 / span 6;
     }
     @media screen and (min-width: $lg) {
-        grid-column: 1 / span 12;     
+        grid-column: 1 / span 12;
     }
 
     // Footer grid
@@ -943,7 +958,7 @@ footer {
     grid-column-gap: 16px;
     @media screen and (min-width: $med) {
         grid-column-gap: 32px;
-    }        
+    }
 
     padding: 100px 0 140px 0;
 
@@ -963,7 +978,7 @@ footer {
                 grid-column: span 3;
             }
             @media screen and (min-width: $lg) {
-                grid-column: span 3;                
+                grid-column: span 3;
             }
 
             padding-left: 16px;
@@ -971,9 +986,9 @@ footer {
                 padding-left: 32px;
             }
             @media screen and (min-width: 1550px) {
-                padding: 0;                
-            }    
-                               
+                padding: 0;
+            }
+
         }
         &_content{
             grid-column: span 4;
@@ -981,24 +996,24 @@ footer {
                 grid-column: span 2;
             }
             @media screen and (min-width: $lg) {
-                grid-column: span 3;                   
+                grid-column: span 3;
             }
-            
+
             padding-left: 16px;
             @media screen and (min-width: $med) {
                 padding-left: 32px;
             }
             @media screen and (min-width: 1550px) {
-                padding: 0;                
+                padding: 0;
             }
         }
         &_contact{
             grid-column: span 4;
             @media screen and (min-width: $med) {
-                grid-column: span 3;                
+                grid-column: span 3;
             }
             @media screen and (min-width: $lg) {
-                grid-column: span 5;                
+                grid-column: span 5;
             }
 
             padding-left: 16px;
@@ -1006,19 +1021,19 @@ footer {
                 padding-left: 32px;
             }
             @media screen and (min-width: $lg) {
-                padding: 0;                
-            }            
-        }                
+                padding: 0;
+            }
+        }
     }
 }
 
 a.button,.button {
     *zoom: 1;
-    background-color: $primary;    
+    background-color: $primary;
     box-sizing: border-box;
-    border: 1px solid transparent;    
+    border: 1px solid transparent;
     border-radius: calc(56px/2);
-    color: $light;        
+    color: $light;
     display: inline-block;
     font-family: geomanistregular;
     font-weight: normal;
@@ -1032,14 +1047,14 @@ a.button,.button {
 
     @media screen and (min-width: $lg) {
         @include font-size(18px);
-        @include line-height(18px);        
+        @include line-height(18px);
     }
 
-    letter-spacing: -0.25px;      
+    letter-spacing: -0.25px;
     margin-top: 32px;
-    outline: none;    
+    outline: none;
     text-align: center;
-    text-decoration: none;    
+    text-decoration: none;
     text-transform: uppercase;
     transition: all 0.2s ease;
 
@@ -1056,7 +1071,7 @@ a.button,.button {
         width: auto;
     }
 
-    vertical-align: middle;    
+    vertical-align: middle;
 
     &:hover {
         background: $primary2;
@@ -1082,49 +1097,58 @@ a.button,.button {
 .heading-box {
     grid-column: span 4;
     @media screen and (min-width: $med) {
-        grid-column: span 6;      
+        grid-column: span 6;
     }
     @media screen and (min-width: $lg) {
-        grid-column: span 9;       
-    }  
+        grid-column: span 8;
+    }
     grid-row: auto;
     margin-bottom: 2.5rem;
 
+    &--wide {
+      @media screen and (min-width: $med) {
+          grid-column: span 7;
+      }
+      @media screen and (min-width: $lg) {
+          grid-column: span 11;
+      }
+    }
+
     &--shorter {
-        margin-bottom: 0.5rem;    
+        margin-bottom: 0.5rem;
     }
 
     padding: 0 1rem;
     @media screen and (min-width: $med) {
-        padding: 0 2rem;       
+        padding: 0 2rem;
     }
     @media screen and (min-width: 1500px) {
-        padding: 0;       
+        padding: 0;
     }
 
     &--slimmer {
         @media screen and (min-width: $lg) {
-            padding-right: 4rem;       
-        }          
+            padding-right: 4rem;
+        }
     }
 }
 
 .copy-box {
     grid-column: span 4;
     @media screen and (min-width: $med) {
-        grid-column: span 5;      
+        grid-column: span 5;
     }
     @media screen and (min-width: $lg) {
-        grid-column: span 9;       
-    }       
+        grid-column: span 9;
+    }
     grid-row: auto;
     padding: 0 1rem;
     @media screen and (min-width: $med) {
-        padding: 0 2rem;       
+        padding: 0 2rem;
     }
     @media screen and (min-width: 1500px) {
-        padding: 0;       
-    }    
+        padding: 0;
+    }
 }
 
 .consulting {
@@ -1135,7 +1159,7 @@ a.button,.button {
     }
     @media screen and (min-width: $lg) {
         margin-bottom: 180px;
-    }     
+    }
 
     &-content {
         grid-column: 1 / span 4;
@@ -1145,52 +1169,52 @@ a.button,.button {
         @media screen and (min-width: $lg) {
             grid-column: 1 / span 7;
             &--alt {
-                grid-column: 1 / span 6;   
+                grid-column: 1 / span 6;
             }
         }
         grid-row: auto;
 
         padding: 0 1rem;
         @media screen and (min-width: $med) {
-            padding: 0 2rem;       
+            padding: 0 2rem;
         }
         @media screen and (min-width: 1500px) {
-            padding: 0;       
-        }        
-    }   
+            padding: 0;
+        }
+    }
     &-image {
-        grid-column: 1 / span 4;        
+        grid-column: 1 / span 4;
         @media screen and (min-width: $med) {
-            grid-column: 2/ span 4;       
+            grid-column: 2/ span 4;
         }
         @media screen and (min-width: $lg) {
             grid-column: span 5;
             &--alt {
-                grid-column: span 6;   
-            }                 
+                grid-column: span 6;
+            }
         }
-        
+
         grid-row: auto;
-        
+
         margin-top: 4rem;
         @media screen and (min-width: $med) {
             margin-top: 8rem;
         }
         @media screen and (min-width: $lg) {
-            margin-top: 0;           
-        }          
-        
+            margin-top: 0;
+        }
+
         img {
             width: 100%;
             height: auto;
         }
-    }     
+    }
     &-features {
         display: flex;
         flex-direction: column;
         @media screen and (min-width: $med) {
-            flex-direction: row;            
-        }         
+            flex-direction: row;
+        }
         flex-wrap: wrap;
 
         grid-column: 1 / span 4;
@@ -1198,8 +1222,8 @@ a.button,.button {
             grid-column: 1 / span 6;
         }
         @media screen and (min-width: $lg) {
-            grid-column: 2 / span 10;            
-        }         
+            grid-column: 2 / span 10;
+        }
         grid-row: auto;
 
         justify-content: space-around;
@@ -1208,8 +1232,8 @@ a.button,.button {
             margin: 120px 0;
         }
         @media screen and (min-width: $lg) {
-            margin: 180px 0;            
-        }          
+            margin: 180px 0;
+        }
 
         &--no-margin {
             margin-bottom: 0;
@@ -1220,7 +1244,7 @@ a.button,.button {
         padding: 0 1rem;
         @media screen and (min-width: $med) {
             flex: 0 1 40%;
-            padding: 0;            
+            padding: 0;
         }
 
         margin-bottom: 1rem;
@@ -1228,16 +1252,16 @@ a.button,.button {
             margin-bottom: 2rem;
         }
         @media screen and (min-width: $lg) {
-            margin-bottom: 4rem;            
-        }        
+            margin-bottom: 4rem;
+        }
 
         text-align: center;
 
         &:nth-of-type(5) {
             @media screen and (min-width: $med) {
-                flex: 0 1 60%; 
-                margin-bottom: 0;           
-            }            
+                flex: 0 1 60%;
+                margin-bottom: 0;
+            }
         }
 
         img {
@@ -1252,7 +1276,7 @@ a.button,.button {
 .sidebar {
     grid-column: 1 / 5;
     @media screen and (min-width: $med) {
-        grid-column: 1 / 7;    
+        grid-column: 1 / 7;
     }
     @media screen and (min-width: $lg) {
         grid-column: 2 / 12;
@@ -1262,7 +1286,7 @@ a.button,.button {
 
     margin: 80px 0;
     @media screen and (min-width: $med) {
-        margin: 120px 0;  
+        margin: 120px 0;
     }
     @media screen and (min-width: $lg) {
         margin: 180px 0;
@@ -1271,11 +1295,11 @@ a.button,.button {
     &--marginal {
         margin: 0 0 80px 0;
         @media screen and (min-width: $med) {
-            margin: 0 0 120px 0;  
+            margin: 0 0 120px 0;
         }
         @media screen and (min-width: $lg) {
             margin: 0 0 180px 0;
-        }        
+        }
     }
 
     &--in-content {
@@ -1285,7 +1309,7 @@ a.button,.button {
         }
         @media screen and (min-width: $lg) {
             margin: 120px 0 180px 0;
-        }         
+        }
     }
 
     padding: 72px 0;
@@ -1295,29 +1319,29 @@ a.button,.button {
         background-color: rgba($primary,0.05);
         content: '';
         position: absolute;
-        
+
         width: 95%;
-        @media screen and (min-width: $med) {   
+        @media screen and (min-width: $med) {
             width: 85%;
-        }         
+        }
         @media screen and (min-width: $lg) {
-            width: 95%; 
-        }         
+            width: 95%;
+        }
 
         height: 100%;
-        
+
         left: 16px;
         @media screen and (min-width: $med) {
-            left: calc(10% + 20px);     
-        }              
-        
+            left: calc(10% + 20px);
+        }
+
         top: 16px;
         @media screen and (min-width: $med) {
-            top: 20px;     
-        }        
-       
+            top: 20px;
+        }
+
         z-index: -2;
-    }    
+    }
 
     &::after {
         content: "";
@@ -1325,25 +1349,25 @@ a.button,.button {
         border-left: none;
         border-right: none;
         @media screen and (min-width: $med) {
-            border: 1px solid $primary;       
+            border: 1px solid $primary;
         }
 
         position: absolute;
 
         width: 100%;
-        @media screen and (min-width: $med) {   
+        @media screen and (min-width: $med) {
             width: 85%;
-        }         
+        }
         @media screen and (min-width: $lg) {
-            width: 95%; 
-        }      
+            width: 95%;
+        }
 
         height: 100%;
 
         left: 0;
         @media screen and (min-width: $med) {
-            left: 10%;     
-        }         
+            left: 10%;
+        }
 
         top: 0;
         z-index: -3;
@@ -1378,16 +1402,16 @@ a.button,.button {
             }
             @media screen and (min-width: $lg) {
                 left: 0;
-            }            
+            }
             width: 0;
             @media screen and (min-width: $med) {
                 width: calc(14% - 32px);
-            }            
+            }
             height: 60%;
             background-color: $light;
             z-index: -1;
         }
-        
+
         z-index: 3;
     }
 
@@ -1402,22 +1426,22 @@ a.button,.button {
 
     grid-column: 1 / span 4;
     @media screen and (min-width: $med) {
-        grid-column: 1 / span 6;     
+        grid-column: 1 / span 6;
     }
     @media screen and (min-width: $lg) {
-        grid-column: 1 / span 12;      
-    }     
+        grid-column: 1 / span 12;
+    }
 
-    grid-row: auto;    
+    grid-row: auto;
     margin: 0 0 120px 0;
-    
+
     padding: 80px 0 0 0;
     @media screen and (min-width: $med) {
         padding: 120px 0 0 0;
     }
     @media screen and (min-width: $lg) {
         padding: 180px 0 0 0;
-    }   
+    }
     text-align: center;
 }
 
@@ -1433,20 +1457,20 @@ a.button,.button {
     }
     @media screen and (min-width: 1500px) {
         padding: 0;
-    } 
+    }
 
     &__heading {
         grid-column: span 4;
         @media screen and (min-width: $med) {
-            grid-column: span 6;     
+            grid-column: span 6;
         }
         @media screen and (min-width: $lg) {
-            grid-column: span 12;      
+            grid-column: span 12;
         }
-        
+
         &--inset {
             @media screen and (min-width: $lg) {
-                grid-column: 6 / span 7;     
+                grid-column: 6 / span 7;
             }
         }
         padding-bottom: 0.5rem;
@@ -1458,21 +1482,21 @@ a.button,.button {
             grid-column: span 3;
         }
         @media screen and (min-width: $lg) {
-            grid-column: span 7;            
+            grid-column: span 7;
         }
 
         &--reverselayout {
             order: 1;
             @media screen and (min-width: $med) {
                 order: 2;
-            }      
+            }
         }
     }
 
     &__image {
         grid-column: span 4;
         @media screen and (min-width: $med) {
-            grid-column: span 3;   
+            grid-column: span 3;
         }
         @media screen and (min-width: $lg) {
             grid-column: span 5;
@@ -1481,19 +1505,19 @@ a.button,.button {
         margin-top: 2rem;
         @media screen and (min-width: $med) {
             margin-top: 0;
-        }         
+        }
 
         &--reverselayout {
             order: 2;
             @media screen and (min-width: $med) {
                 order: 1;
-            }    
+            }
         }
-        
+
         img {
             width: 100%;
             height: auto;
-        }        
+        }
     }
 }
 
@@ -1501,7 +1525,7 @@ a.button,.button {
     grid-column: 1 / span 4;
     @media screen and (min-width: $med) {
         grid-column: 1 / span 6;
-    } 
+    }
     @media screen and (min-width: $lg) {
         grid-column: 2 / span 10;
     }
@@ -1513,14 +1537,14 @@ a.button,.button {
     padding: 0 16px;
     @media screen and (min-width: $med) {
         padding: 0 64px;
-    }     
+    }
 }
 
 .benefit-list {
     margin-bottom: 80px;
     @media screen and (min-width: $med) {
         margin-bottom: 120px;
-    } 
+    }
     @media screen and (min-width: $lg) {
         margin-bottom: 180px;
     }
@@ -1531,71 +1555,71 @@ a.button,.button {
     }
 
     &__heading {
-        grid-column: span 4;        
+        grid-column: span 4;
         grid-row: auto;
         @media screen and (min-width: $med) {
             grid-column: 2 / span 4;
-        } 
+        }
         @media screen and (min-width: $lg) {
             grid-column: 3 / span 8;
-        }        
+        }
     }
     &__benefits {
-        grid-column: span 4;        
+        grid-column: span 4;
         grid-row: auto;
         @media screen and (min-width: $med) {
             grid-column: 2 / span 4;
-        } 
+        }
         @media screen and (min-width: $lg) {
             grid-column: 3 / span 8;
-        } 
+        }
 
-        li {                       
+        li {
             &:nth-of-type(1n) {
                 border-bottom: 1px solid $dark25;
 
                 padding: 16px 0;
                 @media screen and (min-width: $lg) {
                     padding: 32px 0;
-                }     
+                }
 
                 position: relative;
 
-                &::before {                    
+                &::before {
                     color: $primary;
                     left: -60px;
                     position: absolute;
                     text-align: right;
                     width: 30px;
                 }
-            }     
+            }
             &:nth-of-type(1) {
-                &::before { 
+                &::before {
                     content: "i";
                 }
             }
             &:nth-of-type(2) {
-                &::before { 
+                &::before {
                     content: "ii";
-                } 
+                }
             }
             &:nth-of-type(3) {
-                &::before { 
+                &::before {
                     content: "iii";
                 }
             }
             &:nth-of-type(4) {
-                &::before { 
+                &::before {
                     content: "iv";
                 }
             }
             &:nth-of-type(5) {
-                &::before { 
+                &::before {
                     content: "v";
-                }  
+                }
             }
             &:nth-of-type(6) {
-                &::before { 
+                &::before {
                     content: "vi";
                 }
             }
@@ -1603,10 +1627,10 @@ a.button,.button {
                 border-bottom: none;
                 padding-bottom: 0;
 
-                &::before { 
+                &::before {
                     content: "vii";
                 }
-            }                                 
+            }
         }
     }
 }
@@ -1615,14 +1639,14 @@ a.button,.button {
     grid-column: 1 / span 4;
     @media screen and (min-width: $med) {
         grid-column: 1 / span 6;
-    } 
+    }
     @media screen and (min-width: $lg) {
         grid-column: 1 / span 12;
     }
     margin-bottom: 80px;
     @media screen and (min-width: $med) {
         margin-bottom: 120px;
-    }    
+    }
     padding: 0 16px;
     @media screen and (min-width: $med) {
         padding: 0;
@@ -1645,4 +1669,67 @@ a.button,.button {
             margin-top: 0px;
         }
     }
+}
+
+/** MENTORING **/
+
+.two-up {
+
+  grid-column: span 4;
+  @media screen and (min-width: $med) {
+      grid-column: span 6;
+  }
+
+  grid-row: auto;
+
+  padding: 0 16px;
+
+  @media screen and (min-width: $med) {
+    padding: 0 16px 0 32px;
+  }
+
+  @media screen and (min-width: $lg) {
+    padding: 0 0 0 32px;
+  }
+
+  &--last {
+    padding: 32px 16px 0 16px;
+
+    @media screen and (min-width: $med) {
+      padding: 16px 16px 0 32px;
+    }
+
+    @media screen and (min-width: $lg) {
+      padding: 0 32px 0 0;
+    }
+  }
+
+}
+
+.content-area {
+
+    padding: 0 16px 80px 16px;
+    @media screen and (min-width: $med) {
+        padding: 0 0 120px 0;
+    }
+    @media screen and (min-width: $lg) {
+        padding: 0 0 180px 0;
+    }
+
+    &--last {
+      padding: 0 16px 0 16px;
+      @media screen and (min-width: $med) {
+          padding: 0 0 0 0;
+      }
+    }
+
+    grid-column: 1 / 5;
+    @media screen and (min-width: $med) {
+        grid-column: 2 / 6;
+    }
+    @media screen and (min-width: $lg) {
+        grid-column: 3 / 11;
+    }
+
+    grid-row: auto;
 }
