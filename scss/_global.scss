@@ -1716,6 +1716,10 @@ a.button,.button {
         padding: 0 0 180px 0;
     }
 
+    &--no-pad {
+      padding-bottom: 0;
+    }
+
     &--last {
       padding: 0 16px 0 16px;
       @media screen and (min-width: $med) {
